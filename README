@@ -1,0 +1,13 @@
+script and setup to prepare the hepdata files for hep-ex/1501.07110
+
+`python/format_input.py` takes care of the main figures (ss2l).
+Then run `hepconverter.py` on each one of them.
+(need to concatenate the outputs to a single file?)
+
+The templated header filled with the correct values is in
+`input_formatted/hepdata_header.txt`.
+TODO
+- acceptance efficiency histos
+
+davide.gerbaudo@gmail.com
+Jan 2015
