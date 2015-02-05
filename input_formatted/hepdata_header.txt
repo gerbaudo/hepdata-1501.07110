@@ -1,0 +1,14 @@
+*author: AAD
+*reference: CERN-PH-EP-2014-298 : 2015
+*reference: ARXIV:1501.07110 : 2015
+*reference: http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2013-23/ : 2015
+*status: Encoded 30 Jan 2015 by Davide Gerbaudo
+*experiment: CERN-LHC-ATLAS
+*detector: ATLAS
+*experiment:
+*inspireId: 1341609
+*cdsId: 1983600
+*durhamId:
+*title: Search for direct pair production of a chargino and a neutralino decaying to the 125 GeV Higgs boson in $\sqrt{s}$ = 8 TeV pp collisions with the ATLAS detector
+*comment: .  A search is presented for the direct pair production of a chargino and a neutralino $pp\to\tilde{\chi}^\pm_1\tilde{\chi}^0_2$, where the chargino decays to the lightest neutralino and the $W$ boson, $\tilde{\chi}^\pm_1 \to \tilde{\chi}^0_1 (W^{\pm}\to\ell^{\pm}\nu)$, while the neutralino decays to the lightest neutralino and the 125 GeV Higgs boson, $\tilde{\chi}^0_2 \to \tilde{\chi}^0_1 (h\to bb/\gamma\gamma/\ell^{\pm}\nu qq)$. The final states considered for the search have large missing transverse momentum, an isolated electron or muon, and one of the following: either two jets identified as originating from bottom quarks, or two photons, or a second electron or muon with the same electric charge. The analysis is based on 20.3 fb$^{-1}$ of $\sqrt{s}=8$ TeV proton-proton collision data delivered by the Large Hadron Collider and recorded with the ATLAS detector. Observations are consistent with the Standard Model expectations, and limits are set in the context of a simplified supersymmetric model
+*E
