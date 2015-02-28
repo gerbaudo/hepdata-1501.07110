@@ -17,10 +17,12 @@
 # Nov 12, update: using TGraph2D
 # Dec 09, update: grey palette, adjust font sizes, labels
 # Dec 12, bugfix: missing parentheses acceptance denominator
+# Feb 27, update: save root files for hepdata script
 #
 #___________________________________________________________
 
 import array
+import os
 import ROOT as r
 r.gROOT.SetBatch(True)                     # no windows popping up
 r.PyConfig.IgnoreCommandLineOptions = True # don't let root steal our cmd-line options
@@ -107,6 +109,9 @@ def nicelabel(l):
             'sr2jee':'SRee-2',
         }[l]
 
+def mkdirIfNeeded(dirname) :
+    if not os.path.exists(dirname) : os.makedirs(dirname)
+
 # main
 #___________________________________________________________
 
@@ -161,22 +166,29 @@ mn1Range = {'min': min([mn1_val(c) for c in counts]), 'max' : max([mn1_val(c) fo
 mc1Range = {'max': 270.0, 'min': 130.0} # set the range by hand (auto is ok as a first approx)
 mn1Range = {'max': 80.0, 'min': 0.0}
 
+output_dir = './input_acc_eff/'
+
 setAtlasStyle()
 
 for selection in ['sr1jee', 'sr1jmm', 'sr1jem', 'sr2jee', 'sr2jmm', 'sr2jem']:
     title  = ''
     title += '; m_{#tilde{#chi}_{1}^{#pm},#tilde{#chi}_{2}^{0}} [GeV]'
     title += '; m_{#tilde{#chi}_{1}^{0}} [GeV]'
-    
-    histo_pad_master = r.TH2F('acceptance_'+selection, title,
+
+    histo_pad_master = r.TH2F('h_acceptance_'+selection, title,
                               100, float(mc1Range['min']), float(mc1Range['max']),
                               100, float(mn1Range['min']), float(mn1Range['max']))
-    histo_acceptance = r.TH2F('acceptance_'+selection, title,
+    histo_acceptance = r.TH2F('h_acceptance_'+selection, title,
                               100, float(mc1Range['min']), float(mc1Range['max']),
                               100, float(mn1Range['min']), float(mn1Range['max']))
-    histo_efficiency = r.TH2F('efficiency_'+selection, title,
+    histo_efficiency = r.TH2F('h_efficiency_'+selection, title,
                               100, float(mc1Range['min']), float(mc1Range['max']),
                               100, float(mn1Range['min']), float(mn1Range['max']))
+    tg2d_acceptance = r.TGraph2D()
+    tg2d_acceptance.SetName('acceptance_'+selection)
+    tg2d_efficiency = r.TGraph2D()
+    tg2d_efficiency.SetName('efficiency_'+selection)
+
     percent = 100.
     acceptance_scale_factor = 1.0e4
     acceptance_scale_label = '10^{4}'
@@ -188,6 +200,9 @@ for selection in ['sr1jee', 'sr1jmm', 'sr1jem', 'sr2jee', 'sr2jmm', 'sr2jem']:
 
         histo_acceptance.Fill(mc1, mn1, N_fiducial / (N_generated / (bf * filterEff)) * acceptance_scale_factor)
         histo_efficiency.Fill(mc1, mn1, N_fiducial_reco / N_fiducial * percent)
+        tg2d_acceptance.SetPoint(tg2d_acceptance.GetN(), mc1, mn1, N_fiducial / (N_generated / (bf * filterEff)))
+        tg2d_efficiency.SetPoint(tg2d_efficiency.GetN(), mc1, mn1, N_fiducial_reco / N_fiducial)
+
     # plot
     r.gStyle.SetPaintTextFormat('.3f')
     maxEff = 100.
@@ -255,5 +270,12 @@ for selection in ['sr1jee', 'sr1jmm', 'sr1jem', 'sr2jee', 'sr2jmm', 'sr2jem']:
         topRightLabel(c, nicelabel(selection), xpos=0.75, ypos=0.92)
         c.Update()
 
-        c.SaveAs('../pics_acc_eff/' + c.GetName()+'.eps')
-        c.SaveAs('../pics_acc_eff/' + c.GetName()+'.png')
+        mkdirIfNeeded(output_dir)
+        c.SaveAs(output_dir +'/'+ c.GetName()+'.eps')
+        c.SaveAs(output_dir +'/'+ c.GetName()+'.png')
+    # save graphs for hepdata (don't want a bunch of zeroes)
+    for g in [tg2d_acceptance, tg2d_efficiency]:
+        out_file = r.TFile.Open(output_dir +'/'+ g.GetName()+'.root', 'recreate')
+        out_file.cd()
+        g.Write()
+        out_file.Close()
