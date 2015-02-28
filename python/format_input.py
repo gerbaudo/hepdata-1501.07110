@@ -35,7 +35,7 @@ def main():
     for fig, input_filename in figure_files.iteritems():
         print "processing ",fig
         input_file = r.TFile.Open(os.path.join(input_dir, input_filename))                                  
-        output_file = r.TFile.Open(os.path.join(output_dir, input_filename), 'recreate')
+        output_file = r.TFile.Open(os.path.join(output_dir, fig+'.root'), 'recreate')
         move_everything_from_canvas_to_base(input_file, output_file)
         output_file.Write()
         output_file.Close()
@@ -49,9 +49,9 @@ def move_everything_from_canvas_to_base(input_file, output_file, canvas_name='ca
     bkg = get_bkg_error_band(objects)
     sig = get_sig_graph(objects)
     dat = clean_data_graph(get_data_graph(objects))
-    print 'bkg ',print_entries(bkg)
-    print 'sig ',print_entries(sig)
-    print 'dat ',print_entries(dat)
+    # print 'bkg ',print_entries(bkg)
+    # print 'sig ',print_entries(sig)
+    # print 'dat ',print_entries(dat)
     
     output_file.cd()
     bkg.SetName('bkg')
