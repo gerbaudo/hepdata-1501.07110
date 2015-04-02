@@ -105,10 +105,10 @@ function main_figures() {
         local CAP_=$(figure_caption ${FNAME})
         echo "caption ${CAP_}"
         echo "${HEPCONV} -i ${IN_} -y dat bkg sig -o output/${FNAME}"
-        ${HEPCONV} -i ${IN_} -y dat bkg sig -o output/${FNAME}
+        ${HEPCONV} -i ${IN_} -y sig dat bkg -o output/${FNAME}
         ${REPLACE} ${OUT_} \
                    "*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS" \
-                   "*qual: . : data : background : signal"
+                   "*qual: . : signal : data : background"
         ${REPLACE} ${OUT_} \
                    "*location: Figure GIVE FIGURE NUMBER" \
                    "*location: ${FNAME}"

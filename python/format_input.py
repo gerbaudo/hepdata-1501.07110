@@ -112,13 +112,15 @@ def get_data_graph(objects, marker_style=20, marker_color=1, line_color=1,  line
     return obj
 
 def clean_data_graph(graph, default_zero_value=-10):
-    "data points with 0 entries were set to a negative default value so that they wouldn't show up"
+    """data points with 0 entries were set to a negative default value so
+    that they wouldn't show up. Also drop the error on data."""
     for i in range(graph.GetN()):
         x, y = graph.GetX()[i], graph.GetY()[i]
+        exl, exh = graph.GetErrorXlow(i), graph.GetErrorXhigh(i)
         if y==default_zero_value:
             graph.SetPoint(i, x, 0.0)
+        graph.SetPointError(i, 0.0, 0.0, 0.0, 0.0)
     return graph
-
 
 if __name__=='__main__':
     main()
