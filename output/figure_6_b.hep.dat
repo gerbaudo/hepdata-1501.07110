@@ -1,0 +1,23 @@
+
+
+*dataset:
+*location: figure_6_b
+*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with two or three jets.h_incSR23jets_no_HT_Ht_SSWH8TeV_130.0_0.0
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / (50 GEV) 
+*xheader: MEFF IN GEV 
+*data: x : y : y : y
+ 125 (BIN=100 TO 150); 0 +- 0; 1; 0.3826 +0.3814,-0.3058;
+ 175 (BIN=150 TO 200); 0.8978 +- 0.2191; 5; 1.499 +0.8831,-0.7511;
+ 225 (BIN=200 TO 250); 1.912 +- 0.3173; 3; 2.256 +0.9451,-0.8004;
+ 275 (BIN=250 TO 300); 3.12 +- 0.422; 2; 2.688 +0.922,-0.7798;
+ 325 (BIN=300 TO 350); 2.401 +- 0.3756; 3; 1.153 +0.4843,-0.5631;
+ 375 (BIN=350 TO 400); 0.9146 +- 0.2229; 0; 0.5723 +0.3093,-0.254;
+ 425 (BIN=400 TO 450); 0.3348 +- 0.1387; 0; 0.3618 +0.2184,-0.1914;
+ 475 (BIN=450 TO 500); 0.1354 +- 0.0778; 0; 0.1311 +0.0871,-0.1319;
+ 525 (BIN=500 TO 550); 2.782e-05 +- 2.046e-05; 1; 0.005715 +0.03114,-0.03534;
+*dataend:

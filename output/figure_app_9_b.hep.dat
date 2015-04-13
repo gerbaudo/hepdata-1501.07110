@@ -1,0 +1,41 @@
+
+
+*dataset:
+*location: figure_app_9_b
+*dscomment: Efficiency for the same-sign $ee$ channel with two or three jets
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.5072;
+ 140; 10; 0.4586;
+ 150; 0; 0.4;
+ 152.5; 22.5; 0.4146;
+ 162.5; 12.5; 0.4661;
+ 175; 0; 0.5035;
+ 165; 35; 0.4757;
+ 175; 25; 0.5128;
+ 187.5; 12.5; 0.5289;
+ 200; 0; 0.5014;
+ 177.5; 47.5; 0.447;
+ 187.5; 37.5; 0.6589;
+ 200; 25; 0.3526;
+ 212.5; 12.5; 0.578;
+ 225; 0; 0.5169;
+ 190; 60; 0.4653;
+ 200; 50; 0.4868;
+ 212.5; 37.5; 0.4645;
+ 225; 25; 0.5405;
+ 237.5; 12.5; 0.5838;
+ 250; 0; 0.6459;
+ 202.5; 72.5; 0.4771;
+ 212.5; 62.5; 0.5395;
+ 225; 50; 0.5385;
+ 237.5; 37.5; 0.6025;
+ 250; 25; 0.5989;
+ 262.5; 12.5; 0.5638;
+*dataend:

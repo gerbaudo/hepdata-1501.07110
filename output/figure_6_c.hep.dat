@@ -1,0 +1,26 @@
+
+
+*dataset:
+*location: figure_6_c
+*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with one jet.h_incSR1jet_no_mtmax_mtmax_SSWH8TeV_130.0_0.0
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / (25 GEV) 
+*xheader: MTMAX IN GEV 
+*data: x : y : y : y
+ 22.5 (BIN=10 TO 35); 0 +- 0; 0; 0.0007826 +0.000906,-0.0006874;
+ 47.5 (BIN=35 TO 60); 0.2264 +- 0.114; 0; 0.6664 +0.2609,-0.2603;
+ 72.5 (BIN=60 TO 85); 1.308 +- 0.2949; 1; 3.021 +0.7075,-0.7925;
+ 97.5 (BIN=85 TO 110); 1.855 +- 0.318; 5; 6.116 +1.356,-1.113;
+ 122.5 (BIN=110 TO 135); 3.87 +- 0.4696; 8; 4.716 +1.01,-1.02;
+ 147.5 (BIN=135 TO 160); 3.624 +- 0.4534; 4; 4.72 +1.019,-0.9516;
+ 172.5 (BIN=160 TO 185); 1.76 +- 0.321; 2; 1.974 +0.5341,-0.5918;
+ 197.5 (BIN=185 TO 210); 1.019 +- 0.2252; 1; 1.29 +0.4012,-0.3994;
+ 222.5 (BIN=210 TO 235); 0.5761 +- 0.1832; 1; 0.6593 +0.2737,-0.2977;
+ 247.5 (BIN=235 TO 260); 0.4524 +- 0.17; 0; 0.4671 +0.2149,-0.2956;
+ 272.5 (BIN=260 TO 285); 0.05112 +- 0.05094; 0; 0.2542 +0.2175,-0.1555;
+ 297.5 (BIN=285 TO 310); 0.1597 +- 0.09295; 0; 0.547 +0.2409,-0.2799;
+*dataend:

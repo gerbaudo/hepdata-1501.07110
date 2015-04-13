@@ -1,0 +1,41 @@
+
+
+*dataset:
+*location: figure_app_9_e
+*dscomment: Efficiency for the same-sign $\mu\mu$ channel with one jet
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.2564;
+ 140; 10; 0.2691;
+ 150; 0; 0.2724;
+ 152.5; 22.5; 0.261;
+ 162.5; 12.5; 0.2887;
+ 175; 0; 0.2484;
+ 165; 35; 0.2488;
+ 175; 25; 0.2872;
+ 187.5; 12.5; 0.3108;
+ 200; 0; 0.3589;
+ 177.5; 47.5; 0.2602;
+ 187.5; 37.5; 0.3257;
+ 200; 25; 0.3142;
+ 212.5; 12.5; 0.324;
+ 225; 0; 0.3718;
+ 190; 60; 0.3132;
+ 200; 50; 0.3195;
+ 212.5; 37.5; 0.3658;
+ 225; 25; 0.3765;
+ 237.5; 12.5; 0.4562;
+ 250; 0; 0.3904;
+ 202.5; 72.5; 0.2756;
+ 212.5; 62.5; 0.295;
+ 225; 50; 0.3149;
+ 237.5; 37.5; 0.374;
+ 250; 25; 0.417;
+ 262.5; 12.5; 0.3983;
+*dataend:

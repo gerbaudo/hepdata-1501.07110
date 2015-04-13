@@ -1,0 +1,41 @@
+
+
+*dataset:
+*location: figure_app_8_f
+*dscomment: Acceptance for the same-sign $\mu\mu$ channel with two or three jets
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 7.784e-05;
+ 140; 10; 8.487e-05;
+ 150; 0; 8.515e-05;
+ 152.5; 22.5; 8.752e-05;
+ 162.5; 12.5; 8.33e-05;
+ 175; 0; 8.443e-05;
+ 165; 35; 9.857e-05;
+ 175; 25; 8.152e-05;
+ 187.5; 12.5; 9.086e-05;
+ 200; 0; 9.456e-05;
+ 177.5; 47.5; 8.985e-05;
+ 187.5; 37.5; 8.106e-05;
+ 200; 25; 8.147e-05;
+ 212.5; 12.5; 0.0001028;
+ 225; 0; 0.0001006;
+ 190; 60; 0.0001043;
+ 200; 50; 8.459e-05;
+ 212.5; 37.5; 0.0001126;
+ 225; 25; 0.0001074;
+ 237.5; 12.5; 0.0001167;
+ 250; 0; 0.0001067;
+ 202.5; 72.5; 8.149e-05;
+ 212.5; 62.5; 0.0001072;
+ 225; 50; 9.585e-05;
+ 237.5; 37.5; 0.0001022;
+ 250; 25; 9.846e-05;
+ 262.5; 12.5; 9.76e-05;
+*dataend:
