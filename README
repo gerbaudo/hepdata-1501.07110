@@ -14,9 +14,9 @@ Then run `hepconverter.py` on each one of them.
 The templated header filled with the correct values is in
 `input_formatted/hepdata_header.txt`.
 
-TODO
-- decide whether everything is merged into a single file, use correct header
-- fix figure parameters?
+Note to self: existing examples:
+- Ewk    2L 2014 http://hepdata.cedar.ac.uk/view/ins1286761
+- Strong 1L 2014 http://hepdata.cedar.ac.uk/view/ins1339376
 
 davide.gerbaudo@gmail.com
 Jan 2015
