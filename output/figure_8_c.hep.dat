@@ -1,0 +1,98 @@
+
+
+*dataset:
+*location: figure_8_c
+*dscomment: Same-sign dilepton channel: Observed 95% CL exclusion contour for chargino neutralino production via Wh.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: M(NEUTRALINO1) IN GEV
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV
+*data: x : y
+ 140.7; 11.25;
+ 139.9; 8.75;
+ 139.8; 6.25;
+ 139.7; 3.75;
+ 139.6; 1.25;
+ 139.6; -1.25;
+ 138.8; -1.26;
+ 136.2; -1.286;
+ 133.8; -1.309;
+ 131.2; -1.331;
+ 128.8; -1.315;
+ 126.2; -1.315;
+ 126.2; -1.25;
+ 126.2; 1.25;
+ 126.2; 1.315;
+ 128.7; 3.75;
+ 128.8; 3.815;
+ 131.2; 6.25;
+ 131.2; 6.315;
+ 133.7; 8.75;
+ 133.8; 8.815;
+ 136.2; 11.25;
+ 136.2; 11.31;
+ 138.8; 11.31;
+ 140.7; 11.25;
+*dataend:
+
+
+*dataset:
+*location: figure_8_c
+*dscomment: Same-sign dilepton channel: Expected 95% CL exclusion contour for chargino neutralino production via Wh.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: M(NEUTRALINO1) IN GEV
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV
+*data: x : y
+ 151.2; 17.38;
+ 151.9; 16.25;
+ 153.3; 13.75;
+ 153.8; 12.84;
+ 154.5; 11.25;
+ 154.4; 8.75;
+ 154.3; 6.25;
+ 154.2; 3.75;
+ 154.2; 1.25;
+ 154.2; -1.25;
+ 153.8; -1.254;
+ 151.2; -1.274;
+ 148.8; -1.294;
+ 146.2; -1.316;
+ 143.8; -1.336;
+ 141.2; -1.355;
+ 138.8; -1.373;
+ 136.2; -1.389;
+ 133.8; -1.405;
+ 131.2; -1.419;
+ 128.8; -1.317;
+ 126.2; -1.317;
+ 126.2; -1.25;
+ 126.2; 1.25;
+ 126.2; 1.317;
+ 128.7; 3.75;
+ 128.8; 3.817;
+ 131.2; 6.25;
+ 131.2; 6.317;
+ 133.7; 8.75;
+ 133.8; 8.817;
+ 136.2; 11.25;
+ 136.2; 11.32;
+ 138.7; 13.75;
+ 138.8; 13.82;
+ 141.2; 16.25;
+ 141.2; 16.32;
+ 143.7; 18.75;
+ 143.8; 18.82;
+ 146.2; 21.25;
+ 146.2; 21.32;
+ 148.8; 21.32;
+ 150.7; 21.25;
+ 150.5; 18.75;
+ 151.2; 17.38;
+*dataend:
