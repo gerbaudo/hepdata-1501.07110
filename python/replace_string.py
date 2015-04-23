@@ -18,8 +18,9 @@ def main():
         print 'Usage:\n{} file.txt "string from" "string to"'.format(sys.argv[0])
         return
     input_file = sys.argv[1]
-    string_from = sys.argv[2]
-    string_to = sys.argv[3]
+    string_from = clean_quotes(sys.argv[2])
+    string_to = clean_quotes(sys.argv[3])
+    lines = []
     with open(input_file, 'r') as sources:
         lines = sources.readlines()
     with open(input_file, 'w') as sources:
@@ -27,5 +28,11 @@ def main():
             sources.write(line.replace(string_from, string_to))
             # sources.write(re.sub(string_from, string_to, line))
 
+def clean_quotes(s):
+    if s.startswith('"') and s.endswith('"'):
+        s = eval(s)
+    if s.startswith("'") and s.endswith("'"):
+        s = eval(s)
+    return s
 if __name__=='__main__':
     main()
