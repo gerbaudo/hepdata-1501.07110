@@ -1,0 +1,20 @@
+
+
+*dataset:
+*location: figure_7_c
+*dscomment: Same-sign dilepton channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : expected : observed
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: UPPER LIMIT : 
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV 
+*data: x : y : y
+ 130; 0.506; 0.786;
+ 150; 0.88; 1.239;
+ 175; 1.461; 2.006;
+ 200; 1.937; 2.594;
+ 225; 2.853; 4.015;
+ 250; 4.126; 5.037;
+*dataend:

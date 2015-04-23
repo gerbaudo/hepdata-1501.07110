@@ -64,18 +64,34 @@ function figure_caption() {
         figure_6_d) cap='Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with two or three jets.' ;;
         figure_6_e) cap='Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet.' ;;
         figure_6_f) cap='Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet.' ;;
-        figure_app_8_a) cap='Acceptance for the same-sign $ee$     channel with one jet' ;;
-        figure_app_8_b) cap='Acceptance for the same-sign $ee$     channel with two or three jets' ;;
-        figure_app_8_c) cap='Acceptance for the same-sign $e\mu$   channel with one jet' ;;
-        figure_app_8_d) cap='Acceptance for the same-sign $e\mu$   channel with two or three jets' ;;
-        figure_app_8_e) cap='Acceptance for the same-sign $\mu\mu$ channel with one jet' ;;
-        figure_app_8_f) cap='Acceptance for the same-sign $\mu\mu$ channel with two or three jets' ;;
-        figure_app_9_a) cap='Efficiency for the same-sign $ee$     channel with one jet' ;;
-        figure_app_9_b) cap='Efficiency for the same-sign $ee$     channel with two or three jets' ;;
-        figure_app_9_c) cap='Efficiency for the same-sign $e\mu$   channel with one jet' ;;
-        figure_app_9_d) cap='Efficiency for the same-sign $e\mu$   channel with two or three jets' ;;
-        figure_app_9_e) cap='Efficiency for the same-sign $\mu\mu$ channel with one jet' ;;
-        figure_app_9_f) cap='Efficiency for the same-sign $\mu\mu$ channel with two or three jets' ;;
+        figure_7_a) cap='One lepton and two b-jets channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.' ;;
+        figure_7_b) cap='One lepton and two photons channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.' ;;
+        figure_7_c) cap='Same-sign dilepton channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.' ;;
+        figure_7_d) cap='Combination: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.' ;;
+        figure_app_8_a) cap='Acceptance for the same-sign $ee$     channel with one jet.' ;;
+        figure_app_8_b) cap='Acceptance for the same-sign $ee$     channel with two or three jets.' ;;
+        figure_app_8_c) cap='Acceptance for the same-sign $e\mu$   channel with one jet.' ;;
+        figure_app_8_d) cap='Acceptance for the same-sign $e\mu$   channel with two or three jets.' ;;
+        figure_app_8_e) cap='Acceptance for the same-sign $\mu\mu$ channel with one jet.' ;;
+        figure_app_8_f) cap='Acceptance for the same-sign $\mu\mu$ channel with two or three jets.' ;;
+        figure_app_9_a) cap='Efficiency for the same-sign $ee$     channel with one jet.' ;;
+        figure_app_9_b) cap='Efficiency for the same-sign $ee$     channel with two or three jets.' ;;
+        figure_app_9_c) cap='Efficiency for the same-sign $e\mu$   channel with one jet.' ;;
+        figure_app_9_d) cap='Efficiency for the same-sign $e\mu$   channel with two or three jets.' ;;
+        figure_app_9_e) cap='Efficiency for the same-sign $\mu\mu$ channel with one jet.' ;;
+        figure_app_9_f) cap='Efficiency for the same-sign $\mu\mu$ channel with two or three jets.' ;;
+    esac
+    echo ${cap}
+}
+
+function figure_wrong_caption () {
+    # dummy values that the script puts in and that need to be replaced
+    local cap=""
+    case "$1" in
+        figure_7_a) cap='exp_limit_bb' ;;
+        figure_7_b) cap='exp_limit_gg' ;;
+        figure_7_c) cap='exp_limit_ss' ;;
+        figure_7_d) cap='exp_limit_combi' ;;
     esac
     echo ${cap}
 }
@@ -284,6 +300,57 @@ function merge_all_ss2l_parts() {
     > output/hepdata_ss2l.hep.dat
 }
 
+function format_alberto_input() {
+    local rtg="./python/rename_tgraphs.py"
+    local in_="input_from_alberto"
+    local out_="input_formatted"
+    ${rtg} "${in_}/1D_bb_noprelblackln.root"    "${out_}/figure_7_a.root"  exp_limit_bb    obs_limit_bb
+    ${rtg} "${in_}/1D_gg_noprelblackln.root"    "${out_}/figure_7_b.root"  exp_limit_gg    obs_limit_gg
+    ${rtg} "${in_}/1D_ss_noprelblackln.root"    "${out_}/figure_7_c.root"  exp_limit_ss    obs_limit_ss
+    ${rtg} "${in_}/1D_combi_noprelblackln.root" "${out_}/figure_7_d.root"  exp_limit_combi obs_limit_combi
+}
+
+function limit1d() {
+    local FIG_=""
+    for FIG_ in figure_7_a figure_7_b figure_7_c figure_7_d
+    do
+        echo ${FIG_}
+        local IN_="input_formatted/${FIG_}.root"
+        local OUT_="output/${FIG_}"
+        local OUTH_="output/${FIG_}.hep.dat"
+        local CAP_=$(figure_caption ${FIG_})
+        local CAP_WRONG=$(figure_wrong_caption ${FIG_})
+        echo "caption ${CAP_}"
+        echo "${HEPCONV} -i ${IN_} --overlay exp obs -o ${OUT_}"
+        ${HEPCONV} -i ${IN_}  --overlay exp obs -o ${OUT_}
+        ${REPLACE} ${OUTH_} \
+                   "*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS" \
+                   "*qual: . : expected : observed"
+        ${REPLACE} ${OUTH_} \
+                   "*location: Figure GIVE FIGURE NUMBER" \
+                   "*location: ${FIG_}"
+        ${REPLACE} ${OUTH_} \
+                   "*reackey: P P --> GIVE THE PRODUCTION PROCESSES" \
+                   "*reackey: P P --> CHARGINO1 NEUTRALINO2 X"
+        ${REPLACE} ${OUTH_} \
+                   "*obskey: GIVE KEY FOR Y-AXIS VARIABLE" \
+                   "*obskey: UPPER LIMIT"
+        ${REPLACE} ${OUTH_} \
+                   "*qual: RE : P P --> GIVE THE PRODUCTION PROCESSES + DECAYS (IF RELEVANT)" \
+                   "*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X"
+        ${REPLACE} ${OUTH_} \
+                   "*xheader:" \
+                   "*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV"
+        ${REPLACE} ${OUTH_} \
+                   "*yheader: " \
+                   "*yheader: UPPER LIMIT"
+        ${REPLACE} ${OUTH_} \
+                   "'*dscomment: ${CAP_WRONG}'" \
+                   "'*dscomment: ${CAP_}'"
+        remove_header_footer ${OUTH_}
+    done
+
+}
 #-------------------
 # main
 #-------------------
@@ -296,3 +363,6 @@ main_figures
 acceptance_figures
 efficiency_figures
 merge_all_ss2l_parts
+
+format_alberto_input
+limit1d

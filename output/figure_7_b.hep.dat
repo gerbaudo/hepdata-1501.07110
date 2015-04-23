@@ -1,0 +1,24 @@
+
+
+*dataset:
+*location: figure_7_b
+*dscomment: One lepton and two photons channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : expected : observed
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: UPPER LIMIT : 
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV 
+*data: x : y : y
+ 130; 0.581; 0.511;
+ 150; 0.901; 0.788;
+ 175; 1.397; 1.212;
+ 200; 2.155; 1.853;
+ 225; 3.125; 2.67;
+ 250; 4.523; 3.828;
+ 275; 6.465; 5.458;
+ 300; 8.85; 7.461;
+ 325; 11.94; 10.04;
+ 350; 16.1; 13.5;
+*dataend:

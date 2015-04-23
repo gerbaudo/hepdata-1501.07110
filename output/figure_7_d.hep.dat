@@ -1,0 +1,24 @@
+
+
+*dataset:
+*location: figure_7_d
+*dscomment: Combination: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : expected : observed
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: UPPER LIMIT : 
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV 
+*data: x : y : y
+ 130; 0.3; 0.34;
+ 150; 0.581; 0.521;
+ 175; 0.628; 0.671;
+ 200; 0.74; 0.81;
+ 225; 0.816; 0.853;
+ 250; 0.896; 0.94;
+ 275; 0.991; 0.971;
+ 300; 1.083; 1.09;
+ 325; 1.243; 1.269;
+ 350; 1.407; 1.475;
+*dataend:
