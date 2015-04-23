@@ -68,6 +68,10 @@ function figure_caption() {
         figure_7_b) cap='One lepton and two photons channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.' ;;
         figure_7_c) cap='Same-sign dilepton channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.' ;;
         figure_7_d) cap='Combination: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.' ;;
+        figure_8_a) cap='One lepton and two b-jets channel: Expected/Observed 95% CL exclusion contour for chargino neutralino production via Wh' ;;
+        figure_8_b) cap='One lepton and two photons channel: Expected/Observed 95% CL exclusion contour for chargino neutralino production via Wh' ;;
+        figure_8_c) cap='Same-sign dilepton channel: Expected/Observed 95% CL exclusion contour for chargino neutralino production via Wh' ;;
+        figure_8_d) cap='Combination: Expected/Observed 95% CL exclusion contour for chargino neutralino production via Wh' ;;
         figure_app_8_a) cap='Acceptance for the same-sign $ee$     channel with one jet.' ;;
         figure_app_8_b) cap='Acceptance for the same-sign $ee$     channel with two or three jets.' ;;
         figure_app_8_c) cap='Acceptance for the same-sign $e\mu$   channel with one jet.' ;;
@@ -349,7 +353,57 @@ function limit1d() {
                    "'*dscomment: ${CAP_}'"
         remove_header_footer ${OUTH_}
     done
+}
 
+function format_sigve_input() {
+    # special treatment, two islands for expected
+    ./python/rename_semicolon.py input_from_sigve/hepData-1l2b.root        input_formatted/figure_8_a.root
+    # nothing to do
+    cp -p input_from_sigve/hepData-gg.root          input_formatted/figure_8_b.root
+    cp -p input_from_sigve/hepData-SS-Zoom.root     input_formatted/figure_8_c.root
+    cp -p input_from_sigve/hepData-combination.root input_formatted/figure_8_d.root
+}
+
+function limit2d() {
+    local FIG_=""
+    for FIG_ in figure_8_a figure_8_b figure_8_c figure_8_d
+    do
+        echo ${FIG_}
+        local IN_="input_formatted/${FIG_}.root"
+        local OUT_="output/${FIG_}"
+        local OUTH_="output/${FIG_}.hep.dat"
+        local CAP_=$(figure_caption ${FIG_})
+        echo "caption ${CAP_}"
+        echo "${HEPCONV} -i ${IN_} -o ${OUT_}"
+        ${HEPCONV} -i ${IN_} -o ${OUT_}
+        ${REPLACE} ${OUTH_} \
+                   "*location: Figure GIVE FIGURE NUMBER" \
+                   "*location: ${FIG_}"
+        ${REPLACE} ${OUTH_} \
+                   "*reackey: P P --> GIVE THE PRODUCTION PROCESSES" \
+                   "*reackey: P P --> CHARGINO1 NEUTRALINO2 X"
+        ${REPLACE} ${OUTH_} \
+                   "*obskey: GIVE KEY FOR Y-AXIS VARIABLE" \
+                   "*obskey: UPPER LIMIT"
+        ${REPLACE} ${OUTH_} \
+                   "*qual: RE : P P --> GIVE THE PRODUCTION PROCESSES + DECAYS (IF RELEVANT)" \
+                   "*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X"
+        ${REPLACE} ${OUTH_} \
+                   "*xheader: m_{#tilde{#chi}_{1}^{#pm}} [GeV]" \
+                   "*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV"
+        ${REPLACE} ${OUTH_} \
+                   "*yheader: m_{#tilde{#chi}_{1}^{0}} [GeV]" \
+                   "*yheader: M(NEUTRALINO1) IN GEV"
+        ${REPLACE} ${OUTH_} \
+                   "'*dscomment:'" \
+                   "'*dscomment: ${CAP_}'"
+        remove_header_footer ${OUTH_}
+    done
+    echo "These files (figure_8_*) required some manual adjustment:"
+    echo "- merge fig 8_a (two contours for exp)"
+    echo "- caption : drop final 'WhMediated_contourExpected'"
+    echo "- caption : pick Expected/Observed"
+    echo ""
 }
 #-------------------
 # main
@@ -366,3 +420,6 @@ merge_all_ss2l_parts
 
 format_alberto_input
 limit1d
+
+format_sigve_input
+limit2d
