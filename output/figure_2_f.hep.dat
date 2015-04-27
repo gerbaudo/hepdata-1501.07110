@@ -1,0 +1,19 @@
+
+
+*dataset:
+*location: figure_2_f
+*dscomment: mbb in SRlbb-1 and SRlbb-2
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 30 GEV
+*xheader: MBB IN GEV 
+*data: x : y : y
+ 60 (BIN=45 TO 75); 4 +3.163,-1.914; 4.678 +0.6786 -0.6786;
+ 90 (BIN=75 TO 105); 9 +4.11,-2.943; 6.61 +0.9837 -0.9837;
+ 120 (BIN=105 TO 135); 7 +3.77,-2.581; 8.303 +1.443 -1.443;
+ 150 (BIN=135 TO 165); 6 +3.584,-2.38; 6.181 +1.183 -1.183;
+ 180 (BIN=165 TO 195); 5 +3.382,-2.16; 3.232 +0.5899 -0.5899;
+*dataend:

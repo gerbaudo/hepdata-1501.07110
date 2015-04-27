@@ -1,0 +1,21 @@
+
+
+*dataset:
+*location: figure_2_a
+*dscomment: mCT in CRlbb-T, SRlbb-1 and SRlbb-2, central mbb bin
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 30 GEV 
+*xheader: MCT IN GEV 
+*data: x : y : y
+ 115 (BIN=100 TO 130); 132 +12,-11; 124.2 +7.693,-7.693;
+ 145 (BIN=130 TO 160); 20 +5.547,-4.434; 22.97 +2.443,-2.443;
+ 175 (BIN=160 TO 190); 3 +2.918,-1.633; 3.627 +0.6894,-0.6894;
+ 205 (BIN=190 TO 220); 3 +2.918,-1.633; 1.863 +0.3555,-0.3555;
+ 235 (BIN=220 TO 250); 1 +2.3,-0.8272; 1.05 +0.2663,-0.2663;
+ 265 (BIN=250 TO 280); 0 +1.148,-0; 0.4236 +0.1454,-0.1454;
+ 295 (BIN=280 TO 310); 0 +1.148,-0; 0.9087 +0.3064,-0.3064;
+*dataend:
