@@ -1,0 +1,20 @@
+
+
+*dataset:
+*location: figure_19_c
+*dscomment: Distribution of m_{#gamma#gamma} in VR#ell#gamma#gamma-1.m(#tilde{#chi^{#pm}_{1}}#tilde{#chi^{0}_{2}},#tilde{#chi^{0}_{1}})=(165,35) GeV
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 10 GEV 
+*xheader: M(GAM,GAM) IN GEV 
+*data: x : y : y : y
+ 105 (BIN=100 TO 110); 0 +- 0; 40 +7.377,-6.298; 42.04 +- 2.932;
+ 115 (BIN=110 TO 120); 0.0283 +- 0.009015; 29 +6.447,-5.354; 37.27 +- 2.828;
+ 125 (BIN=120 TO 130); 1.159 +- 0.1327; 30 +6.538,-5.447; 31.41 +- 2.492;
+ 135 (BIN=130 TO 140); 0.004906 +- 0.004932; 27 +6.26,-5.164; 23.7 +- 2.137;
+ 145 (BIN=140 TO 150); 0 +- 0; 21 +5.655,-4.546; 20.13 +- 2.018;
+ 155 (BIN=150 TO 160); 0 +- 0; 23 +5.865,-4.761; 15.58 +- 1.694;
+*dataend:

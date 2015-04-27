@@ -1,0 +1,21 @@
+
+
+*dataset:
+*location: figure_3_b
+*dscomment: Distribution of #Delta#phi(W,h) in SR#ell#gamma#gamma-1 and SR#ell#gamma#gamma-2 with the selection on #Delta#phi(W,h) removed.m(#tilde{#chi^{#pm}_{1}}#tilde{#chi^{0}_{2}},#tilde{#chi^{0}_{1}})=(165,35) GeV
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : sideband data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 0.45 
+*xheader: DPHI(W,H) 
+*data: x : y : y : y : y
+ 0.225 (BIN=0 TO 0.45); 0.02987 +- 0.008582; 3 +2.918,-1.633; 0.4 +0.5276,-0.2584; 0.6509 +- 0.1203;
+ 0.675 (BIN=0.45 TO 0.9); 0.04063 +- 0.01079; 2 +2.638,-1.292; 0.6 +0.5836,-0.3265; 0.7771 +- 0.1468;
+ 1.125 (BIN=0.9 TO 1.35); 0.09428 +- 0.01881; 0 +0,-0; 0.6 +0.5836,-0.3265; 0.676 +- 0.1172;
+ 1.575 (BIN=1.35 TO 1.8); 0.08968 +- 0.0177; 0 +0,-0; 0.6 +0.5836,-0.3265; 1.03 +- 0.2034;
+ 2.025 (BIN=1.8 TO 2.25); 0.2236 +- 0.03499; 1 +2.3,-0.8272; 1.4 +0.7541,-0.5163; 1.404 +- 0.19;
+ 2.475 (BIN=2.25 TO 2.7); 0.5976 +- 0.0742; 0 +0,-0; 1.4 +0.7541,-0.5163; 1.984 +- 0.2496;
+ 2.925 (BIN=2.7 TO 3.15); 2.928 +- 0.3152; 6 +3.584,-2.38; 2.2 +0.8833,-0.6531; 3.321 +- 0.2827;
+*dataend:

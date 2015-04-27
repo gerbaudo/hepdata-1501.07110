@@ -1,0 +1,24 @@
+
+
+*dataset:
+*location: figure_3_a
+*dscomment: Distribution of E_{T}^{miss} in SR#ell#gamma#gamma-1 and SR#ell#gamma#gamma-2 with the selection on E_{T}^{miss} removed.m(#tilde{#chi^{#pm}_{1}}#tilde{#chi^{0}_{2}},#tilde{#chi^{0}_{1}})=(165,35) GeV
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : sideband data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 10 GEV 
+*xheader: MET IN GEV 
+*data: x : y : y : y : y
+ 5 (BIN=0 TO 10); 0.08705 +- 0.01825; 3 +2.918,-1.633; 3.4 +1.041,-0.8164; 2.558 +- 0.2566;
+ 15 (BIN=10 TO 20); 0.1783 +- 0.02849; 5 +3.382,-2.16; 3 +0.9917,-0.7659; 5.457 +- 0.4676;
+ 25 (BIN=20 TO 30); 0.288 +- 0.04147; 1 +2.3,-0.8272; 4 +1.109,-0.8869; 4.675 +- 0.4024;
+ 35 (BIN=30 TO 40); 0.4025 +- 0.05405; 1 +2.3,-0.8272; 3.2 +1.017,-0.7916; 3.083 +- 0.3563;
+ 45 (BIN=40 TO 50); 0.4193 +- 0.05543; 0 +0,-0; 2.4 +0.912,-0.6831; 1.837 +- 0.2405;
+ 55 (BIN=50 TO 60); 0.4078 +- 0.05402; 2 +2.638,-1.292; 0.6 +0.5836,-0.3265; 1.082 +- 0.1838;
+ 65 (BIN=60 TO 70); 0.4558 +- 0.05948; 0 +0,-0; 0 +0,-0; 0.501 +- 0.0685;
+ 75 (BIN=70 TO 80); 0.401 +- 0.05386; 3 +2.918,-1.633; 0.2 +0.4599,-0.1654; 0.4953 +- 0.1242;
+ 85 (BIN=80 TO 90); 0.2684 +- 0.03839; 0 +0,-0; 0 +0,-0; 0.4194 +- 0.09712;
+ 95 (BIN=90 TO 100); 1.574 +- 0.1755; 1 +2.3,-0.8272; 0.4 +0.5276,-0.2584; 0.97 +- 0.1146;
+*dataend:
