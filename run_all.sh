@@ -304,6 +304,69 @@ function merge_all_ss2l_parts() {
     > output/hepdata_ss2l.hep.dat
 }
 
+function merge_all_parts() {
+    cat \
+    input_formatted/hepdata_header.txt \
+    output/figure_2_a.hep.dat       \
+    output/figure_2_b.hep.dat       \
+    output/figure_2_c.hep.dat       \
+    output/figure_2_d.hep.dat       \
+    output/figure_2_e.hep.dat       \
+    output/figure_2_f.hep.dat       \
+    output/figure_3_a.hep.dat       \
+    output/figure_3_b.hep.dat       \
+    output/figure_3_c.hep.dat       \
+    output/figure_3_d.hep.dat       \
+    output/figure_4_a.hep.dat       \
+    output/figure_4_b.hep.dat       \
+    output/figure_4_c.hep.dat       \
+    output/figure_4_d.hep.dat       \
+    output/figure_5.hep.dat         \
+    output/figure_6_a.hep.dat       \
+    output/figure_6_b.hep.dat       \
+    output/figure_6_c.hep.dat       \
+    output/figure_6_d.hep.dat       \
+    output/figure_6_e.hep.dat       \
+    output/figure_6_f.hep.dat       \
+    output/figure_7_a.hep.dat       \
+    output/figure_7_b.hep.dat       \
+    output/figure_7_c.hep.dat       \
+    output/figure_7_d.hep.dat       \
+    output/figure_8_a.hep.dat       \
+    output/figure_8_b.hep.dat       \
+    output/figure_8_c.hep.dat       \
+    output/figure_8_d.hep.dat       \
+    output/figure_app_14_a.hep.dat  \
+    output/figure_app_14_b.hep.dat  \
+    output/figure_app_15_a.hep.dat  \
+    output/figure_app_15_b.hep.dat  \
+    output/figure_19_a.hep.dat      \
+    output/figure_19_b.hep.dat      \
+    output/figure_19_c.hep.dat      \
+    output/figure_19_d.hep.dat      \
+    output/figure_app_4_a.hep.dat   \
+    output/figure_app_4_b.hep.dat   \
+    output/figure_app_4_c.hep.dat   \
+    output/figure_app_4_d.hep.dat   \
+    output/figure_app_5_a.hep.dat   \
+    output/figure_app_5_b.hep.dat   \
+    output/figure_app_5_c.hep.dat   \
+    output/figure_app_5_d.hep.dat   \
+    output/figure_app_8_a.hep.dat   \
+    output/figure_app_8_b.hep.dat   \
+    output/figure_app_8_c.hep.dat   \
+    output/figure_app_8_d.hep.dat   \
+    output/figure_app_8_e.hep.dat   \
+    output/figure_app_8_f.hep.dat   \
+    output/figure_app_9_a.hep.dat   \
+    output/figure_app_9_b.hep.dat   \
+    output/figure_app_9_c.hep.dat   \
+    output/figure_app_9_d.hep.dat   \
+    output/figure_app_9_e.hep.dat   \
+    output/figure_app_9_f.hep.dat   \
+    > output/hepdata.hep.dat
+}
+
 function format_alberto_input() {
     local rtg="./python/rename_tgraphs.py"
     local in_="input_from_alberto"
@@ -423,3 +486,4 @@ limit1d
 
 format_sigve_input
 limit2d
+merge_all_parts
