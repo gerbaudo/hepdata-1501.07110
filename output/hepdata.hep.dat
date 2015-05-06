@@ -1,0 +1,2497 @@
+*author: AAD
+*reference: CERN-PH-EP-2014-298 : 2015
+*reference: ARXIV:1501.07110 : 2015
+*reference: http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2013-23/ : 2015
+*status: Encoded 30 Jan 2015 by Davide Gerbaudo
+*experiment: CERN-LHC-ATLAS
+*detector: ATLAS
+*experiment:
+*inspireId: 1341609
+*cdsId: 1983600
+*durhamId:
+*title: Search for direct pair production of a chargino and a neutralino decaying to the 125 GeV Higgs boson in $\sqrt{s}$ = 8 TeV pp collisions with the ATLAS detector
+*comment: .  A search is presented for the direct pair production of a chargino and a neutralino $pp\to\tilde{\chi}^\pm_1\tilde{\chi}^0_2$, where the chargino decays to the lightest neutralino and the $W$ boson, $\tilde{\chi}^\pm_1 \to \tilde{\chi}^0_1 (W^{\pm}\to\ell^{\pm}\nu)$, while the neutralino decays to the lightest neutralino and the 125 GeV Higgs boson, $\tilde{\chi}^0_2 \to \tilde{\chi}^0_1 (h\to bb/\gamma\gamma/\ell^{\pm}\nu qq)$. The final states considered for the search have large missing transverse momentum, an isolated electron or muon, and one of the following: either two jets identified as originating from bottom quarks, or two photons, or a second electron or muon with the same electric charge. The analysis is based on 20.3 fb$^{-1}$ of $\sqrt{s}=8$ TeV proton-proton collision data delivered by the Large Hadron Collider and recorded with the ATLAS detector. Observations are consistent with the Standard Model expectations, and limits are set in the context of a simplified supersymmetric model
+
+
+*dataset:
+*location: figure_2_a
+*dscomment: mCT in CRlbb-T, SRlbb-1 and SRlbb-2, central mbb bin
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 30 GEV 
+*xheader: MCT IN GEV 
+*data: x : y : y
+ 115 (BIN=100 TO 130); 132 +12,-11; 124.2 +7.693,-7.693;
+ 145 (BIN=130 TO 160); 20 +5.547,-4.434; 22.97 +2.443,-2.443;
+ 175 (BIN=160 TO 190); 3 +2.918,-1.633; 3.627 +0.6894,-0.6894;
+ 205 (BIN=190 TO 220); 3 +2.918,-1.633; 1.863 +0.3555,-0.3555;
+ 235 (BIN=220 TO 250); 1 +2.3,-0.8272; 1.05 +0.2663,-0.2663;
+ 265 (BIN=250 TO 280); 0 +1.148,-0; 0.4236 +0.1454,-0.1454;
+ 295 (BIN=280 TO 310); 0 +1.148,-0; 0.9087 +0.3064,-0.3064;
+*dataend:
+
+
+*dataset:
+*location: figure_2_b
+*dscomment: mCT in CRlbb-T, SRlbb-1 and SRlbb-2, mbb sideband
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 30 GEV  
+*xheader: MCT IN GEV  
+*data: x : y : y
+ 115 (BIN=100 TO 130); 422 +21.05,-20.05; 422.5 +17.77,-17.77;
+ 145 (BIN=130 TO 160); 77 +9.813,-8.756; 71.3 +7.683,-7.683;
+ 175 (BIN=160 TO 190); 10 +4.267,-3.109; 10.14 +1.151,-1.151;
+ 205 (BIN=190 TO 220); 7 +3.77,-2.581; 4.824 +0.7255,-0.7255;
+ 235 (BIN=220 TO 250); 1 +2.3,-0.8272; 2.119 +0.4655,-0.4655;
+ 265 (BIN=250 TO 280); 4 +3.163,-1.914; 1.323 +0.2951,-0.2951;
+ 295 (BIN=280 TO 310); 2 +2.638,-1.292; 1.071 +0.261,-0.261;
+*dataend:
+
+
+*dataset:
+*location: figure_2_c
+*dscomment: mT in VRlbb-2, SRlbb-1 and SRlbb-2, central mbb bin
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 15 GEV  
+*xheader: MT IN GEV  
+*data: x : y : y
+ 47.5 (BIN=40 TO 55); 21 +5.655,-4.546; 20.75 +2.034,-2.034;
+ 62.5 (BIN=55 TO 70); 26 +6.164,-5.066; 24.35 +2.296,-2.296;
+ 77.5 (BIN=70 TO 85); 13 +4.698,-3.559; 24.18 +2.259,-2.259;
+ 92.5 (BIN=85 TO 100); 12 +4.56,-3.415; 11.96 +1.474,-1.474;
+ 107.5 (BIN=100 TO 115); 4 +3.163,-1.914; 3.629 +0.5522,-0.5522;
+ 122.5 (BIN=115 TO 130); 0 +1.148,-0; 1.789 +0.4124,-0.4124;
+ 137.5 (BIN=130 TO 145); 3 +2.918,-1.633; 0.5831 +0.2055,-0.2055;
+ 152.5 (BIN=145 TO 160); 0 +1.148,-0; 0.5066 +0.253,-0.253;
+ 167.5 (BIN=160 TO 175); 0 +1.148,-0; 0.2801 +0.1261,-0.1261;
+ 182.5 (BIN=175 TO 190); 0 +1.148,-0; 1.068 +0.2767,-0.2767;
+*dataend:
+
+
+*dataset:
+*location: figure_2_d
+*dscomment: mT in VRlbb-2, SRlbb-1 and SRlbb-2, mbb sidebands
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 15 GEV
+*xheader: MT IN GEV 
+*data: x : y : y
+ 47.5 (BIN=40 TO 55); 42 +7.532,-6.455; 43.4 +3.312,-3.312;
+ 62.5 (BIN=55 TO 70); 58 +8.66,-7.594; 49.69 +3.756,-3.756;
+ 77.5 (BIN=70 TO 85); 39 +7.298,-6.218; 48.86 +3.737,-3.737;
+ 92.5 (BIN=85 TO 100); 24 +5.967,-4.865; 25 +2.226,-2.226;
+ 107.5 (BIN=100 TO 115); 10 +4.267,-3.109; 8.732 +1.035,-1.035;
+ 122.5 (BIN=115 TO 130); 4 +3.163,-1.914; 3.139 +0.4732,-0.4732;
+ 137.5 (BIN=130 TO 145); 3 +2.918,-1.633; 1.579 +0.3619,-0.3619;
+ 152.5 (BIN=145 TO 160); 1 +2.3,-0.8272; 0.993 +0.287,-0.287;
+ 167.5 (BIN=160 TO 175); 0 +1.148,-0; 0.907 +0.261,-0.261;
+ 182.5 (BIN=175 TO 190); 6 +3.584,-2.38; 4.478 +0.5707,-0.5707;
+*dataend:
+
+
+*dataset:
+*location: figure_2_e
+*dscomment: Number of b-jets in SRlbb-1 and SRlbb-2 without the b-jet multiplicity requirement, central mbb bin
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS
+*xheader: NUMBER OF B-JETS
+*data: x : y : y
+ 0.5; 251 +16.35,-15.35; 259.9 +40.54,-40.54;
+ 1.5; 69 +9.347,-8.286; 89.7 +6.373,-6.373;
+ 2.5; 7 +3.77,-2.581; 7.756 +0.9944,-0.9944;
+*dataend:
+
+
+*dataset:
+*location: figure_2_f
+*dscomment: mbb in SRlbb-1 and SRlbb-2
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 30 GEV
+*xheader: MBB IN GEV 
+*data: x : y : y
+ 60 (BIN=45 TO 75); 4 +3.163,-1.914; 4.678 +0.6786 -0.6786;
+ 90 (BIN=75 TO 105); 9 +4.11,-2.943; 6.61 +0.9837 -0.9837;
+ 120 (BIN=105 TO 135); 7 +3.77,-2.581; 8.303 +1.443 -1.443;
+ 150 (BIN=135 TO 165); 6 +3.584,-2.38; 6.181 +1.183 -1.183;
+ 180 (BIN=165 TO 195); 5 +3.382,-2.16; 3.232 +0.5899 -0.5899;
+*dataend:
+
+
+*dataset:
+*location: figure_3_a
+*dscomment: Distribution of E_{T}^{miss} in SR#ell#gamma#gamma-1 and SR#ell#gamma#gamma-2 with the selection on E_{T}^{miss} removed.m(#tilde{#chi^{#pm}_{1}}#tilde{#chi^{0}_{2}},#tilde{#chi^{0}_{1}})=(165,35) GeV
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : sideband data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 10 GEV 
+*xheader: MET IN GEV 
+*data: x : y : y : y : y
+ 5 (BIN=0 TO 10); 0.08705 +- 0.01825; 3 +2.918,-1.633; 3.4 +1.041,-0.8164; 2.558 +- 0.2566;
+ 15 (BIN=10 TO 20); 0.1783 +- 0.02849; 5 +3.382,-2.16; 3 +0.9917,-0.7659; 5.457 +- 0.4676;
+ 25 (BIN=20 TO 30); 0.288 +- 0.04147; 1 +2.3,-0.8272; 4 +1.109,-0.8869; 4.675 +- 0.4024;
+ 35 (BIN=30 TO 40); 0.4025 +- 0.05405; 1 +2.3,-0.8272; 3.2 +1.017,-0.7916; 3.083 +- 0.3563;
+ 45 (BIN=40 TO 50); 0.4193 +- 0.05543; 0 +0,-0; 2.4 +0.912,-0.6831; 1.837 +- 0.2405;
+ 55 (BIN=50 TO 60); 0.4078 +- 0.05402; 2 +2.638,-1.292; 0.6 +0.5836,-0.3265; 1.082 +- 0.1838;
+ 65 (BIN=60 TO 70); 0.4558 +- 0.05948; 0 +0,-0; 0 +0,-0; 0.501 +- 0.0685;
+ 75 (BIN=70 TO 80); 0.401 +- 0.05386; 3 +2.918,-1.633; 0.2 +0.4599,-0.1654; 0.4953 +- 0.1242;
+ 85 (BIN=80 TO 90); 0.2684 +- 0.03839; 0 +0,-0; 0 +0,-0; 0.4194 +- 0.09712;
+ 95 (BIN=90 TO 100); 1.574 +- 0.1755; 1 +2.3,-0.8272; 0.4 +0.5276,-0.2584; 0.97 +- 0.1146;
+*dataend:
+
+
+*dataset:
+*location: figure_3_b
+*dscomment: Distribution of #Delta#phi(W,h) in SR#ell#gamma#gamma-1 and SR#ell#gamma#gamma-2 with the selection on #Delta#phi(W,h) removed.m(#tilde{#chi^{#pm}_{1}}#tilde{#chi^{0}_{2}},#tilde{#chi^{0}_{1}})=(165,35) GeV
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : sideband data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 0.45 
+*xheader: DPHI(W,H) 
+*data: x : y : y : y : y
+ 0.225 (BIN=0 TO 0.45); 0.02987 +- 0.008582; 3 +2.918,-1.633; 0.4 +0.5276,-0.2584; 0.6509 +- 0.1203;
+ 0.675 (BIN=0.45 TO 0.9); 0.04063 +- 0.01079; 2 +2.638,-1.292; 0.6 +0.5836,-0.3265; 0.7771 +- 0.1468;
+ 1.125 (BIN=0.9 TO 1.35); 0.09428 +- 0.01881; 0 +0,-0; 0.6 +0.5836,-0.3265; 0.676 +- 0.1172;
+ 1.575 (BIN=1.35 TO 1.8); 0.08968 +- 0.0177; 0 +0,-0; 0.6 +0.5836,-0.3265; 1.03 +- 0.2034;
+ 2.025 (BIN=1.8 TO 2.25); 0.2236 +- 0.03499; 1 +2.3,-0.8272; 1.4 +0.7541,-0.5163; 1.404 +- 0.19;
+ 2.475 (BIN=2.25 TO 2.7); 0.5976 +- 0.0742; 0 +0,-0; 1.4 +0.7541,-0.5163; 1.984 +- 0.2496;
+ 2.925 (BIN=2.7 TO 3.15); 2.928 +- 0.3152; 6 +3.584,-2.38; 2.2 +0.8833,-0.6531; 3.321 +- 0.2827;
+*dataend:
+
+
+*dataset:
+*location: figure_3_c
+*dscomment: Distribution of m_{T}^{W#gamma_{1}} in SR#ell#gamma#gamma-1 and SR#ell#gamma#gamma-2 with the selections on m_{T}^{W#gamma_{1}} and m_{T}^{W#gamma_{2}} removed.m(#tilde{#chi^{#pm}_{1}}#tilde{#chi^{0}_{2}},#tilde{#chi^{0}_{1}})=(165,35) GeV
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : sideband data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 25 GEV 
+*xheader: MT(WGAM1) IN GEV 
+*data: x : y : y : y : y
+ 62.5 (BIN=50 TO 75); 0 +- 0; 0 +0,-0; 0 +0,-0; -2.329e-14 +- 1.799e-05;
+ 87.5 (BIN=75 TO 100); 0.002846 +- 0.002171; 0 +0,-0; 0.2 +0.4599,-0.1654; 0.1521 +- 0.08709;
+ 112.5 (BIN=100 TO 125); 0.04925 +- 0.01278; 0 +0,-0; 0.6 +0.5836,-0.3265; 0.5416 +- 0.1256;
+ 137.5 (BIN=125 TO 150); 0.1398 +- 0.02466; 2 +2.638,-1.292; 1.6 +0.789,-0.5537; 0.7723 +- 0.1496;
+ 162.5 (BIN=150 TO 175); 0.3777 +- 0.05117; 1 +2.3,-0.8272; 0.2 +0.4599,-0.1654; 1.115 +- 0.2107;
+ 187.5 (BIN=175 TO 200); 0.549 +- 0.06921; 1 +2.3,-0.8272; 0.2 +0.4599,-0.1654; 0.7788 +- 0.1198;
+ 212.5 (BIN=200 TO 225); 0.5269 +- 0.06655; 0 +0,-0; 0 +0,-0; 0.4609 +- 0.05239;
+ 237.5 (BIN=225 TO 250); 0.3642 +- 0.04933; 0 +0,-0; 0.2 +0.4599,-0.1654; 0.436 +- 0.04677;
+ 262.5 (BIN=250 TO 275); 0.3319 +- 0.04635; 0 +0,-0; 0.2 +0.4599,-0.1654; 0.2888 +- 0.07954;
+ 287.5 (BIN=275 TO 300); 0.3079 +- 0.04335; 1 +2.3,-0.8272; 0 +0,-0; 0.1847 +- 0.04967;
+ 312.5 (BIN=300 TO 325); 0.2004 +- 0.03233; 0 +0,-0; 0 +0,-0; 0.1552 +- 0.04237;
+ 337.5 (BIN=325 TO 350); 0.1262 +- 0.02346; 0 +0,-0; 0.2 +0.4599,-0.1654; 0.08668 +- 0.009232;
+ 362.5 (BIN=350 TO 375); 0.1083 +- 0.02026; 0 +0,-0; 0.2 +0.4599,-0.1654; 0.07408 +- 0.008733;
+ 387.5 (BIN=375 TO 400); 0.4415 +- 0.0577; 1 +2.3,-0.8272; 0 +0,-0; 0.2596 +- 0.02104;
+*dataend:
+
+
+*dataset:
+*location: figure_3_d
+*dscomment: Distribution of m_{T}^{W#gamma_{2}} in SR#ell#gamma#gamma-1 and SR#ell#gamma#gamma-2 with the selections on m_{T}^{W#gamma_{1}} and m_{T}^{W#gamma_{2}} removed.m(#tilde{#chi^{#pm}_{1}}#tilde{#chi^{0}_{2}},#tilde{#chi^{0}_{1}})=(165,35) GeV
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : sideband data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 20 GEV 
+*xheader: MT(WGAM1) IN GEV 
+*data: x : y : y : y : y
+ 10 (BIN=0 TO 20); 0.0002081 +- 0.0002092; 0 +0,-0; 0 +0,-0; 0.2998 +- 0.1237;
+ 30 (BIN=20 TO 40); 0.03318 +- 0.01077; 0 +0,-0; 0.4 +0.5276,-0.2584; 0.3307 +- 0.06537;
+ 50 (BIN=40 TO 60); 0.03401 +- 0.009647; 1 +2.3,-0.8272; 0.8 +0.6326,-0.3829; 0.3974 +- 0.09005;
+ 70 (BIN=60 TO 80); 0.1144 +- 0.02128; 3 +2.918,-1.633; 0.4 +0.5276,-0.2584; 0.6497 +- 0.1178;
+ 90 (BIN=80 TO 100); 0.2294 +- 0.03506; 0 +0,-0; 0.8 +0.6326,-0.3829; 0.853 +- 0.156;
+ 110 (BIN=100 TO 120); 0.3017 +- 0.0424; 1 +2.3,-0.8272; 0.8 +0.6326,-0.3829; 0.6909 +- 0.108;
+ 130 (BIN=120 TO 140); 0.5078 +- 0.06468; 1 +2.3,-0.8272; 0.2 +0.4599,-0.1654; 0.7532 +- 0.1545;
+ 150 (BIN=140 TO 160); 0.5501 +- 0.06948; 0 +0,-0; 0.2 +0.4599,-0.1654; 0.4111 +- 0.09336;
+ 170 (BIN=160 TO 180); 0.4982 +- 0.06428; 0 +0,-0; 0 +0,-0; 0.2147 +- 0.01654;
+ 190 (BIN=180 TO 200); 0.3181 +- 0.04445; 0 +0,-0; 0 +0,-0; 0.2307 +- 0.08931;
+ 210 (BIN=200 TO 220); 0.2466 +- 0.03628; 0 +0,-0; 0 +0,-0; 0.1547 +- 0.04197;
+ 230 (BIN=220 TO 240); 0.6922 +- 0.08422; 0 +0,-0; 0 +0,-0; 0.3198 +- 0.02312;
+*dataend:
+
+
+*dataset:
+*location: figure_4_a
+*dscomment: Results of the background-only fit to the m_{#gamma#gamma} distribution in SR#ell#gamma#gamma-1Histogram of catHgg_SR1_plot__Myy
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : fitted background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 4.5 GEV 
+*xheader: M(GAM,GAM) IN GEV 
+*data: x : y : y
+ 101.2; 0 +1.148,-0; 0.1491 +- 0.1972;
+ 103.8; 0 +1.148,-0; 0.1491 +- 0.1672;
+ 106.2; 0 +1.148,-0; 0.1491 +- 0.1427;
+ 108.8; 0 +1.148,-0; 0.1492 +- 0.1234;
+ 111.2; 0 +1.148,-0; 0.1495 +- 0.1089;
+ 113.8; 0 +1.148,-0; 0.1503 +- 0.09856;
+ 116.2; 0 +1.148,-0; 0.1523 +- 0.09153;
+ 118.8; 0 +1.148,-0; 0.1611 +- 0.08808;
+ 121.2; 0 +1.148,-0; 0.2121 +- 0.09159;
+ 123.8; 0 +1.148,-0; 0.5553 +- 0.1499;
+ 126.2; 0 +1.148,-0; 0.6361 +- 0.1337;
+ 128.8; 1 +2.3,-0.8272; 0.2195 +- 0.1033;
+ 131.2; 1 +2.3,-0.8272; 0.1517 +- 0.09207;
+ 133.8; 1 +2.3,-0.8272; 0.15 +- 0.09421;
+ 136.2; 1 +2.3,-0.8272; 0.1495 +- 0.09633;
+ 138.8; 0 +1.148,-0; 0.1493 +- 0.09833;
+ 141.2; 0 +1.148,-0; 0.1491 +- 0.1002;
+ 143.8; 0 +1.148,-0; 0.1491 +- 0.1019;
+ 146.2; 0 +1.148,-0; 0.1491 +- 0.1034;
+ 148.8; 0 +1.148,-0; 0.1491 +- 0.1048;
+ 151.2; 0 +1.148,-0; 0.149 +- 0.106;
+ 153.8; 0 +1.148,-0; 0.149 +- 0.107;
+ 156.2; 0 +1.148,-0; 0.149 +- 0.108;
+ 158.8; 0 +1.148,-0; 0.149 +- 0.1088;
+*dataend:
+
+
+*dataset:
+*location: figure_4_b
+*dscomment: Results of the background-only fit to the m_{#gamma#gamma} distribution in SR#ell#gamma#gamma-2Histogram of catHgg_SR2_plot__Myy
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : fitted background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 4.5 GEV 
+*xheader: M(GAM,GAM) IN GEV 
+*data: x : y : y
+ 101.2; 2 +2.638,-1.292; 1.718 +- 0.6452;
+ 103.8; 1 +2.3,-0.8272; 1.576 +- 0.5508;
+ 106.2; 1 +2.3,-0.8272; 1.444 +- 0.4695;
+ 108.8; 2 +2.638,-1.292; 1.323 +- 0.4019;
+ 111.2; 1 +2.3,-0.8272; 1.212 +- 0.3466;
+ 113.8; 3 +2.918,-1.633; 1.111 +- 0.3023;
+ 116.2; 0 +1.148,-0; 1.019 +- 0.2677;
+ 118.8; 0 +1.148,-0; 0.937 +- 0.2406;
+ 121.2; 0 +1.148,-0; 0.8769 +- 0.2218;
+ 123.8; 2 +2.638,-1.292; 0.8896 +- 0.2099;
+ 126.2; 1 +2.3,-0.8272; 0.8262 +- 0.2004;
+ 128.8; 2 +2.638,-1.292; 0.6742 +- 0.193;
+ 131.2; 0 +1.148,-0; 0.6025 +- 0.1884;
+ 133.8; 0 +1.148,-0; 0.552 +- 0.1851;
+ 136.2; 1 +2.3,-0.8272; 0.5056 +- 0.1824;
+ 138.8; 2 +2.638,-1.292; 0.4632 +- 0.18;
+ 141.2; 0 +1.148,-0; 0.4244 +- 0.1775;
+ 143.8; 1 +2.3,-0.8272; 0.3889 +- 0.1749;
+ 146.2; 0 +1.148,-0; 0.3563 +- 0.172;
+ 148.8; 1 +2.3,-0.8272; 0.3265 +- 0.1689;
+ 151.2; 0 +1.148,-0; 0.2992 +- 0.1655;
+ 153.8; 0 +1.148,-0; 0.2741 +- 0.1618;
+ 156.2; 0 +1.148,-0; 0.2512 +- 0.1579;
+ 158.8; 0 +1.148,-0; 0.2301 +- 0.1538;
+*dataend:
+
+
+*dataset:
+*location: figure_4_c
+*dscomment: Results of the background-only fit to the m_{#gamma#gamma} distribution in VR#ell#gamma#gamma-1Histogram of catHgg_SR1_plot__Myy
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : fitted background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 4.5 GEV 
+*xheader: M(GAM,GAM) IN GEV 
+*data: x : y : y
+ 101.2; 9 +4.11,-2.943; 9.494 +- 1.31;
+ 103.8; 10 +4.267,-3.109; 9.236 +- 1.19;
+ 106.2; 11 +4.417,-3.266; 8.984 +- 1.079;
+ 108.8; 10 +4.267,-3.109; 8.739 +- 0.9761;
+ 111.2; 7 +3.77,-2.581; 8.501 +- 0.8831;
+ 113.8; 8 +3.945,-2.768; 8.27 +- 0.8002;
+ 116.2; 5 +3.382,-2.16; 8.048 +- 0.7278;
+ 118.8; 9 +4.11,-2.943; 7.839 +- 0.6669;
+ 121.2; 6 +3.584,-2.38; 7.668 +- 0.6168;
+ 123.8; 7 +3.77,-2.581; 7.776 +- 0.5908;
+ 126.2; 11 +4.417,-3.266; 7.666 +- 0.563;
+ 128.8; 6 +3.584,-2.38; 7.075 +- 0.5464;
+ 131.2; 8 +3.945,-2.768; 6.817 +- 0.543;
+ 133.8; 6 +3.584,-2.38; 6.63 +- 0.5534;
+ 136.2; 6 +3.584,-2.38; 6.449 +- 0.5694;
+ 138.8; 7 +3.77,-2.581; 6.273 +- 0.5909;
+ 141.2; 8 +3.945,-2.768; 6.102 +- 0.6164;
+ 143.8; 3 +2.918,-1.633; 5.936 +- 0.6445;
+ 146.2; 6 +3.584,-2.38; 5.774 +- 0.674;
+ 148.8; 4 +3.163,-1.914; 5.617 +- 0.7042;
+ 151.2; 6 +3.584,-2.38; 5.464 +- 0.7344;
+ 153.8; 5 +3.382,-2.16; 5.315 +- 0.7641;
+ 156.2; 4 +3.163,-1.914; 5.17 +- 0.7931;
+ 158.8; 8 +3.945,-2.768; 5.029 +- 0.8211;
+*dataend:
+
+
+*dataset:
+*location: figure_4_d
+*dscomment: Results of the background-only fit to the m_{#gamma#gamma} distribution in VR#ell#gamma#gamma-2Histogram of catHgg_SR2_plot__Myy
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : data : fitted background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 4.5 GEV 
+*xheader: M(GAM,GAM) IN GEV 
+*data: x : y : y
+ 101.2; 7 +3.77,-2.581; 5.936 +- 1.015;
+ 103.8; 5 +3.382,-2.16; 5.822 +- 0.9303;
+ 106.2; 5 +3.382,-2.16; 5.711 +- 0.851;
+ 108.8; 5 +3.382,-2.16; 5.602 +- 0.7772;
+ 111.2; 5 +3.382,-2.16; 5.495 +- 0.7094;
+ 113.8; 6 +3.584,-2.38; 5.391 +- 0.6479;
+ 116.2; 3 +2.918,-1.633; 5.291 +- 0.5935;
+ 118.8; 6 +3.584,-2.38; 5.198 +- 0.5458;
+ 121.2; 3 +2.918,-1.633; 5.139 +- 0.508;
+ 123.8; 8 +3.945,-2.768; 5.232 +- 0.4825;
+ 126.2; 7 +3.77,-2.581; 5.15 +- 0.462;
+ 128.8; 8 +3.945,-2.768; 4.843 +- 0.4504;
+ 131.2; 6 +3.584,-2.38; 4.711 +- 0.449;
+ 133.8; 2 +2.638,-1.292; 4.62 +- 0.4581;
+ 136.2; 5 +3.382,-2.16; 4.531 +- 0.4728;
+ 138.8; 4 +3.163,-1.914; 4.444 +- 0.493;
+ 141.2; 5 +3.382,-2.16; 4.359 +- 0.5174;
+ 143.8; 3 +2.918,-1.633; 4.276 +- 0.5449;
+ 146.2; 7 +3.77,-2.581; 4.194 +- 0.5744;
+ 148.8; 2 +2.638,-1.292; 4.114 +- 0.6052;
+ 151.2; 2 +2.638,-1.292; 4.036 +- 0.6368;
+ 153.8; 0 +1.148,-0; 3.958 +- 0.6687;
+ 156.2; 5 +3.382,-2.16; 3.883 +- 0.7005;
+ 158.8; 7 +3.77,-2.581; 3.809 +- 0.732;
+*dataend:
+
+
+*dataset:
+*location: figure_5
+*dscomment: Distribution of effective mass $m_{\rm eff}$ in the validation region of the same-sign $e\mu$ channel.h_emZVfake_Ht_SSWH8TeV_130.0_0.0
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / (50 GEV) 
+*xheader: MEFF IN GEV 
+*data: x : y : y : y
+ 25 (BIN=0 TO 50); 0 +- 0; 0; 0 +0,-0;
+ 75 (BIN=50 TO 100); 0 +- 0; 4; 0.6847 +0.4037,-0.5107;
+ 125 (BIN=100 TO 150); 0.3795 +- 0.1384; 22; 18.82 +3.425,-3.199;
+ 175 (BIN=150 TO 200); 1.94 +- 0.2934; 55; 45.65 +7.581,-7.055;
+ 225 (BIN=200 TO 250); 3.969 +- 0.4463; 61; 48.65 +8.805,-8.304;
+ 275 (BIN=250 TO 300); 4.038 +- 0.4574; 40; 39.12 +7.276,-7.08;
+ 325 (BIN=300 TO 350); 3.134 +- 0.3912; 25; 27.83 +5.807,-5.378;
+ 375 (BIN=350 TO 400); 2.406 +- 0.3414; 25; 20.93 +4.74,-4.554;
+ 425 (BIN=400 TO 450); 0.9649 +- 0.2157; 13; 13.72 +3.366,-3.323;
+ 475 (BIN=450 TO 500); 0.5753 +- 0.1654; 3; 9.269 +2.887,-2.667;
+ 525 (BIN=500 TO 550); 0.2691 +- 0.0951; 8; 5.801 +2.138,-2.006;
+ 575 (BIN=550 TO 600); 0.3553 +- 0.1305; 3; 4.489 +1.71,-1.631;
+ 625 (BIN=600 TO 650); 0.08152 +- 0.05736; 5; 2.412 +1.307,-1.306;
+ 675 (BIN=650 TO 700); 0.115 +- 0.07027; 4; 2.097 +1.017,-1.036;
+ 725 (BIN=700 TO 750); 0.09507 +- 0.05982; 2; 1.176 +0.9577,-0.7771;
+ 775 (BIN=750 TO 800); 0.01129 +- 0.009639; 3; 1.391 +0.6453,-0.7032;
+ 825 (BIN=800 TO 850); 0.0001734 +- 9.8e-05; 0; 1.11 +0.6382,-0.6196;
+ 875 (BIN=850 TO 900); 6.641e-05 +- 6.449e-05; 1; 0.4644 +0.4758,-0.3732;
+ 925 (BIN=900 TO 950); 0.0006037 +- 0.0005973; 0; 0.7369 +0.4266,-0.4709;
+ 975 (BIN=950 TO 1000); 8.023e-06 +- 8.023e-06; 0; 0.8771 +0.4407,-0.4106;
+*dataend:
+
+
+*dataset:
+*location: figure_6_a
+*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with one jet.h_incSR1jet_no_HT_Ht_SSWH8TeV_130.0_0.0
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / (50 GEV) 
+*xheader: MEFF IN GEV 
+*data: x : y : y : y
+ 125 (BIN=100 TO 150); 0.0008148 +- 0.0005764; 0; 1.843 +0.5693,-0.5984;
+ 175 (BIN=150 TO 200); 2.922 +- 0.3957; 9; 8.976 +1.565,-2.481;
+ 225 (BIN=200 TO 250); 5.801 +- 0.5812; 9; 9.304 +1.629,-1.607;
+ 275 (BIN=250 TO 300); 2.88 +- 0.401; 6; 3.834 +0.8439,-0.8756;
+ 325 (BIN=300 TO 350); 1.89 +- 0.3285; 1; 1.417 +0.4825,-0.4182;
+ 375 (BIN=350 TO 400); 0.8394 +- 0.2182; 0; 0.9303 +0.3126,-0.312;
+ 425 (BIN=400 TO 450); 0.3381 +- 0.1332; 0; 0.9824 +0.3245,-0.3961;
+ 475 (BIN=450 TO 500); 0.04973 +- 0.03894; 0; 0.02979 +0.05904,-0.02362;
+ 525 (BIN=500 TO 550); 0.1589 +- 0.09224; 0; 0.1899 +0.1533,-0.1227;
+*dataend:
+
+
+*dataset:
+*location: figure_6_b
+*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with two or three jets.h_incSR23jets_no_HT_Ht_SSWH8TeV_130.0_0.0
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / (50 GEV) 
+*xheader: MEFF IN GEV 
+*data: x : y : y : y
+ 125 (BIN=100 TO 150); 0 +- 0; 1; 0.3826 +0.3814,-0.3058;
+ 175 (BIN=150 TO 200); 0.8978 +- 0.2191; 5; 1.499 +0.8831,-0.7511;
+ 225 (BIN=200 TO 250); 1.912 +- 0.3173; 3; 2.256 +0.9451,-0.8004;
+ 275 (BIN=250 TO 300); 3.12 +- 0.422; 2; 2.688 +0.922,-0.7798;
+ 325 (BIN=300 TO 350); 2.401 +- 0.3756; 3; 1.153 +0.4843,-0.5631;
+ 375 (BIN=350 TO 400); 0.9146 +- 0.2229; 0; 0.5723 +0.3093,-0.254;
+ 425 (BIN=400 TO 450); 0.3348 +- 0.1387; 0; 0.3618 +0.2184,-0.1914;
+ 475 (BIN=450 TO 500); 0.1354 +- 0.0778; 0; 0.1311 +0.0871,-0.1319;
+ 525 (BIN=500 TO 550); 2.782e-05 +- 2.046e-05; 1; 0.005715 +0.03114,-0.03534;
+*dataend:
+
+
+*dataset:
+*location: figure_6_c
+*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with one jet.h_incSR1jet_no_mtmax_mtmax_SSWH8TeV_130.0_0.0
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / (25 GEV) 
+*xheader: MTMAX IN GEV 
+*data: x : y : y : y
+ 22.5 (BIN=10 TO 35); 0 +- 0; 0; 0.0007826 +0.000906,-0.0006874;
+ 47.5 (BIN=35 TO 60); 0.2264 +- 0.114; 0; 0.6664 +0.2609,-0.2603;
+ 72.5 (BIN=60 TO 85); 1.308 +- 0.2949; 1; 3.021 +0.7075,-0.7925;
+ 97.5 (BIN=85 TO 110); 1.855 +- 0.318; 5; 6.116 +1.356,-1.113;
+ 122.5 (BIN=110 TO 135); 3.87 +- 0.4696; 8; 4.716 +1.01,-1.02;
+ 147.5 (BIN=135 TO 160); 3.624 +- 0.4534; 4; 4.72 +1.019,-0.9516;
+ 172.5 (BIN=160 TO 185); 1.76 +- 0.321; 2; 1.974 +0.5341,-0.5918;
+ 197.5 (BIN=185 TO 210); 1.019 +- 0.2252; 1; 1.29 +0.4012,-0.3994;
+ 222.5 (BIN=210 TO 235); 0.5761 +- 0.1832; 1; 0.6593 +0.2737,-0.2977;
+ 247.5 (BIN=235 TO 260); 0.4524 +- 0.17; 0; 0.4671 +0.2149,-0.2956;
+ 272.5 (BIN=260 TO 285); 0.05112 +- 0.05094; 0; 0.2542 +0.2175,-0.1555;
+ 297.5 (BIN=285 TO 310); 0.1597 +- 0.09295; 0; 0.547 +0.2409,-0.2799;
+*dataend:
+
+
+*dataset:
+*location: figure_6_d
+*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with two or three jets.h_incSR23jets_no_mtmax_mtmax_SSWH8TeV_130.0_0.0
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / (25 GEV) 
+*xheader: MTMAX IN GEV 
+*data: x : y : y : y
+ 22.5 (BIN=10 TO 35); 0.00932 +- 0.009319; 0; 0.08376 +0.1388,-0.08518;
+ 47.5 (BIN=35 TO 60); 0.373 +- 0.1351; 2; 1.974 +0.6498,-0.6149;
+ 72.5 (BIN=60 TO 85); 1.39 +- 0.2903; 11; 8.671 +2.05,-1.962;
+ 97.5 (BIN=85 TO 110); 3.908 +- 0.4739; 12; 6.531 +1.546,-1.492;
+ 122.5 (BIN=110 TO 135); 3.15 +- 0.4077; 3; 2.968 +1.075,-0.847;
+ 147.5 (BIN=135 TO 160); 2.189 +- 0.3571; 2; 1.617 +0.5413,-0.5415;
+ 172.5 (BIN=160 TO 185); 1.125 +- 0.2348; 1; 0.7292 +0.3365,-0.405;
+ 197.5 (BIN=185 TO 210); 0.3433 +- 0.1409; 0; 0.3195 +0.222,-0.1628;
+ 222.5 (BIN=210 TO 235); 0.3182 +- 0.1401; 0; 0.1952 +0.1893,-0.1238;
+ 247.5 (BIN=235 TO 260); 0.06239 +- 0.0623; 0; 0.1691 +0.1134,-0.1607;
+ 272.5 (BIN=260 TO 285); 0.05387 +- 0.05383; 0; 0.01036 +0.01466,-0.01068;
+ 297.5 (BIN=285 TO 310); 0.05741 +- 0.05741; 0; 0.004888 +0.008314,-0.005861;
+*dataend:
+
+
+*dataset:
+*location: figure_6_e
+*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet.h_incSR1jet_mlj_SSWH8TeV_130.0_0.0
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / (30 GEV) 
+*xheader: MLJ IN GEV 
+*data: x : y : y : y
+ 15 (BIN=0 TO 30); 2.149 +- 0.3618; 0; 1.856 +0.5663,-0.4843;
+ 45 (BIN=30 TO 60); 5.814 +- 0.5724; 8; 7.562 +1.385,-1.706;
+ 75 (BIN=60 TO 90); 4.112 +- 0.4806; 8; 7.391 +1.578,-1.385;
+ 105 (BIN=90 TO 120); 1.107 +- 0.2421; 4; 7.217 +1.381,-2.186;
+ 135 (BIN=120 TO 150); 0.4935 +- 0.1638; 4; 2.904 +0.7985,-0.6708;
+ 165 (BIN=150 TO 180); 0.3385 +- 0.1321; 4; 2.9 +0.6821,-0.7447;
+ 195 (BIN=180 TO 210); 0.1416 +- 0.08854; 2; 1.67 +0.4902,-0.4938;
+ 225 (BIN=210 TO 240); 0.1699 +- 0.1003; 1; 1.269 +0.4001,-0.4417;
+ 255 (BIN=240 TO 270); 0.01233 +- 0.01227; 1; 0.3782 +0.2076,-0.2117;
+ 285 (BIN=270 TO 300); 0.1005 +- 0.07113; 1; 0.3142 +0.1714,-0.2082;
+ 315 (BIN=300 TO 330); 0.01204 +- 0.01203; 0; 0.3676 +0.1892,-0.1973;
+ 345 (BIN=330 TO 360); 7.237e-10 +- 7.237e-10; 2; 0.2817 +0.1881,-0.1996;
+ 375 (BIN=360 TO 390); 0.0002857 +- 0.0002021; 0; 0.1505 +0.1012,-0.1311;
+ 405 (BIN=390 TO 420); 0.05644 +- 0.05644; 0; 0.0288 +0.08421,-0.0343;
+ 435 (BIN=420 TO 450); 0 +- 0; 0; 0.1092 +0.1353,-0.1052;
+*dataend:
+
+
+*dataset:
+*location: figure_6_f
+*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet.h_incSR23jets_mljj_SSWH8TeV_130.0_0.0
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / (30 GEV) 
+*xheader: MLJJ IN GEV 
+*data: x : y : y : y
+ 15 (BIN=0 TO 30); 0 +- 0; 0; 3.22e-06 +0.0005432,-3.908e-06;
+ 45 (BIN=30 TO 60); 0.4588 +- 0.1627; 1; 0.3266 +0.1915,-0.1961;
+ 75 (BIN=60 TO 90); 3.377 +- 0.431; 4; 2.477 +0.8002,-0.8556;
+ 105 (BIN=90 TO 120); 5.208 +- 0.5432; 4; 4.509 +1.539,-1.314;
+ 135 (BIN=120 TO 150); 3.781 +- 0.4609; 11; 8.424 +2.146,-2.324;
+ 165 (BIN=150 TO 180); 1.684 +- 0.2959; 8; 6.137 +2.064,-1.627;
+ 195 (BIN=180 TO 210); 1.708 +- 0.3161; 6; 6.038 +1.629,-1.64;
+ 225 (BIN=210 TO 240); 0.9609 +- 0.2248; 3; 4.762 +1.507,-1.307;
+ 255 (BIN=240 TO 270); 0.4303 +- 0.1484; 3; 4.61 +1.381,-1.563;
+ 285 (BIN=270 TO 300); 0.3502 +- 0.1313; 3; 2.793 +1.259,-0.9186;
+ 315 (BIN=300 TO 330); 0.05805 +- 0.03974; 2; 2.288 +1.014,-1.05;
+ 345 (BIN=330 TO 360); 0.4212 +- 0.1559; 1; 2.85 +0.9405,-0.9066;
+ 375 (BIN=360 TO 390); 0.1655 +- 0.08777; 1; 1.644 +0.6895,-0.6721;
+ 405 (BIN=390 TO 420); 0.2747 +- 0.1213; 3; 1.01 +0.5584,-0.727;
+ 435 (BIN=420 TO 450); 0.1438 +- 0.09628; 2; 0.5937 +0.5093,-0.3997;
+ 465 (BIN=450 TO 480); 0.06362 +- 0.06359; 0; 0.814 +0.408,-0.4094;
+ 495 (BIN=480 TO 510); 0.0006167 +- 0.0005976; 0; 0.6127 +0.3769,-0.4622;
+ 525 (BIN=510 TO 540); 0.01321 +- 0.00817; 3; 0.2959 +0.5138,-0.2628;
+ 555 (BIN=540 TO 570); 0.1343 +- 0.09922; 1; 0.4238 +0.3729,-0.3093;
+ 585 (BIN=570 TO 600); 0 +- 0; 0; 0.3357 +0.264,-0.2518;
+ 615 (BIN=600 TO 630); 0.04836 +- 0.04804; 0; 0.5859 +0.2961,-0.3275;
+ 645 (BIN=630 TO 660); 0 +- 0; 0; 0.3863 +0.2859,-0.2756;
+ 675 (BIN=660 TO 690); 0.002892 +- 0.002892; 0; 0.3529 +0.2393,-0.2915;
+ 705 (BIN=690 TO 720); 2.847e-08 +- 2.847e-08; 0; 0.2606 +0.2613,-0.2349;
+*dataend:
+
+
+*dataset:
+*location: figure_7_a
+*dscomment: One lepton and two b-jets channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : expected : observed
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: UPPER LIMIT : 
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV 
+*data: x : y : y
+ 130; 0.854; 0.739;
+ 150; 1.181; 1.104;
+ 175; 1.081; 1.029;
+ 200; 1.003; 1.087;
+ 225; 0.969; 1.056;
+ 250; 0.997; 1.102;
+ 275; 1.061; 1.163;
+ 300; 1.133; 1.238;
+ 325; 1.285; 1.425;
+ 350; 1.445; 1.613;
+*dataend:
+
+
+*dataset:
+*location: figure_7_b
+*dscomment: One lepton and two photons channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : expected : observed
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: UPPER LIMIT : 
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV 
+*data: x : y : y
+ 130; 0.581; 0.511;
+ 150; 0.901; 0.788;
+ 175; 1.397; 1.212;
+ 200; 2.155; 1.853;
+ 225; 3.125; 2.67;
+ 250; 4.523; 3.828;
+ 275; 6.465; 5.458;
+ 300; 8.85; 7.461;
+ 325; 11.94; 10.04;
+ 350; 16.1; 13.5;
+*dataend:
+
+
+*dataset:
+*location: figure_7_c
+*dscomment: Same-sign dilepton channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : expected : observed
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: UPPER LIMIT : 
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV 
+*data: x : y : y
+ 130; 0.506; 0.786;
+ 150; 0.88; 1.239;
+ 175; 1.461; 2.006;
+ 200; 1.937; 2.594;
+ 225; 2.853; 4.015;
+ 250; 4.126; 5.037;
+*dataend:
+
+
+*dataset:
+*location: figure_7_d
+*dscomment: Combination: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : expected : observed
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: UPPER LIMIT : 
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV 
+*data: x : y : y
+ 130; 0.3; 0.34;
+ 150; 0.581; 0.521;
+ 175; 0.628; 0.671;
+ 200; 0.74; 0.81;
+ 225; 0.816; 0.853;
+ 250; 0.896; 0.94;
+ 275; 0.991; 0.971;
+ 300; 1.083; 1.09;
+ 325; 1.243; 1.269;
+ 350; 1.407; 1.475;
+*dataend:
+
+
+*dataset:
+*location: figure_8_a
+*dscomment: One lepton and two b-jets channel: Expected 95% CL exclusion contour for chargino neutralino production via Wh.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: M(NEUTRALINO1) IN GEV
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV
+*data: x : y
+ 247.3; 8.75;
+ 248.7; 6.25;
+ 248.8; 6.185;
+ 250.1; 3.75;
+ 251.2; 1.788;
+ 251.8; 1.25;
+ 210.7; 1.25;
+ 211.2; 1.308;
+ 213.8; 1.555;
+ 216.2; 1.802;
+ 218.8; 2.051;
+ 221.2; 2.301;
+ 223.8; 3.562;
+ 224; 3.75;
+ 226.2; 5.903;
+ 226.6; 6.25;
+ 228.8; 8.246;
+ 229.3; 8.75;
+ 231.2; 10.59;
+ 232; 11.25;
+ 233.8; 13.57;
+ 233.9; 13.75;
+ 236.2; 15.42;
+ 238.8; 15.55;
+ 241.2; 15.25;
+ 243.4; 13.75;
+ 243.8; 13.38;
+ 245.9; 11.25;
+ 246.2; 10.58;
+ 247.3; 8.75;
+ 136.2; 5.711;
+ 137.6; 3.75;
+ 138.8; 2.162;
+ 139.4; 1.25;
+ 126.2; 1.25;
+ 126.2; 1.314;
+ 128.7; 3.75;
+ 128.8; 3.814;
+ 131.2; 6.25;
+ 131.2; 6.314;
+ 133.7; 8.75;
+ 133.8; 8.814;
+ 135.9; 8.75;
+ 136.2; 6.25;
+ 136.2; 5.711;
+*dataend:
+
+
+*dataset:
+*location: figure_8_a
+*dscomment: One lepton and two b-jets channel: Observed 95% CL exclusion contour for chargino neutralino production via Wh.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: M(NEUTRALINO1) IN GEV
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV
+*data: x : y
+ 141.2; 7.943;
+ 142.1; 6.25;
+ 143.4; 3.75;
+ 143.8; 3.054;
+ 144.7; 1.25;
+ 126.2; 1.25;
+ 126.2; 1.315;
+ 128.7; 3.75;
+ 128.8; 3.815;
+ 131.2; 6.25;
+ 131.2; 6.315;
+ 133.7; 8.75;
+ 133.8; 8.815;
+ 136.2; 11.25;
+ 136.2; 11.31;
+ 138.8; 11.31;
+ 140.8; 11.25;
+ 140.8; 8.75;
+ 141.2; 7.943;
+*dataend:
+
+
+*dataset:
+*location: figure_8_b
+*dscomment: One lepton and two photons channel: Observed 95% CL exclusion contour for chargino neutralino production via Wh.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: M(NEUTRALINO1) IN GEV
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV
+*data: x : y
+ 167.3; 33.75;
+ 167.9; 31.25;
+ 168.5; 28.75;
+ 168.8; 27.93;
+ 169.2; 26.25;
+ 169.6; 23.75;
+ 169.5; 21.25;
+ 169.6; 18.75;
+ 169.9; 16.25;
+ 170.2; 13.75;
+ 170.6; 11.25;
+ 171.1; 8.75;
+ 171.2; 8.167;
+ 171.6; 6.25;
+ 172.1; 3.75;
+ 172.8; 1.25;
+ 126.2; 1.25;
+ 126.2; 1.318;
+ 128.7; 3.75;
+ 128.8; 3.818;
+ 131.2; 6.25;
+ 131.2; 6.318;
+ 133.7; 8.75;
+ 133.8; 8.818;
+ 136.2; 11.25;
+ 136.2; 11.32;
+ 138.7; 13.75;
+ 138.8; 13.82;
+ 141.2; 16.25;
+ 141.2; 16.32;
+ 143.7; 18.75;
+ 143.8; 18.82;
+ 146.2; 21.25;
+ 146.2; 21.32;
+ 148.7; 23.75;
+ 148.8; 23.82;
+ 151.2; 26.25;
+ 151.2; 26.32;
+ 153.7; 28.75;
+ 153.8; 28.82;
+ 156.2; 31.25;
+ 156.2; 31.32;
+ 158.7; 33.75;
+ 158.8; 33.82;
+ 161.2; 36.25;
+ 161.2; 36.32;
+ 163.7; 38.75;
+ 163.8; 38.82;
+ 165.9; 38.75;
+ 166.2; 36.79;
+ 166.8; 36.25;
+ 167.3; 33.75;
+*dataend:
+
+
+*dataset:
+*location: figure_8_b
+*dscomment: One lepton and two photons channel: Expected 95% CL exclusion contour for chargino neutralino production via Wh.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: M(NEUTRALINO1) IN GEV
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV
+*data: x : y
+ 156.2; 25.13;
+ 156.7; 23.75;
+ 156.8; 21.25;
+ 156.6; 18.75;
+ 156.8; 16.25;
+ 157.1; 13.75;
+ 157.4; 11.25;
+ 157.6; 8.75;
+ 158.2; 6.25;
+ 158.8; 4.727;
+ 159.1; 3.75;
+ 159.9; 1.25;
+ 126.2; 1.25;
+ 126.2; 1.317;
+ 128.7; 3.75;
+ 128.8; 3.817;
+ 131.2; 6.25;
+ 131.2; 6.317;
+ 133.7; 8.75;
+ 133.8; 8.817;
+ 136.2; 11.25;
+ 136.2; 11.32;
+ 138.7; 13.75;
+ 138.8; 13.82;
+ 141.2; 16.25;
+ 141.2; 16.32;
+ 143.7; 18.75;
+ 143.8; 18.82;
+ 146.2; 21.25;
+ 146.2; 21.32;
+ 148.7; 23.75;
+ 148.8; 23.82;
+ 151.2; 26.25;
+ 151.2; 26.32;
+ 153.7; 28.75;
+ 153.8; 28.82;
+ 153.8; 28.75;
+ 156.2; 26.25;
+ 156.2; 25.13;
+*dataend:
+
+
+*dataset:
+*location: figure_8_c
+*dscomment: Same-sign dilepton channel: Observed 95% CL exclusion contour for chargino neutralino production via Wh.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: M(NEUTRALINO1) IN GEV
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV
+*data: x : y
+ 140.7; 11.25;
+ 139.9; 8.75;
+ 139.8; 6.25;
+ 139.7; 3.75;
+ 139.6; 1.25;
+ 126.2; 1.25;
+ 126.2; 1.315;
+ 128.7; 3.75;
+ 128.8; 3.815;
+ 131.2; 6.25;
+ 131.2; 6.315;
+ 133.7; 8.75;
+ 133.8; 8.815;
+ 136.2; 11.25;
+ 136.2; 11.31;
+ 138.8; 11.31;
+ 140.7; 11.25;
+*dataend:
+
+
+*dataset:
+*location: figure_8_c
+*dscomment: Same-sign dilepton channel: Expected 95% CL exclusion contour for chargino neutralino production via Wh.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: M(NEUTRALINO1) IN GEV
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV
+*data: x : y
+ 151.2; 17.38;
+ 151.9; 16.25;
+ 153.3; 13.75;
+ 153.8; 12.84;
+ 154.5; 11.25;
+ 154.4; 8.75;
+ 154.3; 6.25;
+ 154.2; 3.75;
+ 154.2; 1.25;
+ 126.2; 1.25;
+ 126.2; 1.317;
+ 128.7; 3.75;
+ 128.8; 3.817;
+ 131.2; 6.25;
+ 131.2; 6.317;
+ 133.7; 8.75;
+ 133.8; 8.817;
+ 136.2; 11.25;
+ 136.2; 11.32;
+ 138.7; 13.75;
+ 138.8; 13.82;
+ 141.2; 16.25;
+ 141.2; 16.32;
+ 143.7; 18.75;
+ 143.8; 18.82;
+ 146.2; 21.25;
+ 146.2; 21.32;
+ 148.8; 21.32;
+ 150.7; 21.25;
+ 150.5; 18.75;
+ 151.2; 17.38;
+*dataend:
+
+
+*dataset:
+*location: figure_8_d
+*dscomment: Combination: Observed 95% CL exclusion contour for chargino neutralino production via Wh.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: M(NEUTRALINO1) IN GEV
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV
+*data: x : y
+ 242.5; 15.27;
+ 246.3; 12.5;
+ 247.5; 11.11;
+ 250.7; 7.5;
+ 252.5; 5.517;
+ 257.5; 3.614;
+ 262.5; 3.228;
+ 267.5; 2.844;
+ 272; 2.5;
+ 127.4; 2.5;
+ 127.5; 2.644;
+ 132.4; 7.5;
+ 132.5; 7.644;
+ 137.4; 12.5;
+ 137.5; 12.64;
+ 142.4; 17.5;
+ 142.5; 17.64;
+ 147.4; 22.5;
+ 147.5; 22.64;
+ 152.4; 27.5;
+ 152.5; 27.64;
+ 157.4; 32.5;
+ 157.5; 32.64;
+ 162.4; 37.5;
+ 162.5; 37.64;
+ 167.4; 42.5;
+ 167.5; 42.64;
+ 172.5; 42.53;
+ 176.6; 42.5;
+ 177.5; 41.78;
+ 182.5; 37.77;
+ 182.8; 37.5;
+ 187.5; 35.47;
+ 192.5; 34.09;
+ 197.5; 33.39;
+ 202.5; 32.71;
+ 204; 32.5;
+ 207.5; 31.99;
+ 212.5; 31.38;
+ 217.5; 30.77;
+ 222.5; 30.89;
+ 227.5; 31.43;
+ 232.5; 28.51;
+ 232.7; 27.5;
+ 235.4; 22.5;
+ 237.5; 20.23;
+ 240; 17.5;
+ 242.5; 15.27;
+*dataend:
+
+
+*dataset:
+*location: figure_8_d
+*dscomment: Combination: Expected 95% CL exclusion contour for chargino neutralino production via Wh.
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: UPPER LIMIT
+*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: M(NEUTRALINO1) IN GEV
+*xheader: M(CHARGINO1,NEUTRALINO2) IN GEV
+*data: x : y
+ 247.5; 25.6;
+ 250.4; 22.5;
+ 252.5; 19.9;
+ 254.4; 17.5;
+ 257.5; 13.6;
+ 258.4; 12.5;
+ 262.5; 8.237;
+ 263.9; 7.5;
+ 267.5; 5.563;
+ 272.5; 3.062;
+ 274; 2.5;
+ 127.4; 2.5;
+ 127.5; 2.645;
+ 132.4; 7.5;
+ 132.5; 7.645;
+ 137.4; 12.5;
+ 137.5; 12.64;
+ 142.4; 17.5;
+ 142.5; 17.64;
+ 147.4; 22.5;
+ 147.5; 22.64;
+ 152.4; 27.5;
+ 152.5; 27.64;
+ 157.4; 32.5;
+ 157.5; 32.64;
+ 162.4; 37.5;
+ 162.5; 37.64;
+ 167.4; 42.5;
+ 167.5; 42.64;
+ 172.4; 47.5;
+ 172.5; 47.64;
+ 177.4; 52.5;
+ 177.5; 52.64;
+ 182.5; 52.53;
+ 187.5; 54.1;
+ 192.5; 53.83;
+ 197.5; 53.4;
+ 202.5; 52.51;
+ 202.5; 52.5;
+ 207.5; 49.79;
+ 211.9; 47.5;
+ 212.5; 46.96;
+ 217.5; 42.75;
+ 218; 42.5;
+ 222.5; 40.83;
+ 227.5; 39;
+ 231.7; 37.5;
+ 232.5; 37.03;
+ 237.5; 33.52;
+ 238.7; 32.5;
+ 242.5; 29.22;
+ 244.5; 27.5;
+ 247.5; 25.6;
+*dataend:
+
+
+*dataset:
+*location: figure_app_14_a
+*dscomment: Acceptance SR#ell#gamma#gamma-1
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.0001807;
+ 140; 10; 0.0001847;
+ 150; 0; 0.0002053;
+ 152.5; 22.5; 0.0001986;
+ 162.5; 12.5; 0.0002112;
+ 175; 0; 0.0002276;
+ 165; 35; 0.0002027;
+ 175; 25; 0.0002219;
+ 187.5; 12.5; 0.0002359;
+ 177.5; 47.5; 0.0002087;
+ 187.5; 37.5; 0.0002254;
+ 190; 60; 0.0002128;
+ 200; 0; 0.0002557;
+ 225; 0; 0.000284;
+ 250; 0; 0.0003031;
+ 275; 0; 0.000314;
+ 300; 0; 0.0003281;
+ 325; 0; 0.0003463;
+ 350; 0; 0.0003505;
+ 200; 25; 0.0002525;
+ 200; 50; 0.0002361;
+ 202.5; 72.5; 0.0002179;
+ 212.5; 12.5; 0.0002666;
+ 212.5; 37.5; 0.0002592;
+ 212.5; 62.5; 0.000251;
+ 215; 85; 0.0002211;
+ 225; 25; 0.0002767;
+ 225; 50; 0.0002748;
+ 225; 75; 0.0002482;
+ 227.5; 95.5; 0.0002184;
+ 237.5; 12.5; 0.0002894;
+ 237.5; 37.5; 0.0002867;
+ 237.5; 62.5; 0.000278;
+ 237.5; 87.5; 0.0002508;
+ 240; 95.5; 0.0002268;
+*dataend:
+
+
+*dataset:
+*location: figure_app_14_b
+*dscomment: Acceptance SR#ell#gamma#gamma-2
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 3.246e-05;
+ 140; 10; 3.509e-05;
+ 150; 0; 3.343e-05;
+ 152.5; 22.5; 3.155e-05;
+ 162.5; 12.5; 2.889e-05;
+ 175; 0; 2.804e-05;
+ 165; 35; 3.379e-05;
+ 175; 25; 2.954e-05;
+ 187.5; 12.5; 2.862e-05;
+ 177.5; 47.5; 3.233e-05;
+ 187.5; 37.5; 3.018e-05;
+ 190; 60; 3.367e-05;
+ 200; 0; 2.677e-05;
+ 225; 0; 2.286e-05;
+ 250; 0; 1.831e-05;
+ 275; 0; 1.476e-05;
+ 300; 0; 1.194e-05;
+ 325; 0; 1.004e-05;
+ 350; 0; 7.842e-06;
+ 200; 25; 2.504e-05;
+ 200; 50; 2.852e-05;
+ 202.5; 72.5; 3.083e-05;
+ 212.5; 12.5; 2.492e-05;
+ 212.5; 37.5; 2.378e-05;
+ 212.5; 62.5; 2.915e-05;
+ 215; 85; 2.999e-05;
+ 225; 25; 2.164e-05;
+ 225; 50; 2.424e-05;
+ 225; 75; 2.744e-05;
+ 227.5; 95.5; 3.322e-05;
+ 237.5; 12.5; 2.093e-05;
+ 237.5; 37.5; 2.118e-05;
+ 237.5; 62.5; 2.293e-05;
+ 237.5; 87.5; 2.935e-05;
+ 240; 95.5; 3.312e-05;
+*dataend:
+
+
+*dataset:
+*location: figure_app_15_a
+*dscomment: Efficiency SR#ell#gamma#gamma-1
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.4625;
+ 140; 10; 0.4643;
+ 150; 0; 0.4625;
+ 152.5; 22.5; 0.4554;
+ 162.5; 12.5; 0.4605;
+ 175; 0; 0.4789;
+ 165; 35; 0.4588;
+ 175; 25; 0.473;
+ 187.5; 12.5; 0.4727;
+ 177.5; 47.5; 0.4819;
+ 187.5; 37.5; 0.4608;
+ 190; 60; 0.4501;
+ 200; 0; 0.4737;
+ 225; 0; 0.4759;
+ 250; 0; 0.4754;
+ 275; 0; 0.4825;
+ 300; 0; 0.4878;
+ 325; 0; 0.5021;
+ 350; 0; 0.5045;
+ 200; 25; 0.4676;
+ 200; 50; 0.4802;
+ 202.5; 72.5; 0.4592;
+ 212.5; 12.5; 0.4715;
+ 212.5; 37.5; 0.4688;
+ 212.5; 62.5; 0.4595;
+ 215; 85; 0.4739;
+ 225; 25; 0.4605;
+ 225; 50; 0.472;
+ 225; 75; 0.4614;
+ 227.5; 95.5; 0.4788;
+ 237.5; 12.5; 0.4682;
+ 237.5; 37.5; 0.4591;
+ 237.5; 62.5; 0.4564;
+ 237.5; 87.5; 0.4582;
+ 240; 95.5; 0.4788;
+*dataend:
+
+
+*dataset:
+*location: figure_app_15_b
+*dscomment: Efficiency SR#ell#gamma#gamma-2
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.3774;
+ 140; 10; 0.3538;
+ 150; 0; 0.3448;
+ 152.5; 22.5; 0.385;
+ 162.5; 12.5; 0.4121;
+ 175; 0; 0.4097;
+ 165; 35; 0.3368;
+ 175; 25; 0.3801;
+ 187.5; 12.5; 0.3919;
+ 177.5; 47.5; 0.3978;
+ 187.5; 37.5; 0.3439;
+ 190; 60; 0.3723;
+ 200; 0; 0.3562;
+ 225; 0; 0.3881;
+ 250; 0; 0.3086;
+ 275; 0; 0.3643;
+ 300; 0; 0.3644;
+ 325; 0; 0.3743;
+ 350; 0; 0.3219;
+ 200; 25; 0.4271;
+ 200; 50; 0.3779;
+ 202.5; 72.5; 0.401;
+ 212.5; 12.5; 0.3112;
+ 212.5; 37.5; 0.3699;
+ 212.5; 62.5; 0.3487;
+ 215; 85; 0.4121;
+ 225; 25; 0.3684;
+ 225; 50; 0.3723;
+ 225; 75; 0.3917;
+ 227.5; 95.5; 0.3462;
+ 237.5; 12.5; 0.3283;
+ 237.5; 37.5; 0.3399;
+ 237.5; 62.5; 0.3166;
+ 237.5; 87.5; 0.3649;
+ 240; 95.5; 0.4041;
+*dataend:
+
+
+*dataset:
+*location: figure_19_a
+*dscomment: Distribution of m_{#gamma#gamma} in SR#ell#gamma#gamma-1.m(#tilde{#chi^{#pm}_{1}}#tilde{#chi^{0}_{2}},#tilde{#chi^{0}_{1}})=(165,35) GeV
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 10 GEV 
+*xheader: M(GAM,GAM) IN GEV 
+*data: x : y : y : y
+ 105 (BIN=100 TO 110); 0 +- 0; 0 +0,-0; 1.886 +- 0.4043;
+ 115 (BIN=110 TO 120); 0.09279 +- 0.01865; 0 +0,-0; 3.627 +- 0.9086;
+ 125 (BIN=120 TO 130); 3.184 +- 0.3415; 1 +2.3,-0.8272; 3.74 +- 0.7257;
+ 135 (BIN=130 TO 140); 0.01366 +- 0.006179; 3 +2.918,-1.633; 1.062 +- 0.2385;
+ 145 (BIN=140 TO 150); 0 +- 0; 0 +0,-0; 1.42 +- 0.3752;
+ 155 (BIN=150 TO 160); 0 +- 0; 0 +0,-0; 1.219 +- 0.453;
+*dataend:
+
+
+*dataset:
+*location: figure_19_b
+*dscomment: Distribution of m_{#gamma#gamma} in SR#ell#gamma#gamma-2.m(#tilde{#chi^{#pm}_{1}}#tilde{#chi^{0}_{2}},#tilde{#chi^{0}_{1}})=(165,35) GeV
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 10 GEV 
+*xheader: M(GAM,GAM) IN GEV 
+*data: x : y : y : y
+ 105 (BIN=100 TO 110); 0 +- 0; 6 +3.584,-2.38; 3.235 +- 0.743;
+ 115 (BIN=110 TO 120); 0.01924 +- 0.008639; 4 +3.163,-1.914; 3.437 +- 0.7383;
+ 125 (BIN=120 TO 130); 0.3425 +- 0.04687; 5 +3.382,-2.16; 2.071 +- 0.5107;
+ 135 (BIN=130 TO 140); 4.881e-06 +- 4.907e-06; 3 +2.918,-1.633; 2.447 +- 0.5036;
+ 145 (BIN=140 TO 150); 0 +- 0; 2 +2.638,-1.292; 1.118 +- 0.4379;
+ 155 (BIN=150 TO 160); 0 +- 0; 0 +0,-0; 0.7615 +- 0.2346;
+*dataend:
+
+
+*dataset:
+*location: figure_19_c
+*dscomment: Distribution of m_{#gamma#gamma} in VR#ell#gamma#gamma-1.m(#tilde{#chi^{#pm}_{1}}#tilde{#chi^{0}_{2}},#tilde{#chi^{0}_{1}})=(165,35) GeV
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 10 GEV 
+*xheader: M(GAM,GAM) IN GEV 
+*data: x : y : y : y
+ 105 (BIN=100 TO 110); 0 +- 0; 40 +7.377,-6.298; 42.04 +- 2.932;
+ 115 (BIN=110 TO 120); 0.0283 +- 0.009015; 29 +6.447,-5.354; 37.27 +- 2.828;
+ 125 (BIN=120 TO 130); 1.159 +- 0.1327; 30 +6.538,-5.447; 31.41 +- 2.492;
+ 135 (BIN=130 TO 140); 0.004906 +- 0.004932; 27 +6.26,-5.164; 23.7 +- 2.137;
+ 145 (BIN=140 TO 150); 0 +- 0; 21 +5.655,-4.546; 20.13 +- 2.018;
+ 155 (BIN=150 TO 160); 0 +- 0; 23 +5.865,-4.761; 15.58 +- 1.694;
+*dataend:
+
+
+*dataset:
+*location: figure_19_d
+*dscomment: Distribution of m_{#gamma#gamma} in VR#ell#gamma#gamma-2.m(#tilde{#chi^{#pm}_{1}}#tilde{#chi^{0}_{2}},#tilde{#chi^{0}_{1}})=(165,35) GeV
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: N
+*qual: . : signal : data : background
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EVENTS / 10 GEV 
+*xheader: M(GAM,GAM) IN GEV 
+*data: x : y : y : y
+ 105 (BIN=100 TO 110); 0 +- 0; 22 +5.761,-4.655; 28.82 +- 2.446;
+ 115 (BIN=110 TO 120); 0.0222 +- 0.009004; 20 +5.547,-4.434; 21.62 +- 1.988;
+ 125 (BIN=120 TO 130); 0.681 +- 0.0828; 26 +6.164,-5.066; 18.1 +- 1.807;
+ 135 (BIN=130 TO 140); 0 +- 0; 17 +5.204,-4.082; 14.98 +- 1.613;
+ 145 (BIN=140 TO 150); 0 +- 0; 17 +5.204,-4.082; 9.567 +- 1.341;
+ 155 (BIN=150 TO 160); 0 +- 0; 14 +4.83,-3.697; 9.054 +- 1.167;
+*dataend:
+
+
+*dataset:
+*location: figure_app_4_a
+*dscomment: Acceptance for SRlbb-1, central mbb bin
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+130; 0; 0.0002163;
+150; 0; 0.0002874;
+175; 0; 0.0003763;
+200; 0; 0.0003916;
+225; 0; 0.0005388;
+250; 0; 0.0006993;
+275; 0; 0.0007637;
+300; 0; 0.0009036;
+325; 0; 0.0009675;
+350; 0; 0.00112;
+140; 10; 0.0002532;
+163; 13; 0.0003093;
+188; 13; 0.0004144;
+213; 13; 0.0004846;
+238; 13; 0.0006075;
+263; 13; 0.0007722;
+288; 13; 0.0008546;
+313; 13; 0.0009373;
+338; 13; 0.001121;
+153; 23; 0.0002376;
+175; 25; 0.0003536;
+200; 25; 0.0004309;
+225; 25; 0.0004824;
+250; 25; 0.0006864;
+275; 25; 0.00076;
+300; 25; 0.0009145;
+325; 25; 0.001026;
+350; 25; 0.001103;
+165; 35; 0.0002877;
+188; 38; 0.0003644;
+213; 38; 0.0004629;
+238; 38; 0.000562;
+263; 38; 0.0007149;
+288; 38; 0.0008053;
+313; 38; 0.0009264;
+178; 48; 0.0002462;
+200; 50; 0.0003115;
+225; 50; 0.0004377;
+250; 50; 0.0005858;
+275; 50; 0.0006818;
+300; 50; 0.000907;
+325; 50; 0.001016;
+350; 50; 0.001047;
+190; 60; 0.0002415;
+213; 63; 0.0003501;
+238; 63; 0.0004851;
+263; 63; 0.0006857;
+288; 63; 0.0007699;
+203; 73; 0.0002419;
+225; 75; 0.0003552;
+250; 75; 0.0005051;
+275; 75; 0.0006525;
+300; 75; 0.0007849;
+325; 75; 0.0008995;
+350; 75; 0.001147;
+215; 85; 0.0002366;
+238; 88; 0.0003572;
+263; 88; 0.0005107;
+228; 98; 0.0002169;
+250; 100; 0.0003555;
+275; 100; 0.0005635;
+300; 100; 0.0006851;
+325; 100; 0.0008548;
+350; 100; 0.0009646;
+240; 110; 0.0002195;
+*dataend:
+
+
+*dataset:
+*location: figure_app_4_b
+*dscomment: Acceptance for SRlbb-1, mbb sideband
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  :
+*data: x : x : y
+130; 0; 6.362e-05;
+150; 0; 0.0001027;
+175; 0; 0.0001558;
+200; 0; 0.000177;
+225; 0; 0.0001946;
+250; 0; 0.0002792;
+275; 0; 0.0003407;
+300; 0; 0.0003527;
+325; 0; 0.0004224;
+350; 0; 0.0005297;
+140; 10; 9.347e-05;
+163; 13; 9.657e-05;
+188; 13; 0.0001687;
+213; 13; 0.0001882;
+238; 13; 0.0002529;
+263; 13; 0.0003064;
+288; 13; 0.0003669;
+313; 13; 0.0003806;
+338; 13; 0.0004521;
+153; 23; 8.007e-05;
+175; 25; 0.000128;
+200; 25; 0.0001847;
+225; 25; 0.0001971;
+250; 25; 0.0002085;
+275; 25; 0.0003463;
+300; 25; 0.0003494;
+325; 25; 0.0004705;
+350; 25; 0.0004781;
+165; 35; 0.0001059;
+188; 38; 0.0001272;
+213; 38; 0.0001701;
+238; 38; 0.0001919;
+263; 38; 0.0002698;
+288; 38; 0.0003696;
+313; 38; 0.0003586;
+178; 48; 0.000104;
+200; 50; 0.000123;
+225; 50; 0.0002025;
+250; 50; 0.0002791;
+275; 50; 0.0002992;
+300; 50; 0.0003871;
+325; 50; 0.0003885;
+350; 50; 0.0004888;
+190; 60; 9.501e-05;
+213; 63; 0.0001409;
+238; 63; 0.0001826;
+263; 63; 0.0002585;
+288; 63; 0.0003063;
+203; 73; 8.904e-05;
+225; 75; 0.0001486;
+250; 75; 0.0002184;
+275; 75; 0.000261;
+300; 75; 0.0002893;
+325; 75; 0.0004071;
+350; 75; 0.0003938;
+215; 85; 8.02e-05;
+238; 88; 0.0001177;
+263; 88; 0.0002087;
+228; 98; 7.632e-05;
+250; 100; 0.0001466;
+275; 100; 0.0002117;
+300; 100; 0.0002824;
+325; 100; 0.0003114;
+350; 100; 0.0004381;
+240; 110; 8.031e-05;
+*dataend:
+
+
+*dataset:
+*location: figure_app_4_c
+*dscomment: Acceptance for SRlbb-2, central mbb bin
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  :
+*data: x : x : y
+130; 0; 1.018e-05;
+150; 0; 7.631e-05;
+175; 0; 0.0002773;
+200; 0; 0.0006544;
+225; 0; 0.001157;
+250; 0; 0.001812;
+275; 0; 0.002658;
+300; 0; 0.003756;
+325; 0; 0.004842;
+350; 0; 0.006098;
+140; 10; 2.467e-05;
+163; 13; 0.0001527;
+188; 13; 0.000437;
+213; 13; 0.0008406;
+238; 13; 0.001421;
+263; 13; 0.002146;
+288; 13; 0.003046;
+313; 13; 0.004171;
+338; 13; 0.005339;
+153; 23; 4.391e-05;
+175; 25; 0.000227;
+200; 25; 0.0005647;
+225; 25; 0.00109;
+250; 25; 0.001751;
+275; 25; 0.00255;
+300; 25; 0.00349;
+325; 25; 0.004696;
+350; 25; 0.005953;
+165; 35; 7.062e-05;
+188; 38; 0.0002584;
+213; 38; 0.0006478;
+238; 38; 0.001172;
+263; 38; 0.001933;
+288; 38; 0.002721;
+313; 38; 0.004037;
+178; 48; 7.899e-05;
+200; 50; 0.0003383;
+225; 50; 0.0007843;
+250; 50; 0.001445;
+275; 50; 0.002222;
+300; 50; 0.003266;
+325; 50; 0.004256;
+350; 50; 0.005565;
+190; 60; 0.0001029;
+213; 63; 0.0003327;
+238; 63; 0.0008531;
+263; 63; 0.001512;
+288; 63; 0.002445;
+203; 73; 0.0001209;
+225; 75; 0.0004389;
+250; 75; 0.001006;
+275; 75; 0.001723;
+300; 75; 0.002638;
+325; 75; 0.003775;
+350; 75; 0.004851;
+215; 85; 0.0001457;
+238; 88; 0.0004411;
+263; 88; 0.0009761;
+228; 98; 0.0001138;
+250; 100; 0.0004573;
+275; 100; 0.001064;
+300; 100; 0.001956;
+325; 100; 0.003126;
+350; 100; 0.004248;
+240; 110; 0.0001151;
+*dataend:
+
+
+*dataset:
+*location: figure_app_4_d
+*dscomment: Acceptance for SRlbb-2, mbb sideband
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  :
+*data: x : x : y
+130; 0; 2.545e-06;
+150; 0; 3.57e-05;
+175; 0; 0.000107;
+200; 0; 0.0002239;
+225; 0; 0.0004068;
+250; 0; 0.0007384;
+275; 0; 0.001043;
+300; 0; 0.001442;
+325; 0; 0.001961;
+350; 0; 0.002576;
+140; 10; 2.596e-06;
+163; 13; 5.089e-05;
+188; 13; 0.0001594;
+213; 13; 0.0003208;
+238; 13; 0.0005594;
+263; 13; 0.0008956;
+288; 13; 0.001276;
+313; 13; 0.001714;
+338; 13; 0.002217;
+153; 23; 1.808e-05;
+175; 25; 6.861e-05;
+200; 25; 0.0002221;
+225; 25; 0.0003792;
+250; 25; 0.0006864;
+275; 25; 0.0009901;
+300; 25; 0.001423;
+325; 25; 0.00198;
+350; 25; 0.00251;
+165; 35; 4.054e-05;
+188; 38; 0.0001153;
+213; 38; 0.0002753;
+238; 38; 0.0004263;
+263; 38; 0.0008109;
+288; 38; 0.001138;
+313; 38; 0.001683;
+178; 48; 2.633e-05;
+200; 50; 0.0001177;
+225; 50; 0.0002773;
+250; 50; 0.0005927;
+275; 50; 0.0009058;
+300; 50; 0.001305;
+325; 50; 0.001757;
+350; 50; 0.002324;
+190; 60; 3.827e-05;
+213; 63; 0.0001341;
+238; 63; 0.000338;
+263; 63; 0.0006262;
+288; 63; 0.001002;
+203; 73; 5.715e-05;
+225; 75; 0.0001405;
+250; 75; 0.0003591;
+275; 75; 0.0006539;
+300; 75; 0.00106;
+325; 75; 0.001665;
+350; 75; 0.002085;
+215; 85; 5.881e-05;
+238; 88; 0.0001583;
+263; 88; 0.0004119;
+228; 98; 6.025e-05;
+250; 100; 0.0001533;
+275; 100; 0.0004563;
+300; 100; 0.0008389;
+325; 100; 0.001279;
+350; 100; 0.001769;
+240; 110; 5.622e-05;
+*dataend:
+
+
+*dataset:
+*location: figure_app_5_a
+*dscomment: Efficiency for SRlbb-1, central mbb bin
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+130; 0; 0.3817;
+150; 0; 0.326;
+175; 0; 0.39;
+200; 0; 0.2944;
+225; 0; 0.3685;
+250; 0; 0.2784;
+275; 0; 0.3834;
+300; 0; 0.3923;
+325; 0; 0.3342;
+350; 0; 0.3093;
+140; 10; 0.296;
+163; 13; 0.3412;
+188; 13; 0.3403;
+213; 13; 0.2815;
+238; 13; 0.3553;
+263; 13; 0.3188;
+288; 13; 0.3836;
+313; 13; 0.343;
+338; 13; 0.3213;
+153; 23; 0.264;
+175; 25; 0.3451;
+200; 25; 0.2996;
+225; 25; 0.3628;
+250; 25; 0.2814;
+275; 25; 0.2354;
+300; 25; 0.2996;
+325; 25; 0.309;
+350; 25; 0.267;
+165; 35; 0.2423;
+188; 38; 0.2188;
+213; 38; 0.3153;
+238; 38; 0.3261;
+263; 38; 0.3453;
+288; 38; 0.2911;
+313; 38; 0.2982;
+178; 48; 0.2971;
+200; 50; 0.3843;
+225; 50; 0.2846;
+250; 50; 0.3868;
+275; 50; 0.3624;
+300; 50; 0.3362;
+325; 50; 0.3449;
+350; 50; 0.3999;
+190; 60; 0.3281;
+213; 63; 0.333;
+238; 63; 0.3205;
+263; 63; 0.3172;
+288; 63; 0.2778;
+203; 73; 0.2493;
+225; 75; 0.3998;
+250; 75; 0.3542;
+275; 75; 0.3529;
+300; 75; 0.3381;
+325; 75; 0.3471;
+350; 75; 0.3208;
+215; 85; 0.2591;
+238; 88; 0.3041;
+263; 88; 0.332;
+228; 98; 0.3649;
+250; 100; 0.3065;
+275; 100; 0.2673;
+300; 100; 0.3143;
+325; 100; 0.2784;
+350; 100; 0.3166;
+240; 110; 0.3631;
+*dataend:
+
+
+*dataset:
+*location: figure_app_5_b
+*dscomment: Efficiency for SRlbb-1, mbb sideband
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  :
+*data: x : x : y
+130; 0; 0.3603;
+150; 0; 0.3678;
+175; 0; 0.258;
+200; 0; 0.3119;
+225; 0; 0.3474;
+250; 0; 0.2456;
+275; 0; 0.315;
+300; 0; 0.3232;
+325; 0; 0.3653;
+350; 0; 0.3896;
+140; 10; 0.2796;
+163; 13; 0.4881;
+188; 13; 0.3178;
+213; 13; 0.3249;
+238; 13; 0.2649;
+263; 13; 0.2632;
+288; 13; 0.3924;
+313; 13; 0.3248;
+338; 13; 0.3618;
+153; 23; 0.4916;
+175; 25; 0.3725;
+200; 25; 0.3601;
+225; 25; 0.3468;
+250; 25; 0.3839;
+275; 25; 0.2972;
+300; 25; 0.4065;
+325; 25; 0.268;
+350; 25; 0.3014;
+165; 35; 0.3868;
+188; 38; 0.3727;
+213; 38; 0.3239;
+238; 38; 0.4592;
+263; 38; 0.3717;
+288; 38; 0.3589;
+313; 38; 0.4001;
+178; 48; 0.4083;
+200; 50; 0.3387;
+225; 50; 0.481;
+250; 50; 0.3417;
+275; 50; 0.3257;
+300; 50; 0.2733;
+325; 50; 0.3496;
+350; 50; 0.2702;
+190; 60; 0.3183;
+213; 63; 0.2427;
+238; 63; 0.3744;
+263; 63; 0.3825;
+288; 63; 0.4056;
+203; 73; 0.3569;
+225; 75; 0.2838;
+250; 75; 0.3175;
+275; 75; 0.3245;
+300; 75; 0.4123;
+325; 75; 0.378;
+350; 75; 0.3562;
+215; 85; 0.2425;
+238; 88; 0.3981;
+263; 88; 0.3788;
+228; 98; 0.4404;
+250; 100; 0.3031;
+275; 100; 0.3808;
+300; 100; 0.2391;
+325; 100; 0.3902;
+350; 100; 0.3317;
+240; 110; 0.2814;
+*dataend:
+
+
+*dataset:
+*location: figure_app_5_c
+*dscomment: Efficiency for SRlbb-2, central mbb bin
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  :
+*data: x : x : y
+130; 0; 0.2523;
+150; 0; 0.3626;
+175; 0; 0.394;
+200; 0; 0.3854;
+225; 0; 0.3696;
+250; 0; 0.3596;
+275; 0; 0.3425;
+300; 0; 0.3399;
+325; 0; 0.332;
+350; 0; 0.3248;
+140; 10; 0.9416;
+163; 13; 0.314;
+188; 13; 0.3437;
+213; 13; 0.3058;
+238; 13; 0.3763;
+263; 13; 0.336;
+288; 13; 0.3364;
+313; 13; 0.3478;
+338; 13; 0.3258;
+153; 23; 0.4817;
+175; 25; 0.3162;
+200; 25; 0.3717;
+225; 25; 0.3312;
+250; 25; 0.332;
+275; 25; 0.2948;
+300; 25; 0.3477;
+325; 25; 0.3293;
+350; 25; 0.2718;
+165; 35; 0.6595;
+188; 38; 0.3644;
+213; 38; 0.3359;
+238; 38; 0.335;
+263; 38; 0.3596;
+288; 38; 0.3296;
+313; 38; 0.3424;
+178; 48; 0.3334;
+200; 50; 0.3951;
+225; 50; 0.314;
+250; 50; 0.3682;
+275; 50; 0.3501;
+300; 50; 0.3396;
+325; 50; 0.3322;
+350; 50; 0.3272;
+190; 60; 0.3396;
+213; 63; 0.3381;
+238; 63; 0.3718;
+263; 63; 0.3513;
+288; 63; 0.3544;
+203; 73; 0.5004;
+225; 75; 0.4079;
+250; 75; 0.3143;
+275; 75; 0.3598;
+300; 75; 0.34;
+325; 75; 0.3195;
+350; 75; 0.3289;
+215; 85; 0.4477;
+238; 88; 0.3691;
+263; 88; 0.3633;
+228; 98; 0.4096;
+250; 100; 0.3092;
+275; 100; 0.39;
+300; 100; 0.3318;
+325; 100; 0.3338;
+350; 100; 0.3517;
+240; 110; 0.31;
+*dataend:
+
+
+*dataset:
+*location: figure_app_5_d
+*dscomment: Efficiency for SRlbb-2, mbb sideband
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  :
+*data: x : x : y
+130; 0; 0.7476;
+150; 0; 0.4143;
+175; 0; 0.4432;
+200; 0; 0.3981;
+225; 0; 0.3886;
+250; 0; 0.393;
+275; 0; 0.4037;
+300; 0; 0.3722;
+325; 0; 0.3757;
+350; 0; 0.3581;
+140; 10; 3.203;
+163; 13; 0.537;
+188; 13; 0.4317;
+213; 13; 0.3613;
+238; 13; 0.3633;
+263; 13; 0.3776;
+288; 13; 0.3244;
+313; 13; 0.3018;
+338; 13; 0.3739;
+153; 23; 0.8414;
+175; 25; 0.4474;
+200; 25; 0.3127;
+225; 25; 0.4455;
+250; 25; 0.3822;
+275; 25; 0.324;
+300; 25; 0.3715;
+325; 25; 0.3892;
+350; 25; 0.242;
+165; 35; 0.4396;
+188; 38; 0.4605;
+213; 38; 0.388;
+238; 38; 0.4297;
+263; 38; 0.3674;
+288; 38; 0.3922;
+313; 38; 0.3425;
+178; 48; 0.6018;
+200; 50; 0.4017;
+225; 50; 0.5372;
+250; 50; 0.4123;
+275; 50; 0.3899;
+300; 50; 0.3415;
+325; 50; 0.351;
+350; 50; 0.3879;
+190; 60; 0.6949;
+213; 63; 0.2816;
+238; 63; 0.3789;
+263; 63; 0.4438;
+288; 63; 0.3732;
+203; 73; 0.313;
+225; 75; 0.479;
+250; 75; 0.5021;
+275; 75; 0.3841;
+300; 75; 0.391;
+325; 75; 0.357;
+350; 75; 0.3801;
+215; 85; 0.6207;
+238; 88; 0.4609;
+263; 88; 0.3596;
+228; 98; 0.2155;
+250; 100; 0.4715;
+275; 100; 0.4028;
+300; 100; 0.3075;
+325; 100; 0.3535;
+350; 100; 0.3582;
+240; 110; 0.546;
+*dataend:
+
+
+*dataset:
+*location: figure_app_8_a
+*dscomment: Acceptance for the same-sign $ee$ channel with one jet
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.0002087;
+ 140; 10; 0.0002269;
+ 150; 0; 0.000244;
+ 152.5; 22.5; 0.0002307;
+ 162.5; 12.5; 0.0002518;
+ 175; 0; 0.0002806;
+ 165; 35; 0.0002605;
+ 175; 25; 0.0002643;
+ 187.5; 12.5; 0.000288;
+ 200; 0; 0.0002732;
+ 177.5; 47.5; 0.0002552;
+ 187.5; 37.5; 0.000275;
+ 200; 25; 0.0002643;
+ 212.5; 12.5; 0.000283;
+ 225; 0; 0.0003044;
+ 190; 60; 0.0002426;
+ 200; 50; 0.000261;
+ 212.5; 37.5; 0.0003112;
+ 225; 25; 0.0002824;
+ 237.5; 12.5; 0.0002929;
+ 250; 0; 0.0003403;
+ 202.5; 72.5; 0.0002548;
+ 212.5; 62.5; 0.0003007;
+ 225; 50; 0.0002982;
+ 237.5; 37.5; 0.0003065;
+ 250; 25; 0.0003632;
+ 262.5; 12.5; 0.0003388;
+*dataend:
+
+
+*dataset:
+*location: figure_app_8_b
+*dscomment: Acceptance for the same-sign $ee$ channel with two or three jets
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.0001007;
+ 140; 10; 0.0001113;
+ 150; 0; 0.0001344;
+ 152.5; 22.5; 0.0001282;
+ 162.5; 12.5; 0.0001395;
+ 175; 0; 0.0001462;
+ 165; 35; 0.0001293;
+ 175; 25; 0.000149;
+ 187.5; 12.5; 0.0001559;
+ 200; 0; 0.0001834;
+ 177.5; 47.5; 0.0001348;
+ 187.5; 37.5; 0.0001324;
+ 200; 25; 0.0001807;
+ 212.5; 12.5; 0.0001833;
+ 225; 0; 0.0001894;
+ 190; 60; 0.0001486;
+ 200; 50; 0.0001568;
+ 212.5; 37.5; 0.0001646;
+ 225; 25; 0.0001986;
+ 237.5; 12.5; 0.000187;
+ 250; 0; 0.0002024;
+ 202.5; 72.5; 0.0001578;
+ 212.5; 62.5; 0.0001581;
+ 225; 50; 0.00018;
+ 237.5; 37.5; 0.000175;
+ 250; 25; 0.0001936;
+ 262.5; 12.5; 0.0002062;
+*dataend:
+
+
+*dataset:
+*location: figure_app_8_c
+*dscomment: Acceptance for the same-sign $e\mu$ channel with one jet
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.0002958;
+ 140; 10; 0.0002903;
+ 150; 0; 0.0003032;
+ 152.5; 22.5; 0.0003376;
+ 162.5; 12.5; 0.0003206;
+ 175; 0; 0.0003305;
+ 165; 35; 0.0003283;
+ 175; 25; 0.0003292;
+ 187.5; 12.5; 0.0003261;
+ 200; 0; 0.000327;
+ 177.5; 47.5; 0.0003379;
+ 187.5; 37.5; 0.0003099;
+ 200; 25; 0.0003405;
+ 212.5; 12.5; 0.0003614;
+ 225; 0; 0.0003505;
+ 190; 60; 0.0003602;
+ 200; 50; 0.0003466;
+ 212.5; 37.5; 0.0003335;
+ 225; 25; 0.0003973;
+ 237.5; 12.5; 0.0003632;
+ 250; 0; 0.0003698;
+ 202.5; 72.5; 0.0003383;
+ 212.5; 62.5; 0.0003225;
+ 225; 50; 0.0003685;
+ 237.5; 37.5; 0.0003651;
+ 250; 25; 0.0003796;
+ 262.5; 12.5; 0.0003553;
+*dataend:
+
+
+*dataset:
+*location: figure_app_8_d
+*dscomment: Acceptance for the same-sign $e\mu$ channel with two or three jets
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.0001377;
+ 140; 10; 0.0001525;
+ 150; 0; 0.0001768;
+ 152.5; 22.5; 0.0001732;
+ 162.5; 12.5; 0.000171;
+ 175; 0; 0.0001802;
+ 165; 35; 0.0001814;
+ 175; 25; 0.0001828;
+ 187.5; 12.5; 0.0002011;
+ 200; 0; 0.0001876;
+ 177.5; 47.5; 0.0001572;
+ 187.5; 37.5; 0.0002001;
+ 200; 25; 0.0001776;
+ 212.5; 12.5; 0.0002279;
+ 225; 0; 0.0002033;
+ 190; 60; 0.0001744;
+ 200; 50; 0.0001898;
+ 212.5; 37.5; 0.0001997;
+ 225; 25; 0.0002319;
+ 237.5; 12.5; 0.0002237;
+ 250; 0; 0.0002112;
+ 202.5; 72.5; 0.0001527;
+ 212.5; 62.5; 0.0001956;
+ 225; 50; 0.0002354;
+ 237.5; 37.5; 0.000226;
+ 250; 25; 0.0002407;
+ 262.5; 12.5; 0.0002358;
+*dataend:
+
+
+*dataset:
+*location: figure_app_8_e
+*dscomment: Acceptance for the same-sign $\mu\mu$ channel with one jet
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.0002106;
+ 140; 10; 0.0002331;
+ 150; 0; 0.0002559;
+ 152.5; 22.5; 0.0002563;
+ 162.5; 12.5; 0.0002404;
+ 175; 0; 0.0002404;
+ 165; 35; 0.0002574;
+ 175; 25; 0.0002484;
+ 187.5; 12.5; 0.0002571;
+ 200; 0; 0.0002591;
+ 177.5; 47.5; 0.0002512;
+ 187.5; 37.5; 0.0002678;
+ 200; 25; 0.0002361;
+ 212.5; 12.5; 0.000265;
+ 225; 0; 0.0002547;
+ 190; 60; 0.0002735;
+ 200; 50; 0.0002486;
+ 212.5; 37.5; 0.000273;
+ 225; 25; 0.0002738;
+ 237.5; 12.5; 0.0002346;
+ 250; 0; 0.000262;
+ 202.5; 72.5; 0.000262;
+ 212.5; 62.5; 0.0002715;
+ 225; 50; 0.0002503;
+ 237.5; 37.5; 0.000276;
+ 250; 25; 0.0002702;
+ 262.5; 12.5; 0.0002588;
+*dataend:
+
+
+*dataset:
+*location: figure_app_8_f
+*dscomment: Acceptance for the same-sign $\mu\mu$ channel with two or three jets
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: ACC
+*qual: . : acceptance
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: ACCEPTANCE
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 7.784e-05;
+ 140; 10; 8.487e-05;
+ 150; 0; 8.515e-05;
+ 152.5; 22.5; 8.752e-05;
+ 162.5; 12.5; 8.33e-05;
+ 175; 0; 8.443e-05;
+ 165; 35; 9.857e-05;
+ 175; 25; 8.152e-05;
+ 187.5; 12.5; 9.086e-05;
+ 200; 0; 9.456e-05;
+ 177.5; 47.5; 8.985e-05;
+ 187.5; 37.5; 8.106e-05;
+ 200; 25; 8.147e-05;
+ 212.5; 12.5; 0.0001028;
+ 225; 0; 0.0001006;
+ 190; 60; 0.0001043;
+ 200; 50; 8.459e-05;
+ 212.5; 37.5; 0.0001126;
+ 225; 25; 0.0001074;
+ 237.5; 12.5; 0.0001167;
+ 250; 0; 0.0001067;
+ 202.5; 72.5; 8.149e-05;
+ 212.5; 62.5; 0.0001072;
+ 225; 50; 9.585e-05;
+ 237.5; 37.5; 0.0001022;
+ 250; 25; 9.846e-05;
+ 262.5; 12.5; 9.76e-05;
+*dataend:
+
+
+*dataset:
+*location: figure_app_9_a
+*dscomment: Efficiency for the same-sign $ee$ channel with one jet
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.2844;
+ 140; 10; 0.3198;
+ 150; 0; 0.2673;
+ 152.5; 22.5; 0.2873;
+ 162.5; 12.5; 0.3083;
+ 175; 0; 0.2881;
+ 165; 35; 0.2096;
+ 175; 25; 0.3133;
+ 187.5; 12.5; 0.3557;
+ 200; 0; 0.3996;
+ 177.5; 47.5; 0.288;
+ 187.5; 37.5; 0.347;
+ 200; 25; 0.3557;
+ 212.5; 12.5; 0.4494;
+ 225; 0; 0.4095;
+ 190; 60; 0.3106;
+ 200; 50; 0.3676;
+ 212.5; 37.5; 0.3208;
+ 225; 25; 0.4259;
+ 237.5; 12.5; 0.4871;
+ 250; 0; 0.3923;
+ 202.5; 72.5; 0.3846;
+ 212.5; 62.5; 0.3045;
+ 225; 50; 0.3964;
+ 237.5; 37.5; 0.4681;
+ 250; 25; 0.3554;
+ 262.5; 12.5; 0.4142;
+*dataend:
+
+
+*dataset:
+*location: figure_app_9_b
+*dscomment: Efficiency for the same-sign $ee$ channel with two or three jets
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.5072;
+ 140; 10; 0.4586;
+ 150; 0; 0.4;
+ 152.5; 22.5; 0.4146;
+ 162.5; 12.5; 0.4661;
+ 175; 0; 0.5035;
+ 165; 35; 0.4757;
+ 175; 25; 0.5128;
+ 187.5; 12.5; 0.5289;
+ 200; 0; 0.5014;
+ 177.5; 47.5; 0.447;
+ 187.5; 37.5; 0.6589;
+ 200; 25; 0.3526;
+ 212.5; 12.5; 0.578;
+ 225; 0; 0.5169;
+ 190; 60; 0.4653;
+ 200; 50; 0.4868;
+ 212.5; 37.5; 0.4645;
+ 225; 25; 0.5405;
+ 237.5; 12.5; 0.5838;
+ 250; 0; 0.6459;
+ 202.5; 72.5; 0.4771;
+ 212.5; 62.5; 0.5395;
+ 225; 50; 0.5385;
+ 237.5; 37.5; 0.6025;
+ 250; 25; 0.5989;
+ 262.5; 12.5; 0.5638;
+*dataend:
+
+
+*dataset:
+*location: figure_app_9_c
+*dscomment: Efficiency for the same-sign $e\mu$ channel with one jet
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.5247;
+ 140; 10; 0.5445;
+ 150; 0; 0.5878;
+ 152.5; 22.5; 0.4556;
+ 162.5; 12.5; 0.5374;
+ 175; 0; 0.6636;
+ 165; 35; 0.4761;
+ 175; 25; 0.6074;
+ 187.5; 12.5; 0.7095;
+ 200; 0; 0.762;
+ 177.5; 47.5; 0.5559;
+ 187.5; 37.5; 0.7781;
+ 200; 25; 0.773;
+ 212.5; 12.5; 0.7801;
+ 225; 0; 0.7863;
+ 190; 60; 0.4785;
+ 200; 50; 0.6429;
+ 212.5; 37.5; 0.6975;
+ 225; 25; 0.7135;
+ 237.5; 12.5; 0.7946;
+ 250; 0; 0.7559;
+ 202.5; 72.5; 0.6037;
+ 212.5; 62.5; 0.6516;
+ 225; 50; 0.6532;
+ 237.5; 37.5; 0.7679;
+ 250; 25; 0.8012;
+ 262.5; 12.5; 0.8117;
+*dataend:
+
+
+*dataset:
+*location: figure_app_9_d
+*dscomment: Efficiency for the same-sign $e\mu$ channel with two or three jets
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.8092;
+ 140; 10; 0.754;
+ 150; 0; 0.6873;
+ 152.5; 22.5; 0.7184;
+ 162.5; 12.5; 0.8339;
+ 175; 0; 0.8429;
+ 165; 35; 0.6782;
+ 175; 25; 0.7944;
+ 187.5; 12.5; 0.7788;
+ 200; 0; 0.9109;
+ 177.5; 47.5; 0.8961;
+ 187.5; 37.5; 0.7385;
+ 200; 25; 0.8;
+ 212.5; 12.5; 0.8419;
+ 225; 0; 0.9132;
+ 190; 60; 0.7515;
+ 200; 50; 0.8424;
+ 212.5; 37.5; 0.9734;
+ 225; 25; 0.8843;
+ 237.5; 12.5; 0.942;
+ 250; 0; 1;
+ 202.5; 72.5; 0.8851;
+ 212.5; 62.5; 0.8511;
+ 225; 50; 0.7059;
+ 237.5; 37.5; 0.9663;
+ 250; 25; 0.8818;
+ 262.5; 12.5; 0.9395;
+*dataend:
+
+
+*dataset:
+*location: figure_app_9_e
+*dscomment: Efficiency for the same-sign $\mu\mu$ channel with one jet
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.2564;
+ 140; 10; 0.2691;
+ 150; 0; 0.2724;
+ 152.5; 22.5; 0.261;
+ 162.5; 12.5; 0.2887;
+ 175; 0; 0.2484;
+ 165; 35; 0.2488;
+ 175; 25; 0.2872;
+ 187.5; 12.5; 0.3108;
+ 200; 0; 0.3589;
+ 177.5; 47.5; 0.2602;
+ 187.5; 37.5; 0.3257;
+ 200; 25; 0.3142;
+ 212.5; 12.5; 0.324;
+ 225; 0; 0.3718;
+ 190; 60; 0.3132;
+ 200; 50; 0.3195;
+ 212.5; 37.5; 0.3658;
+ 225; 25; 0.3765;
+ 237.5; 12.5; 0.4562;
+ 250; 0; 0.3904;
+ 202.5; 72.5; 0.2756;
+ 212.5; 62.5; 0.295;
+ 225; 50; 0.3149;
+ 237.5; 37.5; 0.374;
+ 250; 25; 0.417;
+ 262.5; 12.5; 0.3983;
+*dataend:
+
+
+*dataset:
+*location: figure_app_9_f
+*dscomment: Efficiency for the same-sign $\mu\mu$ channel with two or three jets
+*reackey: P P --> CHARGINO1 NEUTRALINO2 X
+*obskey: EFF
+*qual: . : efficiency
+*qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
+*qual: SQRT(S) IN GEV : 8000.0
+*yheader: EFFICIENCY
+*xheader: M(CHARGINO1) IN GEV : M(NEUTRALINO1) IN GEV  : 
+*data: x : x : y
+ 130; 0; 0.6125;
+ 140; 10; 0.5145;
+ 150; 0; 0.6433;
+ 152.5; 22.5; 0.6;
+ 162.5; 12.5; 0.5833;
+ 175; 0; 0.561;
+ 165; 35; 0.5478;
+ 175; 25; 0.6328;
+ 187.5; 12.5; 0.6099;
+ 200; 0; 0.5967;
+ 177.5; 47.5; 0.7727;
+ 187.5; 37.5; 0.6203;
+ 200; 25; 0.641;
+ 212.5; 12.5; 0.5361;
+ 225; 0; 0.6064;
+ 190; 60; 0.4554;
+ 200; 50; 0.6951;
+ 212.5; 37.5; 0.6038;
+ 225; 25; 0.56;
+ 237.5; 12.5; 0.6389;
+ 250; 0; 0.6821;
+ 202.5; 72.5; 0.6456;
+ 212.5; 62.5; 0.6408;
+ 225; 50; 0.5778;
+ 237.5; 37.5; 0.5745;
+ 250; 25; 0.4778;
+ 262.5; 12.5; 0.5506;
+*dataend:
