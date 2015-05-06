@@ -156,7 +156,7 @@
 
 *dataset:
 *location: figure_3_b
-*dscomment: Distribution of
+*dscomment: Distribution of \Delta\phi(W,h) in SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 with the selection on \Delta\phi(W,h) removed.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
@@ -176,7 +176,7 @@
 
 *dataset:
 *location: figure_3_c
-*dscomment: Distribution of m_{T}^{W
+*dscomment: Distribution of m_{T}^{W\gamma_{1}} in SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 with the selections on m_{T}^{W\gamma_{1}} and m_{T}^{W\gamma_{2}} removed.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
@@ -203,7 +203,7 @@
 
 *dataset:
 *location: figure_3_d
-*dscomment: Distribution of m_{T}^{W
+*dscomment: Distribution of m_{T}^{W\gamma_{2}} in SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 with the selections on m_{T}^{W\gamma_{1}} and m_{T}^{W\gamma_{2}} removed.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
@@ -228,7 +228,7 @@
 
 *dataset:
 *location: figure_4_a
-*dscomment: Results of the background-only fit to the m_{
+*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in SR\ell\gamma\gamma
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -265,7 +265,7 @@
 
 *dataset:
 *location: figure_4_b
-*dscomment: Results of the background-only fit to the m_{
+*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in SR\ell\gamma\gamma.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -302,7 +302,7 @@
 
 *dataset:
 *location: figure_4_c
-*dscomment: Results of the background-only fit to the m_{
+*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in VR\ell\gamma\gamma.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -339,7 +339,7 @@
 
 *dataset:
 *location: figure_4_d
-*dscomment: Results of the background-only fit to the m_{
+*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in VR\ell\gamma\gamma.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
