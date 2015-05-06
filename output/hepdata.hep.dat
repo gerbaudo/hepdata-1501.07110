@@ -376,7 +376,7 @@
 
 *dataset:
 *location: figure_5
-*dscomment: Distribution of effective mass $m_{\rm eff}$ in the validation region of the same-sign $e\mu$ channel.h_emZVfake_Ht_SSWH8TeV_130.0_0.0
+*dscomment: Distribution of effective mass $m_{\rm eff}$ in the validation region of the same-sign $e\mu$ channel.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -409,7 +409,7 @@
 
 *dataset:
 *location: figure_6_a
-*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with one jet.h_incSR1jet_no_HT_Ht_SSWH8TeV_130.0_0.0
+*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with one jet.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -431,7 +431,7 @@
 
 *dataset:
 *location: figure_6_b
-*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with two or three jets.h_incSR23jets_no_HT_Ht_SSWH8TeV_130.0_0.0
+*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with two or three jets.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -453,7 +453,7 @@
 
 *dataset:
 *location: figure_6_c
-*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with one jet.h_incSR1jet_no_mtmax_mtmax_SSWH8TeV_130.0_0.0
+*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with one jet.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -478,7 +478,7 @@
 
 *dataset:
 *location: figure_6_d
-*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with two or three jets.h_incSR23jets_no_mtmax_mtmax_SSWH8TeV_130.0_0.0
+*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with two or three jets.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -503,7 +503,7 @@
 
 *dataset:
 *location: figure_6_e
-*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet.h_incSR1jet_mlj_SSWH8TeV_130.0_0.0
+*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -531,7 +531,7 @@
 
 *dataset:
 *location: figure_6_f
-*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet.h_incSR23jets_mljj_SSWH8TeV_130.0_0.0
+*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
