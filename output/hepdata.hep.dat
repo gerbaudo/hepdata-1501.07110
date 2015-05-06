@@ -1064,7 +1064,7 @@
 
 *dataset:
 *location: figure_app_14_a
-*dscomment: Acceptance SR
+*dscomment: Acceptance SR\ell\gamma\gamma-1
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
 *qual: . : acceptance
@@ -1112,7 +1112,7 @@
 
 *dataset:
 *location: figure_app_14_b
-*dscomment: Acceptance SR
+*dscomment: Acceptance SR\ell\gamma\gamma-2
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
 *qual: . : acceptance
@@ -1160,7 +1160,7 @@
 
 *dataset:
 *location: figure_app_15_a
-*dscomment: Efficiency SR
+*dscomment: Efficiency SR\ell\gamma\gamma-1
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
 *qual: . : efficiency
@@ -1208,7 +1208,7 @@
 
 *dataset:
 *location: figure_app_15_b
-*dscomment: Efficiency SR
+*dscomment: Efficiency SR\ell\gamma\gamma-2
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
 *qual: . : efficiency
@@ -1256,7 +1256,7 @@
 
 *dataset:
 *location: figure_19_a
-*dscomment: Distribution of m_{
+*dscomment: Distribution of m_{\gamma\gamma} in SR\ell\gamma\gamma-1.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -1275,7 +1275,7 @@
 
 *dataset:
 *location: figure_19_b
-*dscomment: Distribution of m_{
+*dscomment: Distribution of m_{\gamma\gamma} in SR\ell\gamma\gamma-2.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -1294,7 +1294,7 @@
 
 *dataset:
 *location: figure_19_c
-*dscomment: Distribution of m_{
+*dscomment: Distribution of m_{\gamma\gamma} in VR\ell\gamma\gamma-1.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -1313,7 +1313,7 @@
 
 *dataset:
 *location: figure_19_d
-*dscomment: Distribution of m_{
+*dscomment: Distribution of m_{\gamma\gamma} in VR\ell\gamma\gamma-2.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
