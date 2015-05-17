@@ -9,10 +9,10 @@
 *cdsId: 1983600
 *durhamId: 6392
 *title: Search for direct pair production of a chargino and a neutralino decaying to the 125 GeV Higgs boson in $\sqrt{s}$ = 8 TeV pp collisions with the ATLAS detector
-*comment: .  A search is presented for the direct pair production of a chargino and a neutralino $pp\to\tilde{\chi}^\pm_1\tilde{\chi}^0_2$, where the chargino decays to the lightest neutralino and the $W$ boson, $\tilde{\chi}^\pm_1 \to \tilde{\chi}^0_1 (W^{\pm}\to\ell^{\pm}\nu)$, while the neutralino decays to the lightest neutralino and the 125 GeV Higgs boson, $\tilde{\chi}^0_2 \to \tilde{\chi}^0_1 (h\to bb/\gamma\gamma/\ell^{\pm}\nu qq)$. The final states considered for the search have large missing transverse momentum, an isolated electron or muon, and one of the following: either two jets identified as originating from bottom quarks, or two photons, or a second electron or muon with the same electric charge. The analysis is based on 20.3 fb$^{-1}$ of $\sqrt{s}=8$ TeV proton-proton collision data delivered by the Large Hadron Collider and recorded with the ATLAS detector. Observations are consistent with the Standard Model expectations, and limits are set in the context of a simplified supersymmetric model
+*comment: CERN-LHC.  A search is presented for the direct pair production of a chargino and a neutralino $pp\to\tilde{\chi}^\pm_1\tilde{\chi}^0_2$, where the chargino decays to the lightest neutralino and the $W$ boson, $\tilde{\chi}^\pm_1 \to \tilde{\chi}^0_1 (W^{\pm}\to\ell^{\pm}\nu)$, while the neutralino decays to the lightest neutralino and the 125 GeV Higgs boson, $\tilde{\chi}^0_2 \to \tilde{\chi}^0_1 (h\to bb/\gamma\gamma/\ell^{\pm}\nu qq)$. The final states considered for the search have large missing transverse momentum, an isolated electron or muon, and one of the following: either two jets identified as originating from bottom quarks, or two photons, or a second electron or muon with the same electric charge. The analysis is based on 20.3 fb$^{-1}$ of $\sqrt{s}=8$ TeV proton-proton collision data delivered by the Large Hadron Collider and recorded with the ATLAS detector. Observations are consistent with the Standard Model expectations, and limits are set in the context of a simplified supersymmetric model
 
 *dataset:
-*location: figure_2_a
+*location: Figure 2a
 *dscomment: mCT in CRlbb-T, SRlbb-1 and SRlbb-2, central mbb bin
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -32,7 +32,7 @@
 *dataend:
 
 *dataset:
-*location: figure_2_b
+*location: Figure 2b
 *dscomment: mCT in CRlbb-T, SRlbb-1 and SRlbb-2, mbb sideband
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -52,7 +52,7 @@
 *dataend:
 
 *dataset:
-*location: figure_2_c
+*location: Figure 2c
 *dscomment: mT in VRlbb-2, SRlbb-1 and SRlbb-2, central mbb bin
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -75,7 +75,7 @@
 *dataend:
 
 *dataset:
-*location: figure_2_d
+*location: Figure 2d
 *dscomment: mT in VRlbb-2, SRlbb-1 and SRlbb-2, mbb sidebands
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -98,7 +98,7 @@
 *dataend:
 
 *dataset:
-*location: figure_2_e
+*location: Figure 2e
 *dscomment: Number of b-jets in SRlbb-1 and SRlbb-2 without the b-jet multiplicity requirement, central mbb bin
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -114,7 +114,7 @@
 *dataend:
 
 *dataset:
-*location: figure_2_f
+*location: Figure 2f
 *dscomment: mbb in SRlbb-1 and SRlbb-2
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -132,7 +132,7 @@
 *dataend:
 
 *dataset:
-*location: figure_3_a
+*location: Figure 3a
 *dscomment: Distribution of E_{T}^{miss} in SR
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -155,7 +155,7 @@
 *dataend:
 
 *dataset:
-*location: figure_3_b
+*location: Figure 3b
 *dscomment: Distribution of \Delta\phi(W,h) in SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 with the selection on \Delta\phi(W,h) removed.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -175,7 +175,7 @@
 *dataend:
 
 *dataset:
-*location: figure_3_c
+*location: Figure 3c
 *dscomment: Distribution of m_{T}^{W\gamma_{1}} in SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 with the selections on m_{T}^{W\gamma_{1}} and m_{T}^{W\gamma_{2}} removed.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -202,7 +202,7 @@
 *dataend:
 
 *dataset:
-*location: figure_3_d
+*location: Figure 3d
 *dscomment: Distribution of m_{T}^{W\gamma_{2}} in SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 with the selections on m_{T}^{W\gamma_{1}} and m_{T}^{W\gamma_{2}} removed.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -227,7 +227,7 @@
 *dataend:
 
 *dataset:
-*location: figure_4_a
+*location: Figure 4a
 *dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in SR\ell\gamma\gamma
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -264,8 +264,8 @@
 *dataend:
 
 *dataset:
-*location: figure_4_b
-*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in SR\ell\gamma\gamma.
+*location: Figure 4b
+*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in SR\ell\gamma\gamma
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -301,8 +301,8 @@
 *dataend:
 
 *dataset:
-*location: figure_4_c
-*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in VR\ell\gamma\gamma.
+*location: Figure 4c
+*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in VR\ell\gamma\gamma
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -338,8 +338,8 @@
 *dataend:
 
 *dataset:
-*location: figure_4_d
-*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in VR\ell\gamma\gamma.
+*location: Figure 4d
+*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in VR\ell\gamma\gamma
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -375,8 +375,8 @@
 *dataend:
 
 *dataset:
-*location: figure_5
-*dscomment: Distribution of effective mass $m_{\rm eff}$ in the validation region of the same-sign $e\mu$ channel.
+*location: Figure 5
+*dscomment: Distribution of effective mass $m_{\rm eff}$ in the validation region of the same-sign $e\mu$ channel
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -408,8 +408,8 @@
 *dataend:
 
 *dataset:
-*location: figure_6_a
-*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with one jet.
+*location: Figure 6a
+*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with one jet
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -430,8 +430,8 @@
 *dataend:
 
 *dataset:
-*location: figure_6_b
-*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with two or three jets.
+*location: Figure 6b
+*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with two or three jets
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -452,8 +452,8 @@
 *dataend:
 
 *dataset:
-*location: figure_6_c
-*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with one jet.
+*location: Figure 6c
+*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with one jet
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -477,8 +477,8 @@
 *dataend:
 
 *dataset:
-*location: figure_6_d
-*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with two or three jets.
+*location: Figure 6d
+*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with two or three jets
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -502,8 +502,8 @@
 *dataend:
 
 *dataset:
-*location: figure_6_e
-*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet.
+*location: Figure 6e
+*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -530,8 +530,8 @@
 *dataend:
 
 *dataset:
-*location: figure_6_f
-*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet.
+*location: Figure 6f
+*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -567,7 +567,7 @@
 *dataend:
 
 *dataset:
-*location: figure_7_a
+*location: Figure 7a
 *dscomment: One lepton and two b-jets channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -590,7 +590,7 @@
 *dataend:
 
 *dataset:
-*location: figure_7_b
+*location: Figure 7b
 *dscomment: One lepton and two photons channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -613,7 +613,7 @@
 *dataend:
 
 *dataset:
-*location: figure_7_c
+*location: Figure 7c
 *dscomment: Same-sign dilepton channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -632,7 +632,7 @@
 *dataend:
 
 *dataset:
-*location: figure_7_d
+*location: Figure 7d
 *dscomment: Combination: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -655,7 +655,7 @@
 *dataend:
 
 *dataset:
-*location: figure_8_a
+*location: Figure 8a
 *dscomment: One lepton and two b-jets channel: Expected 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -713,7 +713,7 @@
 *dataend:
 
 *dataset:
-*location: figure_8_a
+*location: Figure 8a
 *dscomment: One lepton and two b-jets channel: Observed 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -745,7 +745,7 @@
 *dataend:
 
 *dataset:
-*location: figure_8_b
+*location: Figure 8b
 *dscomment: One lepton and two photons channel: Observed 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -810,7 +810,7 @@
 *dataend:
 
 *dataset:
-*location: figure_8_b
+*location: Figure 8b
 *dscomment: One lepton and two photons channel: Expected 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -862,7 +862,7 @@
 *dataend:
 
 *dataset:
-*location: figure_8_c
+*location: Figure 8c
 *dscomment: Same-sign dilepton channel: Observed 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -892,7 +892,7 @@
 *dataend:
 
 *dataset:
-*location: figure_8_c
+*location: Figure 8c
 *dscomment: Same-sign dilepton channel: Expected 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -936,7 +936,7 @@
 *dataend:
 
 *dataset:
-*location: figure_8_d
+*location: Figure 8d
 *dscomment: Combination: Observed 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -997,7 +997,7 @@
 *dataend:
 
 *dataset:
-*location: figure_8_d
+*location: Figure 8d
 *dscomment: Combination: Expected 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -1063,7 +1063,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_14_a
+*location: Figure Aux 14a
 *dscomment: Acceptance SR\ell\gamma\gamma-1
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -1111,7 +1111,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_14_b
+*location: Figure Aux 14b
 *dscomment: Acceptance SR\ell\gamma\gamma-2
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -1159,7 +1159,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_15_a
+*location: Figure Aux 15a
 *dscomment: Efficiency SR\ell\gamma\gamma-1
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
@@ -1207,7 +1207,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_15_b
+*location: Figure Aux 15b
 *dscomment: Efficiency SR\ell\gamma\gamma-2
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
@@ -1255,7 +1255,7 @@
 *dataend:
 
 *dataset:
-*location: figure_19_a
+*location: Figure 19a
 *dscomment: Distribution of m_{\gamma\gamma} in SR\ell\gamma\gamma-1.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -1274,7 +1274,7 @@
 *dataend:
 
 *dataset:
-*location: figure_19_b
+*location: Figure 19b
 *dscomment: Distribution of m_{\gamma\gamma} in SR\ell\gamma\gamma-2.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -1293,7 +1293,7 @@
 *dataend:
 
 *dataset:
-*location: figure_19_c
+*location: Figure 19c
 *dscomment: Distribution of m_{\gamma\gamma} in VR\ell\gamma\gamma-1.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -1312,7 +1312,7 @@
 *dataend:
 
 *dataset:
-*location: figure_19_d
+*location: Figure 19d
 *dscomment: Distribution of m_{\gamma\gamma} in VR\ell\gamma\gamma-2.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
@@ -1331,7 +1331,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_4_a
+*location: Figure Aux 4a
 *dscomment: Acceptance for SRlbb-1, central mbb bin
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -1409,7 +1409,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_4_b
+*location: Figure Aux 4b
 *dscomment: Acceptance for SRlbb-1, mbb sideband
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -1487,7 +1487,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_4_c
+*location: Figure Aux 4c
 *dscomment: Acceptance for SRlbb-2, central mbb bin
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -1565,7 +1565,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_4_d
+*location: Figure Aux 4d
 *dscomment: Acceptance for SRlbb-2, mbb sideband
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -1643,7 +1643,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_5_a
+*location: Figure Aux 5a
 *dscomment: Efficiency for SRlbb-1, central mbb bin
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
@@ -1721,7 +1721,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_5_b
+*location: Figure Aux 5b
 *dscomment: Efficiency for SRlbb-1, mbb sideband
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
@@ -1799,7 +1799,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_5_c
+*location: Figure Aux 5c
 *dscomment: Efficiency for SRlbb-2, central mbb bin
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
@@ -1877,7 +1877,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_5_d
+*location: Figure Aux 5d
 *dscomment: Efficiency for SRlbb-2, mbb sideband
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
@@ -1955,7 +1955,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_8_a
+*location: Figure Aux 8a
 *dscomment: Acceptance for the same-sign $ee$ channel with one jet
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -1995,7 +1995,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_8_b
+*location: Figure Aux 8b
 *dscomment: Acceptance for the same-sign $ee$ channel with two or three jets
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -2035,7 +2035,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_8_c
+*location: Figure Aux 8c
 *dscomment: Acceptance for the same-sign $e\mu$ channel with one jet
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -2075,7 +2075,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_8_d
+*location: Figure Aux 8d
 *dscomment: Acceptance for the same-sign $e\mu$ channel with two or three jets
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -2115,7 +2115,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_8_e
+*location: Figure Aux 8e
 *dscomment: Acceptance for the same-sign $\mu\mu$ channel with one jet
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -2155,7 +2155,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_8_f
+*location: Figure Aux 8f
 *dscomment: Acceptance for the same-sign $\mu\mu$ channel with two or three jets
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
@@ -2195,7 +2195,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_9_a
+*location: Figure Aux 9a
 *dscomment: Efficiency for the same-sign $ee$ channel with one jet
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
@@ -2235,7 +2235,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_9_b
+*location: Figure Aux 9b
 *dscomment: Efficiency for the same-sign $ee$ channel with two or three jets
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
@@ -2275,7 +2275,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_9_c
+*location: Figure Aux 9c
 *dscomment: Efficiency for the same-sign $e\mu$ channel with one jet
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
@@ -2315,7 +2315,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_9_d
+*location: Figure Aux 9d
 *dscomment: Efficiency for the same-sign $e\mu$ channel with two or three jets
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
@@ -2355,7 +2355,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_9_e
+*location: Figure Aux 9e
 *dscomment: Efficiency for the same-sign $\mu\mu$ channel with one jet
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
@@ -2395,7 +2395,7 @@
 *dataend:
 
 *dataset:
-*location: figure_app_9_f
+*location: Figure Aux 9f
 *dscomment: Efficiency for the same-sign $\mu\mu$ channel with two or three jets
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
