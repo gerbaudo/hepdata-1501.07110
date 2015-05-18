@@ -659,7 +659,6 @@
 *dscomment: One lepton and two b-jets channel: Expected 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
-*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
 *qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
 *qual: SQRT(S) IN GEV : 8000.0
 *yheader: M(NEUTRALINO1) IN GEV
@@ -717,7 +716,6 @@
 *dscomment: One lepton and two b-jets channel: Observed 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
-*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
 *qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
 *qual: SQRT(S) IN GEV : 8000.0
 *yheader: M(NEUTRALINO1) IN GEV
@@ -749,7 +747,6 @@
 *dscomment: One lepton and two photons channel: Observed 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
-*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
 *qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
 *qual: SQRT(S) IN GEV : 8000.0
 *yheader: M(NEUTRALINO1) IN GEV
@@ -814,7 +811,6 @@
 *dscomment: One lepton and two photons channel: Expected 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
-*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
 *qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
 *qual: SQRT(S) IN GEV : 8000.0
 *yheader: M(NEUTRALINO1) IN GEV
@@ -866,7 +862,6 @@
 *dscomment: Same-sign dilepton channel: Observed 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
-*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
 *qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
 *qual: SQRT(S) IN GEV : 8000.0
 *yheader: M(NEUTRALINO1) IN GEV
@@ -896,7 +891,6 @@
 *dscomment: Same-sign dilepton channel: Expected 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
-*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
 *qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
 *qual: SQRT(S) IN GEV : 8000.0
 *yheader: M(NEUTRALINO1) IN GEV
@@ -940,7 +934,6 @@
 *dscomment: Combination: Observed 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
-*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
 *qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
 *qual: SQRT(S) IN GEV : 8000.0
 *yheader: M(NEUTRALINO1) IN GEV
@@ -1001,7 +994,6 @@
 *dscomment: Combination: Expected 95% CL exclusion contour for chargino neutralino production via Wh
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
-*qual: . : GIVE COLUMN EXPLANATIONS, IF YOU USED OVERLAYS
 *qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
 *qual: SQRT(S) IN GEV : 8000.0
 *yheader: M(NEUTRALINO1) IN GEV
