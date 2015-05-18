@@ -376,7 +376,7 @@
 
 *dataset:
 *location: Figure 5
-*dscomment: Distribution of effective mass $m_{\rm eff}$ in the validation region of the same-sign $e\mu$ channel
+*dscomment: Distribution of effective mass $m_{\rm eff}$ in the validation region of the same-sign $e\mu$ channel. This validation region is defined by requiring one, two, or three jets, and reversing the $m_{lj}$, $m_{ljj}$ criteria. The hashed areas represent the total uncertainties on the background estimates. The distribution of a signal hypothesis is also shown. The lower panel shows the ratio of the data to the SM background prediction.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -409,7 +409,8 @@
 
 *dataset:
 *location: Figure 6a
-*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with one jet
+*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal regions with one jet SR$ll$-1.
+ SR$ll$-1 is the sum of SR$ee$-1, SR$e\mu$-1, and SR$\mu\mu$-1. All selection criteria are applied, except for the one on $m_{\rm eff}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(130,0) GeV. The lower panels show the ratio between data and the SM background prediction. The rightmost bins of each distribution include overflow.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -431,7 +432,8 @@
 
 *dataset:
 *location: Figure 6b
-*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal region with two or three jets
+*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal regions with two or three jets SR$ll$-2.
+ SR$ll$-2 is the sum of SR$ee$-2, SR$e\mu$-2, and SR$\mu\mu$-2. All selection criteria are applied, except for the one on $m_{\rm eff}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(130,0) GeV. The lower panels show the ratio between data and the SM background prediction. The rightmost bins of each distribution include overflow.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -453,7 +455,7 @@
 
 *dataset:
 *location: Figure 6c
-*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with one jet
+*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal regions with one jet SR$ll$-1. SR$ll$-1 is the sum of SR$ee$-1, SR$e\mu$-1, and SR$\mu\mu$-1. All selection criteria are applied, except for the one on $m_{\rm T}^{\rm max}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(130,0) GeV. The lower panels show the ratio between data and the SM background prediction. The rightmost bins of each distribution include overflow.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -478,7 +480,7 @@
 
 *dataset:
 *location: Figure 6d
-*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal region with two or three jets
+*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal regions with two or three jets SR$ll$-2. SR$ll$-2 is the sum of SR$ee$-2, SR$e\mu$-2, and SR$\mu\mu$-2. All selection criteria are applied, except for the one on $m_{\rm T}^{\rm max}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(130,0) GeV. The lower panels show the ratio between data and the SM background prediction. The rightmost bins of each distribution include overflow.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -503,7 +505,7 @@
 
 *dataset:
 *location: Figure 6e
-*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet
+*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet SR$ll$-1. SR$ll$-1 is the sum of SR$ee$-1, SR$e\mu$-1, and SR$\mu\mu$-1. All selection criteria are applied, except for the one on $m_{lj}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(130,0) GeV. The lower panels show the ratio between data and the SM background prediction. The rightmost bins of each distribution include overflow.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -531,7 +533,7 @@
 
 *dataset:
 *location: Figure 6f
-*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet
+*dscomment: Distribution of invariant mass of lepton and di-jet $m_{ljj} for the same-sign dilepton channel in the signal regions with two or three jets SR$ll$-2. SR$ll$-2 is the sum of SR$ee$-2, SR$e\mu$-2, and SR$\mu\mu$-2. All selection criteria are applied, except for the one on $m_{ljj}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(130,0) GeV. The lower panels show the ratio between data and the SM background prediction. The rightmost bins of each distribution include overflow.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
