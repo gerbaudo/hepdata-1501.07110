@@ -13,7 +13,7 @@
 
 *dataset:
 *location: Figure 2a
-*dscomment: mCT in CRlbb-T, SRlbb-1 and SRlbb-2, central mbb bin
+*dscomment: Distributions of contransverse mass $m_{\rm CT}$ in CRlbb-T, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown. The vertical arrows indicate the boundaries of the signal regions. The lower panels show the ratio of the data to the SM background prediction.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -33,7 +33,7 @@
 
 *dataset:
 *location: Figure 2b
-*dscomment: mCT in CRlbb-T, SRlbb-1 and SRlbb-2, mbb sideband
+*dscomment: Distributions of contransverse mass $m_{\rm CT}$ in SRlbb-1 and SRlbb-2, $m_{bb}$ sideband. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown. The vertical arrows indicate the boundaries of the signal regions. The lower panels show the ratio of the data to the SM background prediction.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -53,7 +53,7 @@
 
 *dataset:
 *location: Figure 2c
-*dscomment: mT in VRlbb-2, SRlbb-1 and SRlbb-2, central mbb bin
+*dscomment: Distributions of the transverse mass of the $W$-candidate $m_{\rm T}^{W}$ for the one lepton and two $b$-jets channel in VRlbb-2, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown. The vertical arrows indicate the boundaries of the signal regions. The lower panels show the ratio of the data to the SM background prediction.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -76,7 +76,7 @@
 
 *dataset:
 *location: Figure 2d
-*dscomment: mT in VRlbb-2, SRlbb-1 and SRlbb-2, mbb sidebands
+*dscomment: Distributions of the transverse mass of the $W$-candidate $m_{\rm T}^{W}$ for the one lepton and two $b$-jets channel in SRlbb-1 and SRlbb-2, $m_{bb}$ sidebands. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown. The vertical arrows indicate the boundaries of the signal regions. The lower panels show the ratio of the data to the SM background prediction.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -99,7 +99,7 @@
 
 *dataset:
 *location: Figure 2e
-*dscomment: Number of b-jets in SRlbb-1 and SRlbb-2 without the b-jet multiplicity requirement, central mbb bin
+*dscomment: Distributions of the number of $b$-jets for the one lepton and two $b$-jets channel in SRlbb-1 and SRlbb-2 without the b-jet multiplicity requirement, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The distributions of a signal hypothesis are also shown. The vertical arrows indicate the boundaries of the signal regions. The lower panels show the ratio of the data to the SM background prediction.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -115,7 +115,7 @@
 
 *dataset:
 *location: Figure 2f
-*dscomment: mbb in SRlbb-1 and SRlbb-2
+*dscomment: Distributions of the invariant mass of the $b$-jets $m_{bb}$ for the one lepton and two $b$-jets channel in the SRlbb-1 and SRlbb-2. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The distributions of a signal hypothesis are also shown. The vertical arrows indicate the boundaries of the signal regions. The lower panels show the ratio of the data to the SM background prediction.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -1324,7 +1324,7 @@
 
 *dataset:
 *location: Figure Aux 4a
-*dscomment: Acceptance for SRlbb-1, central mbb bin
+*dscomment: Acceptance for SRlbb-1, central $m_{bb}$ bin
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
 *qual: . : acceptance
@@ -1402,7 +1402,7 @@
 
 *dataset:
 *location: Figure Aux 4b
-*dscomment: Acceptance for SRlbb-1, mbb sideband
+*dscomment: Acceptance for SRlbb-1, $m_{bb}$ sideband
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
 *qual: . : acceptance
@@ -1480,7 +1480,7 @@
 
 *dataset:
 *location: Figure Aux 4c
-*dscomment: Acceptance for SRlbb-2, central mbb bin
+*dscomment: Acceptance for SRlbb-2, central $m_{bb}$ bin
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
 *qual: . : acceptance
@@ -1558,7 +1558,7 @@
 
 *dataset:
 *location: Figure Aux 4d
-*dscomment: Acceptance for SRlbb-2, mbb sideband
+*dscomment: Acceptance for SRlbb-2, $m_{bb}$ sideband
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: ACC
 *qual: . : acceptance
@@ -1636,7 +1636,7 @@
 
 *dataset:
 *location: Figure Aux 5a
-*dscomment: Efficiency for SRlbb-1, central mbb bin
+*dscomment: Efficiency for SRlbb-1, central $m_{bb}$ bin
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
 *qual: . : efficiency
@@ -1714,7 +1714,7 @@
 
 *dataset:
 *location: Figure Aux 5b
-*dscomment: Efficiency for SRlbb-1, mbb sideband
+*dscomment: Efficiency for SRlbb-1, $m_{bb}$ sideband
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
 *qual: . : efficiency
@@ -1792,7 +1792,7 @@
 
 *dataset:
 *location: Figure Aux 5c
-*dscomment: Efficiency for SRlbb-2, central mbb bin
+*dscomment: Efficiency for SRlbb-2, central $m_{bb}$ bin
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
 *qual: . : efficiency
@@ -1870,7 +1870,7 @@
 
 *dataset:
 *location: Figure Aux 5d
-*dscomment: Efficiency for SRlbb-2, mbb sideband
+*dscomment: Efficiency for SRlbb-2, $m_{bb}$ sideband
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: EFF
 *qual: . : efficiency
