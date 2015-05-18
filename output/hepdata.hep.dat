@@ -568,7 +568,7 @@
 
 *dataset:
 *location: Figure 7a
-*dscomment: One lepton and two b-jets channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV
+*dscomment: One lepton and two $b$-jets channel: observed (solid line) and expected (dashed line) 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$. The combination in (d) is obtained using the result from the ATLAS three-lepton search, J. High Energy Phys. 04 (2014) 169, in addition to the three channels reported in this paper. The dash-dotted lines around the observed limit represent the results obtained when changing the nominal signal cross section up or down by the $\pm 1\sigma_{\rm theory}^{\rm SUSY}$ theoretical uncertainty. The solid band around the expected limit represents the $\pm 1\sigma_{\rm exp}$ uncertainty band where all uncertainties, except those on the signal cross sections, are considered.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
 *qual: . : expected : observed
@@ -591,7 +591,7 @@
 
 *dataset:
 *location: Figure 7b
-*dscomment: One lepton and two photons channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV
+*dscomment: One lepton and two photons channel: observed (solid line) and expected (dashed line) 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$. The combination in (d) is obtained using the result from the ATLAS three-lepton search, J. High Energy Phys. 04 (2014) 169, in addition to the three channels reported in this paper. The dash-dotted lines around the observed limit represent the results obtained when changing the nominal signal cross section up or down by the $\pm 1\sigma_{\rm theory}^{\rm SUSY}$ theoretical uncertainty. The solid band around the expected limit represents the $\pm 1\sigma_{\rm exp}$ uncertainty band where all uncertainties, except those on the signal cross sections, are considered.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
 *qual: . : expected : observed
@@ -613,14 +613,14 @@
 *dataend:
 
 *dataset:
-*location: Figure 7c
-*dscomment: Same-sign dilepton channel: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV
+*location: Figure 7 c
+*dscomment: Same-sign dilepton channel: observed (solid line) and expected (dashed line) 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$. The combination in (d) is obtained using the result from the ATLAS three-lepton search, J. High Energy Phys. 04 (2014) 169, in addition to the three channels reported in this paper. The dash-dotted lines around the observed limit represent the results obtained when changing the nominal signal cross section up or down by the $\pm 1\sigma_{\rm theory}^{\rm SUSY}$ theoretical uncertainty. The solid band around the expected limit represents the $\pm 1\sigma_{\rm exp}$ uncertainty band where all uncertainties, except those on the signal cross sections, are considered.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
 *qual: . : expected : observed
 *qual: RE : P P --> CHARGINO1 < W NEUTRALINO1 > NEUTRALINO2 < H NEUTRALINO1 > X
 *qual: SQRT(S) IN GEV : 8000.0
-*yheader: UPPER LIMIT
+*yheader: UPPER LIMIT :
 *xheader: M(CHARGINO1,NEUTRALINO2) IN GEV
 *data: x : y : y
  130; 0.506; 0.786;
@@ -633,7 +633,7 @@
 
 *dataset:
 *location: Figure 7d
-*dscomment: Combination: 95% CL limit on signal strength for C1N2 production for mN1 = 0 GeV
+*dscomment: Combination: observed (solid line) and expected (dashed line) 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$. The combination in (d) is obtained using the result from the ATLAS three-lepton search, J. High Energy Phys. 04 (2014) 169, in addition to the three channels reported in this paper. The dash-dotted lines around the observed limit represent the results obtained when changing the nominal signal cross section up or down by the $\pm 1\sigma_{\rm theory}^{\rm SUSY}$ theoretical uncertainty. The solid band around the expected limit represents the $\pm 1\sigma_{\rm exp}$ uncertainty band where all uncertainties, except those on the signal cross sections, are considered.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
 *qual: . : expected : observed
