@@ -133,7 +133,7 @@
 
 *dataset:
 *location: Figure 3a
-*dscomment: Distribution of E_{T}^{miss} in SR\ell\gamma\gamma-1 without E_{T}^{miss} cut.
+*dscomment: Distribution of missing transverse momentum $E_{\rm T}^{\rm miss}$ in the one lepton and two photons signal regions SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The vertical arrows indicate the boundaries of the signal regions. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. The rightmost bin include overflow.  Scaled data in the sideband  are shown as squares, while events in the Higgs-mass window are shown as circles. The distributions of a signal hypothesis are also shown for m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
@@ -156,7 +156,7 @@
 
 *dataset:
 *location: Figure 3b
-*dscomment: Distribution of \Delta\phi(W,h) in SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 with the selection on \Delta\phi(W,h) removed.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
+*dscomment: Distribution of the azimuth difference between the $W$ and Higgs boson candidates $\Delta\phi(W,h)$ in the one lepton and two photons signal regions SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The vertical arrows indicate the boundaries of the signal regions. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. Scaled data in the sideband  are shown as squares, while events in the Higgs-mass window are shown as circles. The distributions of a signal hypothesis are also shown for m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
@@ -176,7 +176,7 @@
 
 *dataset:
 *location: Figure 3c
-*dscomment: Distribution of m_{T}^{W\gamma_{1}} in SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 with the selections on m_{T}^{W\gamma_{1}} and m_{T}^{W\gamma_{2}} removed.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
+*dscomment: Distribution of the transverse mass of the $W$ and photon system $m_{\rm{T}}^{W\gamma_1}$ in the one lepton and two photons signal regions SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The vertical arrows indicate the boundaries of the signal regions. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. The rightmost bin includes overflow. Scaled data in the sideband are shown as squares, while events in the Higgs-mass window are shown as circles. The distributions of a signal hypothesis are also shown for m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
@@ -203,7 +203,7 @@
 
 *dataset:
 *location: Figure 3d
-*dscomment: Distribution of m_{T}^{W\gamma_{2}} in SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 with the selections on m_{T}^{W\gamma_{1}} and m_{T}^{W\gamma_{2}} removed.m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV
+*dscomment: Distributions of the transverse mass of the $W$ and photon system $m_{\rm{T}}^{W\gamma_2}$ in the one lepton and two photons signal regions SR\ell\gamma\gamma-1 and SR\ell\gamma\gamma-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The vertical arrows indicate the boundaries of the signal regions. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. The rightmost bin includes overflow. Scaled data in the sideband are shown as squares, while events in the Higgs-mass window are shown as circles. The distributions of a signal hypothesis are also shown for m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35) GeV.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
@@ -228,7 +228,7 @@
 
 *dataset:
 *location: Figure 4a
-*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in SR\ell\gamma\gamma
+*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons signal region SR$l\gamma\gamma$-1. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties. The band shows the systematic uncertainty on the fit.  The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV), indicated by the arrows, excluded from the fit.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -265,7 +265,7 @@
 
 *dataset:
 *location: Figure 4b
-*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in SR\ell\gamma\gamma
+*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons signal region SR$l\gamma\gamma$-2. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties.  The band shows the systematic uncertainty on the fit.  The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV), indicated by the arrows, excluded from the fit.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -302,7 +302,7 @@
 
 *dataset:
 *location: Figure 4c
-*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in VR\ell\gamma\gamma
+*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons validation region VR$l\gamma\gamma$-1. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties. The band shows the systematic uncertainty on the fit.  The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV), indicated by the arrows, excluded from the fit.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -339,7 +339,7 @@
 
 *dataset:
 *location: Figure 4d
-*dscomment: Results of the background-only fit to the m_{\gamma\gamma} distribution in VR\ell\gamma\gamma
+*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons validation region VR$l\gamma\gamma$-2. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties. The band shows the systematic uncertainty on the fit.  The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV), indicated by the arrows, excluded from the fit.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
