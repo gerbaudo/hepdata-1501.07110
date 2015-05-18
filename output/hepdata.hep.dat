@@ -133,7 +133,7 @@
 
 *dataset:
 *location: Figure 3a
-*dscomment: Distribution of E_{T}^{miss} in SR
+*dscomment: Distribution of E_{T}^{miss} in SR\ell\gamma\gamma-1 without E_{T}^{miss} cut.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
