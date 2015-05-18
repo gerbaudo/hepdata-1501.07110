@@ -1250,7 +1250,7 @@
 
 *dataset:
 *location: Figure 19a
-*dscomment: Distribution of m_{\gamma\gamma} in SR$\ell\gamma\gamma$-1.$m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35)$ GeV
+*dscomment: $m_{\gamma\gamma}$ distribution in the SR$l\gamma\gamma$-1 region for the full $m_{\gamma\gamma}$ window. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross-check. $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35)$ GeV.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -1269,7 +1269,7 @@
 
 *dataset:
 *location: Figure 19b
-*dscomment: Distribution of m_{\gamma\gamma} in SR$\ell\gamma\gamma$-2.$m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35)$ GeV
+*dscomment: $m_{\gamma\gamma}$ distribution in the SR$l\gamma\gamma$-2 region for the full $m_{\gamma\gamma}$ window. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross-check. $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35)$ GeV.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -1288,7 +1288,10 @@
 
 *dataset:
 *location: Figure 19c
-*dscomment: Distribution of m_{\gamma\gamma} in VR\ell\gamma\gamma-1.$m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35)$ GeV
+*dscomment: $m_{\gamma\gamma}$ distribution in the VR$l\gamma\gamma$-1 region for the full $m_{\gamma\gamma}$ window.
+ The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross-check.
+  $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background.
+   The distributions of a signal hypothesis are also shown for $m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35)$ GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -1307,7 +1310,10 @@
 
 *dataset:
 *location: Figure 19d
-*dscomment: Distribution of m_{\gamma\gamma} in VR\ell\gamma\gamma-2.$m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35)$ GeV
+*dscomment: $m_{\gamma\gamma}$ distribution in the VR$l\gamma\gamma$-2 region for the full $m_{\gamma\gamma}$ window.
+ The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross-check.
+ $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background.
+ The distributions of a signal hypothesis are also shown for $m(\tilde{\chi^{\pm}_{1}}\tilde{\chi^{0}_{2}},\tilde{\chi^{0}_{1}})=(165,35)$ GeV.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
