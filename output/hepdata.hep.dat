@@ -13,7 +13,7 @@
 
 *dataset:
 *location: Figure 2a
-*dscomment: Distributions of contransverse mass $m_{\rm CT}$ in CRlbb-T, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown.
+*dscomment: Distribution of contransverse mass $m_{\rm CT}$ in CRlbb-T, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -33,7 +33,7 @@
 
 *dataset:
 *location: Figure 2b
-*dscomment: Distributions of contransverse mass $m_{\rm CT}$ in SRlbb-1 and SRlbb-2, $m_{bb}$ sideband. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown.
+*dscomment: Distribution of contransverse mass $m_{\rm CT}$ in SRlbb-1 and SRlbb-2, $m_{bb}$ sideband. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -53,7 +53,7 @@
 
 *dataset:
 *location: Figure 2c
-*dscomment: Distributions of the transverse mass of the $W$-candidate $m_{\rm T}^{W}$ for the one lepton and two $b$-jets channel in VRlbb-2, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown.
+*dscomment: Distribution of the transverse mass of the $W$-candidate $m_{\rm T}^{W}$ for the one lepton and two $b$-jets channel in VRlbb-2, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -76,7 +76,7 @@
 
 *dataset:
 *location: Figure 2d
-*dscomment: Distributions of the transverse mass of the $W$-candidate $m_{\rm T}^{W}$ for the one lepton and two $b$-jets channel in SRlbb-1 and SRlbb-2, $m_{bb}$ sidebands. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown.
+*dscomment: Distribution of the transverse mass of the $W$-candidate $m_{\rm T}^{W}$ for the one lepton and two $b$-jets channel in SRlbb-1 and SRlbb-2, $m_{bb}$ sidebands. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The rightmost bins include overflow. The distributions of a signal hypothesis are also shown.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -99,7 +99,7 @@
 
 *dataset:
 *location: Figure 2e
-*dscomment: Distributions of the number of $b$-jets for the one lepton and two $b$-jets channel in SRlbb-1 and SRlbb-2 without the b-jet multiplicity requirement, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The distributions of a signal hypothesis are also shown.
+*dscomment: Distribution of the number of $b$-jets for the one lepton and two $b$-jets channel in SRlbb-1 and SRlbb-2 without the b-jet multiplicity requirement, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The distributions of a signal hypothesis are also shown.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -115,7 +115,7 @@
 
 *dataset:
 *location: Figure 2f
-*dscomment: Distributions of the invariant mass of the $b$-jets $m_{bb}$ for the one lepton and two $b$-jets channel in the SRlbb-1 and SRlbb-2. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The distributions of a signal hypothesis are also shown.
+*dscomment: Distribution of the invariant mass of the $b$-jets $m_{bb}$ for the one lepton and two $b$-jets channel in the SRlbb-1 and SRlbb-2. The background histograms are obtained from the background-only fit. The hashed areas represent the total uncertainties on the background estimates after the fit. The distributions of a signal hypothesis are also shown.
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -203,7 +203,7 @@
 
 *dataset:
 *location: Figure 3d
-*dscomment: Distributions of the transverse mass of the $W$ and photon system $m_{\rm{T}}^{W\gamma_2}$ in the one lepton and two photons signal regions SR$\ell\gamma\gamma$-1 and SR$\ell\gamma\gamma$-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The vertical arrows indicate the boundaries of the signal regions. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. The rightmost bin includes overflow. Scaled data in the sideband are shown as squares, while events in the Higgs-mass window are shown as circles. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
+*dscomment: Distribution of the transverse mass of the $W$ and photon system $m_{\rm{T}}^{W\gamma_2}$ in the one lepton and two photons signal regions SR$\ell\gamma\gamma$-1 and SR$\ell\gamma\gamma$-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The vertical arrows indicate the boundaries of the signal regions. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. The rightmost bin includes overflow. Scaled data in the sideband are shown as squares, while events in the Higgs-mass window are shown as circles. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
