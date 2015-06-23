@@ -371,25 +371,10 @@ function format_alberto_input() {
     local rtg="./python/rename_tgraphs.py"
     local in_="input_from_alberto"
     local out_="input_formatted"
-    ${rtg} "${in_}/1D_bb_noprelblackln.root"    "${out_}/figure_7_a.root"  exp_limit_bb    obs_limit_bb obs_limit_up_bb  obs_limit_down_bb
-    ${rtg} "${in_}/1D_gg_noprelblackln.root"    "${out_}/figure_7_b.root"  exp_limit_gg    obs_limit_gg    obs_limit_up_gg    obs_limit_down_gg
-    ${rtg} "${in_}/1D_ss_noprelblackln.root"    "${out_}/figure_7_c.root"  exp_limit_ss    obs_limit_ss    obs_limit_up_ss    obs_limit_down_ss
-    ${rtg} "${in_}/1D_combi_noprelblackln.root" "${out_}/figure_7_d.root"  exp_limit_combi obs_limit_combi obs_limit_up_combi obs_limit_down_combi
-
-    local fig=""
-    local in_file=""
-    local arb="./python/add_error_bar_from_tgraph.py"
-    for fig in 7_a 7_b 7_c 7_d
-    do
-        echo
-        local in_file="${out_}/figure_${fig}.root"
-        local tmp_file="${in_file/.root/_tmp.root}"
-        echo " : ${out_}"
-        echo "tmp_file : ${tmp_file}"
-        ${arb} ${in_file} ${tmp_file}
-        mv ${tmp_file} ${in_file} # replace original
-    done
-
+    ${rtg} "${in_}/1D_bb_noprelblackln.root"    "${out_}/figure_7_a.root"  exp_limit_bb    obs_limit_bb
+    ${rtg} "${in_}/1D_gg_noprelblackln.root"    "${out_}/figure_7_b.root"  exp_limit_gg    obs_limit_gg
+    ${rtg} "${in_}/1D_ss_noprelblackln.root"    "${out_}/figure_7_c.root"  exp_limit_ss    obs_limit_ss
+    ${rtg} "${in_}/1D_combi_noprelblackln.root" "${out_}/figure_7_d.root"  exp_limit_combi obs_limit_combi
 }
 
 function limit1d() {
@@ -501,4 +486,4 @@ limit1d
 
 format_sigve_input
 limit2d
-# merge_all_parts
+merge_all_parts
