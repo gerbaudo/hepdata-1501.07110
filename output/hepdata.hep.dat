@@ -9,11 +9,12 @@
 *cdsId: 1983600
 *durhamId: 6392
 *title: Search for direct pair production of a chargino and a neutralino decaying to the 125 GeV Higgs boson in $\sqrt{s}$ = 8 TeV pp collisions with the ATLAS detector
-*comment: CERN-LHC.  A search is presented for the direct pair production of a chargino and a neutralino $pp\to\tilde{\chi}^\pm_1\tilde{\chi}^0_2$, where the chargino decays to the lightest neutralino and the $W$ boson, $\tilde{\chi}^\pm_1 \to \tilde{\chi}^0_1 (W^{\pm}\to\ell^{\pm}\nu)$, while the neutralino decays to the lightest neutralino and the 125 GeV Higgs boson, $\tilde{\chi}^0_2 \to \tilde{\chi}^0_1 (h\to bb/\gamma\gamma/\ell^{\pm}\nu qq)$. The final states considered for the search have large missing transverse momentum, an isolated electron or muon, and one of the following: either two jets identified as originating from bottom quarks, or two photons, or a second electron or muon with the same electric charge. The analysis is based on 20.3 fb$^{-1}$ of $\sqrt{s}=8$ TeV proton-proton collision data delivered by the Large Hadron Collider and recorded with the ATLAS detector. Observations are consistent with the Standard Model expectations, and limits are set in the context of a simplified supersymmetric model
+*comment: CERN-LHC.  A search is presented for the direct pair production of a chargino and a neutralino $pp\to\tilde{\chi}^\pm_1\tilde{\chi}^0_2$, where the chargino decays to the lightest neutralino and the $W$ boson, $\tilde{\chi}^\pm_1 \to \tilde{\chi}^0_1 (W^{\pm}\to\ell^{\pm}\nu)$, while the neutralino decays to the lightest neutralino and the 125 GeV Higgs boson, $\tilde{\chi}^0_2 \to \tilde{\chi}^0_1 (h\to bb/\gamma\gamma/\ell^{\pm}\nu qq)$. The final states considered for the search have large missing transverse momentum, an isolated electron or muon, and one of the following: either two jets identified as originating from bottom quarks, or two photons, or a second electron or muon with the same electric charge. The analysis is based on 20.3 fb$^{-1}$ of $\sqrt{s}=8$ TeV proton-proton collision data delivered by the Large Hadron Collider and recorded with the ATLAS detector. Observations are consistent with the Standard Model expectations, and limits are set in the context of a simplified
+supersymmetric model
 
 *dataset:
 *location: Figure 2a
-*dscomment: Distribution of contransverse mass $m_{\rm CT}$ in CRlbb-T, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit. The last bin includes overflow.
+*dscomment: Distribution of contransverse mass $m_{\rm CT}$ in CRlbb-T, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit. The last bin includes overflow
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -33,7 +34,7 @@
 
 *dataset:
 *location: Figure 2b
-*dscomment: Distribution of contransverse mass $m_{\rm CT}$ in SRlbb-1 and SRlbb-2, $m_{bb}$ sideband. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit. The last bin includes overflow.
+*dscomment: Distribution of contransverse mass $m_{\rm CT}$ in SRlbb-1 and SRlbb-2, $m_{bb}$ sideband. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit. The last bin includes overflow
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -53,7 +54,7 @@
 
 *dataset:
 *location: Figure 2c
-*dscomment: Distribution of the transverse mass of the $W$-candidate $m_{\rm T}^{W}$ for the one lepton and two $b$-jets channel in VRlbb-2, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit. The last bin includes overflow.
+*dscomment: Distribution of the transverse mass of the $W$-candidate $m_{\rm T}^{W}$ for the one lepton and two $b$-jets channel in VRlbb-2, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit. The last bin includes overflow
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -76,7 +77,7 @@
 
 *dataset:
 *location: Figure 2d
-*dscomment: Distribution of the transverse mass of the $W$-candidate $m_{\rm T}^{W}$ for the one lepton and two $b$-jets channel in SRlbb-1 and SRlbb-2, $m_{bb}$ sidebands. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit. The last bin includes overflow.
+*dscomment: Distribution of the transverse mass of the $W$-candidate $m_{\rm T}^{W}$ for the one lepton and two $b$-jets channel in SRlbb-1 and SRlbb-2, $m_{bb}$ sidebands. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit. The last bin includes overflow
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -99,7 +100,7 @@
 
 *dataset:
 *location: Figure 2e
-*dscomment: Distribution of the number of $b$-jets for the one lepton and two $b$-jets channel in SRlbb-1 and SRlbb-2 without the b-jet multiplicity requirement, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit.
+*dscomment: Distribution of the number of $b$-jets for the one lepton and two $b$-jets channel in SRlbb-1 and SRlbb-2 without the b-jet multiplicity requirement, central $m_{bb}$ bin. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -115,7 +116,7 @@
 
 *dataset:
 *location: Figure 2f
-*dscomment: Distribution of the invariant mass of the $b$-jets $m_{bb}$ for the one lepton and two $b$-jets channel in the SRlbb-1 and SRlbb-2. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit.
+*dscomment: Distribution of the invariant mass of the $b$-jets $m_{bb}$ for the one lepton and two $b$-jets channel in the SRlbb-1 and SRlbb-2. The background histograms are obtained from the background-only fit, and their uncertainty represents the total background uncertainty after the fit
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : background
@@ -133,7 +134,7 @@
 
 *dataset:
 *location: Figure 3a
-*dscomment: Distribution of missing transverse momentum $E_{\rm T}^{\rm miss}$ in the one lepton and two photons signal regions SR$\ell\gamma\gamma$-1 and SR$\ell\gamma\gamma$-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The vertical arrows indicate the boundaries of the signal regions. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. The last bin includes overflow.  Scaled data in the sideband  are shown as squares, while events in the Higgs-mass window are shown as circles. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
+*dscomment: Distribution of missing transverse momentum $E_{\rm T}^{\rm miss}$ in the one lepton and two photons signal regions SR$\ell\gamma\gamma$-1 and SR$\ell\gamma\gamma$-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The final column (background) is a simulation-based cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. The last bin includes overflow.   The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
@@ -156,7 +157,7 @@
 
 *dataset:
 *location: Figure 3b
-*dscomment: Distribution of the azimuth difference between the $W$ and Higgs boson candidates $\Delta\phi(W,h)$ in the one lepton and two photons signal regions SR$\ell\gamma\gamma$-1 and SR$\ell\gamma\gamma$-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The vertical arrows indicate the boundaries of the signal regions. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. Scaled data in the sideband  are shown as squares, while events in the Higgs-mass window are shown as circles. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
+*dscomment: Distribution of the azimuth difference between the $W$ and Higgs boson candidates $\Delta\phi(W,h)$ in the one lepton and two photons signal regions SR$\ell\gamma\gamma$-1 and SR$\ell\gamma\gamma$-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The final column (background) is a simulation-based cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window.  The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
@@ -176,7 +177,7 @@
 
 *dataset:
 *location: Figure 3c
-*dscomment: Distribution of the transverse mass of the $W$ and photon system $m_{\rm{T}}^{W\gamma_1}$ in the one lepton and two photons signal regions SR$\ell\gamma\gamma$-1 and SR$\ell\gamma\gamma$-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The vertical arrows indicate the boundaries of the signal regions. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. The last bin includes overflow. Scaled data in the sideband are shown as squares, while events in the Higgs-mass window are shown as circles. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
+*dscomment: Distribution of the transverse mass of the $W$ and photon system $m_{\rm{T}}^{W\gamma_1}$ in the one lepton and two photons signal regions SR$\ell\gamma\gamma$-1 and SR$\ell\gamma\gamma$-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The final column (background) is a simulation-based cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. The last bin includes overflow. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
@@ -203,7 +204,7 @@
 
 *dataset:
 *location: Figure 3d
-*dscomment: Distribution of the transverse mass of the $W$ and photon system $m_{\rm{T}}^{W\gamma_2}$ in the one lepton and two photons signal regions SR$\ell\gamma\gamma$-1 and SR$\ell\gamma\gamma$-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The vertical arrows indicate the boundaries of the signal regions. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. The last bin includes overflow. Scaled data in the sideband are shown as squares, while events in the Higgs-mass window are shown as circles. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
+*dscomment: Distribution of the transverse mass of the $W$ and photon system $m_{\rm{T}}^{W\gamma_2}$ in the one lepton and two photons signal regions SR$\ell\gamma\gamma$-1 and SR$\ell\gamma\gamma$-2 for the Higgs-mass window ($120\lt m_{\gamma\gamma} \lt 130$ GeV). The final column (background) is a simulation-based cross check.  The contributions from non-Higgs backgrounds are scaled by 10 GeV / 50 GeV = 0.2 from the $m_{\gamma\gamma}$ sideband ($100 \lt m_{\gamma\gamma} \lt 120$ GeV and $130 \lt m_{\gamma\gamma} \lt 160$ GeV) into the Higgs-mass window. The last bin includes overflow. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : sideband data : background
@@ -228,7 +229,7 @@
 
 *dataset:
 *location: Figure 4a
-*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons signal region SR$l\gamma\gamma$-1. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties. The band shows the systematic uncertainty on the fit.  The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV), indicated by the arrows, excluded from the fit
+*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons signal region SR$l\gamma\gamma$-1. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties. The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV) excluded from the fit
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -265,7 +266,7 @@
 
 *dataset:
 *location: Figure 4b
-*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons signal region SR$l\gamma\gamma$-2. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties.  The band shows the systematic uncertainty on the fit.  The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV), indicated by the arrows, excluded from the fit
+*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons signal region SR$l\gamma\gamma$-2. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties.  The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV) excluded from the fit
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -302,7 +303,7 @@
 
 *dataset:
 *location: Figure 4c
-*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons validation region VR$l\gamma\gamma$-1. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties. The band shows the systematic uncertainty on the fit.  The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV), indicated by the arrows, excluded from the fit
+*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons validation region VR$l\gamma\gamma$-1. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties. The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV) excluded from the fit
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -339,7 +340,7 @@
 
 *dataset:
 *location: Figure 4d
-*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons validation region VR$l\gamma\gamma$-2. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties. The band shows the systematic uncertainty on the fit.  The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV), indicated by the arrows, excluded from the fit
+*dscomment: Results of the background-only fit to the diphoton invariant mass, $m_{\gamma\gamma}$, distribution in the one lepton and two photons validation region VR$l\gamma\gamma$-2. The contributions from SM Higgs boson production are constrained to the MC prediction and associated systematic uncertainties. The fit is performed on events with 100 GeV $ \lt  m_{\gamma\gamma}  \lt $ 160 GeV, with events in SR$l\gamma\gamma$-1 or SR$l\gamma\gamma$-2 in the Higgs-mass window (120 GeV $\le m_{\gamma\gamma} \le$ 130 GeV) excluded from the fit
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : data : fitted background
@@ -376,7 +377,7 @@
 
 *dataset:
 *location: Figure 5
-*dscomment: Distribution of effective mass $m_{\rm eff}$ in the validation region of the same-sign $e\mu$ channel. This validation region is defined by requiring one, two, or three jets, and reversing the $m_{lj}$, $m_{ljj}$ criteria. The hashed areas represent the total uncertainties on the background estimates. The distribution of a signal hypothesis is also shown. The lower panel shows the ratio of the data to the SM background prediction
+*dscomment: Distribution of effective mass $m_{\rm eff}$ in the validation region of the same-sign $e\mu$ channel. This validation region is defined by requiring one, two, or three jets, and reversing the $m_{lj}$, $m_{ljj}$ criteria. The distribution of a signal hypothesis is also shown
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -409,8 +410,7 @@
 
 *dataset:
 *location: Figure 6a
-*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal regions with one jet SR$ll$-1.
- SR$ll$-1 is the sum of SR$ee$-1, SR$e\mu$-1, and SR$\mu\mu$-1. All selection criteria are applied, except for the one on $m_{\rm eff}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The lower panels show the ratio between data and the SM background prediction. The last bin includes overflow.
+*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal regions with one jet SR$ll$-1. SR$ll$-1 is the sum of SR$ee$-1, SR$e\mu$-1, and SR$\mu\mu$-1. All selection criteria are applied, except for the one on $m_{\rm eff}$. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The last bin includes overflow
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -432,8 +432,7 @@
 
 *dataset:
 *location: Figure 6b
-*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal regions with two or three jets SR$ll$-2.
- SR$ll$-2 is the sum of SR$ee$-2, SR$e\mu$-2, and SR$\mu\mu$-2. All selection criteria are applied, except for the one on $m_{\rm eff}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The lower panels show the ratio between data and the SM background prediction. The last bin includes overflow.
+*dscomment: Distribution of effective mass $m_{\rm eff}$ for the same-sign dilepton channel in the signal regions with two or three jets SR$ll$-2. SR$ll$-2 is the sum of SR$ee$-2, SR$e\mu$-2, and SR$\mu\mu$-2. All selection criteria are applied, except for the one on $m_{\rm eff}$. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The last bin includes overflow
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -455,7 +454,7 @@
 
 *dataset:
 *location: Figure 6c
-*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal regions with one jet SR$ll$-1. SR$ll$-1 is the sum of SR$ee$-1, SR$e\mu$-1, and SR$\mu\mu$-1. All selection criteria are applied, except for the one on $m_{\rm T}^{\rm max}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The lower panels show the ratio between data and the SM background prediction. The last bin includes overflow.
+*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal regions with one jet SR$ll$-1. SR$ll$-1 is the sum of SR$ee$-1, SR$e\mu$-1, and SR$\mu\mu$-1. All selection criteria are applied, except for the one on $m_{\rm T}^{\rm max}$. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The last bin includes overflow
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -480,7 +479,7 @@
 
 *dataset:
 *location: Figure 6d
-*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal regions with two or three jets SR$ll$-2. SR$ll$-2 is the sum of SR$ee$-2, SR$e\mu$-2, and SR$\mu\mu$-2. All selection criteria are applied, except for the one on $m_{\rm T}^{\rm max}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The lower panels show the ratio between data and the SM background prediction. The last bin includes overflow.
+*dscomment: Distribution of largest transverse mass $m_{\rm T}^{\rm max}$ for the same-sign dilepton channel in the signal regions with two or three jets SR$ll$-2. SR$ll$-2 is the sum of SR$ee$-2, SR$e\mu$-2, and SR$\mu\mu$-2. All selection criteria are applied, except for the one on $m_{\rm T}^{\rm max}$. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The last bin includes overflow
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -505,7 +504,7 @@
 
 *dataset:
 *location: Figure 6e
-*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet SR$ll$-1. SR$ll$-1 is the sum of SR$ee$-1, SR$e\mu$-1, and SR$\mu\mu$-1. All selection criteria are applied, except for the one on $m_{lj}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The lower panels show the ratio between data and the SM background prediction. The last bin includes overflow.
+*dscomment: Distribution of invariant mass of lepton and jet $m_{lj}$ for the same-sign dilepton channel in the signal regions with one jet SR$ll$-1. SR$ll$-1 is the sum of SR$ee$-1, SR$e\mu$-1, and SR$\mu\mu$-1. All selection criteria are applied, except for the one on $m_{lj}$. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The last bin includes overflow
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -533,7 +532,7 @@
 
 *dataset:
 *location: Figure 6f
-*dscomment: Distribution of invariant mass of lepton and di-jet $m_{ljj}$ for the same-sign dilepton channel in the signal regions with two or three jets SR$ll$-2. SR$ll$-2 is the sum of SR$ee$-2, SR$e\mu$-2, and SR$\mu\mu$-2. All selection criteria are applied, except for the one on $m_{ljj}$. The vertical arrows indicate the boundaries of the signal regions, which may not apply to all flavour channels. The hashed areas represent the total uncertainties on the background estimates. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The lower panels show the ratio between data and the SM background prediction. The last bin includes overflow.
+*dscomment: Distribution of invariant mass of lepton and di-jet $m_{ljj}$ for the same-sign dilepton channel in the signal regions with two or three jets SR$ll$-2. SR$ll$-2 is the sum of SR$ee$-2, SR$e\mu$-2, and SR$\mu\mu$-2. All selection criteria are applied, except for the one on $m_{ljj}$. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(130,0)$ GeV. The last bin includes overflow
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -570,7 +569,7 @@
 
 *dataset:
 *location: Figure 7a
-*dscomment: One lepton and two $b$-jets channel: observed (solid line) and expected (dashed line) 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$. The combination in (d) is obtained using the result from the ATLAS three-lepton search, J. High Energy Phys. 04 (2014) 169, in addition to the three channels reported in this paper. The dash-dotted lines around the observed limit represent the results obtained when changing the nominal signal cross section up or down by the $\pm 1\sigma_{\rm theory}^{\rm SUSY}$ theoretical uncertainty. The solid band around the expected limit represents the $\pm 1\sigma_{\rm exp}$ uncertainty band where all uncertainties, except those on the signal cross sections, are considered
+*dscomment: One lepton and two $b$-jets channel: observed and expected 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
 *qual: . : expected : observed
@@ -593,7 +592,7 @@
 
 *dataset:
 *location: Figure 7b
-*dscomment: One lepton and two photons channel: observed (solid line) and expected (dashed line) 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$. The combination in (d) is obtained using the result from the ATLAS three-lepton search, J. High Energy Phys. 04 (2014) 169, in addition to the three channels reported in this paper. The dash-dotted lines around the observed limit represent the results obtained when changing the nominal signal cross section up or down by the $\pm 1\sigma_{\rm theory}^{\rm SUSY}$ theoretical uncertainty. The solid band around the expected limit represents the $\pm 1\sigma_{\rm exp}$ uncertainty band where all uncertainties, except those on the signal cross sections, are considered
+*dscomment: One lepton and two photons channel: observed and expected 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
 *qual: . : expected : observed
@@ -616,7 +615,7 @@
 
 *dataset:
 *location: Figure 7 c
-*dscomment: Same-sign dilepton channel: observed (solid line) and expected (dashed line) 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$. The combination in (d) is obtained using the result from the ATLAS three-lepton search, J. High Energy Phys. 04 (2014) 169, in addition to the three channels reported in this paper. The dash-dotted lines around the observed limit represent the results obtained when changing the nominal signal cross section up or down by the $\pm 1\sigma_{\rm theory}^{\rm SUSY}$ theoretical uncertainty. The solid band around the expected limit represents the $\pm 1\sigma_{\rm exp}$ uncertainty band where all uncertainties, except those on the signal cross sections, are considered
+*dscomment: Same-sign dilepton channel: observed and expected 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
 *qual: . : expected : observed
@@ -635,7 +634,7 @@
 
 *dataset:
 *location: Figure 7d
-*dscomment: Combination: observed (solid line) and expected (dashed line) 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$. The combination in (d) is obtained using the result from the ATLAS three-lepton search, J. High Energy Phys. 04 (2014) 169, in addition to the three channels reported in this paper. The dash-dotted lines around the observed limit represent the results obtained when changing the nominal signal cross section up or down by the $\pm 1\sigma_{\rm theory}^{\rm SUSY}$ theoretical uncertainty. The solid band around the expected limit represents the $\pm 1\sigma_{\rm exp}$ uncertainty band where all uncertainties, except those on the signal cross sections, are considered
+*dscomment: Combination: observed and expected 95% CL upper limits on the cross section normalised by the simplified model prediction as a function of the common mass $m_{\tilde{\chi}_1^\pm \tilde{\chi}^0_2}$ for $m_{\tilde{\chi}^0_1}=0$. This combination is obtained using the result from the ATLAS three-lepton search, J. High Energy Phys. 04 (2014) 169, in addition to the three channels reported in this paper
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
 *qual: . : expected : observed
@@ -1056,9 +1055,8 @@
  242.5; 15.27;
 *dataend:
 
-
 *dataset:
-*location: Figure 8d
+*location: Figure Aux 1
 *dscomment: Combination: excluded model cross-section at 95% CL IN PB
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: UPPER LIMIT
@@ -1067,51 +1065,50 @@
 *yheader: UPPER LIMIT ON MODEL CROSS-SECTION IN PB
 *xheader: M(CHARGINO1,NEUTRALINO2) IN GEV : M(NEUTRALINO1) IN GEV
 *data: x : x : y
-140.0;  10.0 ; 1.410;
-150.0;   0.0 ; 1.277;
-152.5;  22.5 ; 1.455;
-162.5;  12.5 ; 1.259;
-165.0;  35.0 ; 1.430;
-175.0;   0.0 ; 0.907;
-175.0;  25.0 ; 0.999;
-177.5;  47.5 ; 1.373;
-187.5;  12.5 ; 0.820;
-187.5;  37.5 ; 1.084;
-190.0;  60.0 ; 1.074;
-200.0;   0.0 ; 0.649;
-200.0;  25.0 ; 0.705;
-200.0;  50.0 ; 0.839;
-212.5;  12.5 ; 0.601;
-212.5;  37.5 ; 0.696;
-212.5;  62.5 ; 0.805;
-225.0;   0.0 ; 0.427;
-225.0;  25.0 ; 0.462;
-225.0;  50.0 ; 0.627;
-237.5;  12.5 ; 0.372;
-237.5;  37.5 ; 0.432;
-237.5;  62.5 ; 0.515;
-250.0;   0.0 ; 0.303;
-250.0;  25.0 ; 0.389;
-250.0;  50.0 ; 0.391;
-262.5;  12.5 ; 0.308;
-262.5;  37.5 ; 0.307;
-262.5;  62.5 ; 0.401;
-275.0;   0.0 ; 0.210;
-275.0;  25.0 ; 0.294;
-275.0;  50.0 ; 0.283;
-287.5;  12.5 ; 0.216;
-287.5;  37.5 ; 0.243;
-287.5;  62.5 ; 0.267;
-300.0;   0.0 ; 0.161;
-300.0;  25.0 ; 0.189;
-300.0;  50.0 ; 0.204;
-312.5;  12.5 ; 0.157;
-312.5;  37.5 ; 0.159;
-325.0;   0.0 ; 0.131;
-325.0;  25.0 ; 0.143;
-337.5;  12.5 ; 0.127;
+ 140.0; 10.0; 1.410;
+ 150.0; 0.0; 1.277;
+ 152.5; 22.5; 1.455;
+ 162.5; 12.5; 1.259;
+ 165.0; 35.0; 1.430;
+ 175.0; 0.0; 0.907;
+ 175.0; 25.0; 0.999;
+ 177.5; 47.5; 1.373;
+ 187.5; 12.5; 0.820;
+ 187.5; 37.5; 1.084;
+ 190.0; 60.0; 1.074;
+ 200.0; 0.0; 0.649;
+ 200.0; 25.0; 0.705;
+ 200.0; 50.0; 0.839;
+ 212.5; 12.5; 0.601;
+ 212.5; 37.5; 0.696;
+ 212.5; 62.5; 0.805;
+ 225.0; 0.0; 0.427;
+ 225.0; 25.0; 0.462;
+ 225.0; 50.0; 0.627;
+ 237.5; 12.5; 0.372;
+ 237.5; 37.5; 0.432;
+ 237.5; 62.5; 0.515;
+ 250.0; 0.0; 0.303;
+ 250.0; 25.0; 0.389;
+ 250.0; 50.0; 0.391;
+ 262.5; 12.5; 0.308;
+ 262.5; 37.5; 0.307;
+ 262.5; 62.5; 0.401;
+ 275.0; 0.0; 0.210;
+ 275.0; 25.0; 0.294;
+ 275.0; 50.0; 0.283;
+ 287.5; 12.5; 0.216;
+ 287.5; 37.5; 0.243;
+ 287.5; 62.5; 0.267;
+ 300.0; 0.0; 0.161;
+ 300.0; 25.0; 0.189;
+ 300.0; 50.0; 0.204;
+ 312.5; 12.5; 0.157;
+ 312.5; 37.5; 0.159;
+ 325.0; 0.0; 0.131;
+ 325.0; 25.0; 0.143;
+ 337.5; 12.5; 0.127;
 *dataend:
-
 
 *dataset:
 *location: Figure Aux 14a
@@ -1287,7 +1284,7 @@
 
 *dataset:
 *location: Figure Aux 19a
-*dscomment: $m_{\gamma\gamma}$ distribution in the SR$l\gamma\gamma$-1 region for the full $m_{\gamma\gamma}$ window. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross-check. $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
+*dscomment: $m_{\gamma\gamma}$ distribution in the SR$l\gamma\gamma$-1 region for the full $m_{\gamma\gamma}$ window. The last column (background) is from a simulation-based cross check. $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -1306,7 +1303,7 @@
 
 *dataset:
 *location: Figure Aux 19b
-*dscomment: $m_{\gamma\gamma}$ distribution in the SR$l\gamma\gamma$-2 region for the full $m_{\gamma\gamma}$ window. The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross-check. $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
+*dscomment: $m_{\gamma\gamma}$ distribution in the SR$l\gamma\gamma$-2 region for the full $m_{\gamma\gamma}$ window. The last column (background) is from a simulation-based cross check. $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -1325,10 +1322,7 @@
 
 *dataset:
 *location: Figure Aux 19c
-*dscomment: $m_{\gamma\gamma}$ distribution in the VR$l\gamma\gamma$-1 region for the full $m_{\gamma\gamma}$ window.
- The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross-check.
-  $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background.
-   The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
+*dscomment: $m_{\gamma\gamma}$ distribution in the VR$l\gamma\gamma$-1 region for the full $m_{\gamma\gamma}$ window. The last column (background) is from a simulation-based cross check.  $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
@@ -1347,10 +1341,7 @@
 
 *dataset:
 *location: Figure Aux 19d
-*dscomment: $m_{\gamma\gamma}$ distribution in the VR$l\gamma\gamma$-2 region for the full $m_{\gamma\gamma}$ window.
- The filled and hashed areas represent the yields and total uncertainties on the simulation-based background cross-check.
- $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background.
- The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
+*dscomment: $m_{\gamma\gamma}$ distribution in the VR$l\gamma\gamma$-2 region for the full $m_{\gamma\gamma}$ window. The last column (background) is from a simulation-based cross check. $Z\gamma$ events, with $Z\rightarrow{ee}$ and one electron mis-identified as a photon, are included in the $Z\gamma(\gamma)$ background. The distributions of a signal hypothesis are also shown for $m(\tilde{\chi}^{\pm}_{1}\tilde{\chi}^{0}_{2},\tilde{\chi}^{0}_{1})=(165,35)$ GeV
 *reackey: P P --> CHARGINO1 NEUTRALINO2 X
 *obskey: N
 *qual: . : signal : data : background
